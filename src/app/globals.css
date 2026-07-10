@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* MetalliCore — muted metallic accent (restrained champagne bronze). */
+  --color-accent: #a8804a;
+  --color-accent-soft: #c9a877;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* i18n: RTL support
+   Layout stays direction-agnostic by relying on the `dir` attribute + logical
+   properties. Standard designations/codes/titles are language-neutral data and
+   must always read left-to-right even when the UI chrome is RTL. Apply
+   `.ltr-data` (or the [data-ltr] attribute) to any element that renders a raw
+   data payload string so it is not bidi-reordered inside an RTL page. */
+[dir="rtl"] .ltr-data,
+[dir="rtl"] [data-ltr] {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: start;
+}
+
+/* =========================================================================
+ * MetalliCore — Minimalist Luxury design tokens (Frontend agent, appended).
+ * Graphite / silver / off-white monochrome with a single champagne accent.
+ * ========================================================================= */
+:root {
+  --mc-hairline: rgba(23, 23, 23, 0.1);
+  --mc-surface: rgba(23, 23, 23, 0.02);
+  --mc-surface-strong: rgba(23, 23, 23, 0.045);
+  --mc-elev: 0 1px 2px rgba(23, 23, 23, 0.04),
+    0 18px 40px -24px rgba(23, 23, 23, 0.28);
+  --mc-elev-hover: 0 2px 4px rgba(23, 23, 23, 0.06),
+    0 26px 60px -28px rgba(23, 23, 23, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mc-hairline: rgba(237, 237, 237, 0.12);
+    --mc-surface: rgba(237, 237, 237, 0.03);
+    --mc-surface-strong: rgba(237, 237, 237, 0.06);
+    --mc-elev: 0 1px 2px rgba(0, 0, 0, 0.5),
+      0 18px 44px -24px rgba(0, 0, 0, 0.8);
+    --mc-elev-hover: 0 2px 6px rgba(0, 0, 0, 0.6),
+      0 30px 70px -28px rgba(0, 0, 0, 0.9);
+  }
+}
+
+/* Premium type: use the configured geometric sans, not Arial. */
+body {
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.011em;
+}
+
+.mc-hairline {
+  border-color: var(--mc-hairline);
+}
+.mc-surface {
+  background: var(--mc-surface);
+}
+.mc-surface-strong {
+  background: var(--mc-surface-strong);
+}
+.mc-elev {
+  box-shadow: var(--mc-elev);
+}
+
+/* Card shell + subtle luxury hover: hairline warms to accent, card lifts. */
+.mc-card {
+  border: 1px solid var(--mc-hairline);
+  background: var(--mc-surface);
+  transition: box-shadow 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 260ms ease, transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.mc-card-interactive:hover {
+  box-shadow: var(--mc-elev-hover);
+  border-color: color-mix(in srgb, var(--color-accent) 55%, transparent);
+  transform: translateY(-2px);
+}
+
+/* Hairline hero rule with a soft fade. */
+.mc-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--mc-hairline) 12%,
+    var(--mc-hairline) 88%,
+    transparent
+  );
+}

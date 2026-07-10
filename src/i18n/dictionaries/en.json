@@ -1,0 +1,68 @@
+{
+  "nav.home": "Home",
+  "nav.crossReference": "Cross-Reference",
+  "nav.browse": "Browse Standards",
+  "nav.about": "About",
+
+  "search.placeholder": "Search standards…",
+  "search.button": "Search",
+  "search.clear": "Clear search",
+  "search.globalPlaceholder": "Search across all organizations…",
+
+  "filters.title": "Filters",
+  "filters.organization": "Organization",
+  "filters.materialType": "Material Type",
+  "filters.application": "Application",
+  "filters.status": "Status",
+  "filters.statusActive": "Active",
+  "filters.statusSuperseded": "Superseded",
+  "filters.all": "All",
+  "filters.clear": "Clear filters",
+  "filters.apply": "Apply",
+
+  "results.count": "results",
+  "results.countSingular": "result",
+  "results.empty": "No standards match your criteria.",
+  "results.emptyHint": "Try adjusting your search or filters.",
+  "results.loading": "Loading…",
+
+  "standard.designation": "Designation",
+  "standard.code": "Code",
+  "standard.committee": "Committee",
+  "standard.revision": "Revision",
+  "standard.technicalCommittee": "Technical Committee",
+  "standard.enEquivalent": "EN Equivalent",
+  "standard.supersededBy": "Superseded by",
+  "standard.viewDetails": "View details",
+  "standard.material": "Material",
+  "standard.applications": "Applications",
+  "standard.status": "Status",
+
+  "language.toggle": "Language",
+  "language.english": "English",
+  "language.hebrew": "עברית",
+
+  "home.title": "MetalliCore",
+  "home.subtitle": "The global reference for metallic engineering standards.",
+  "home.browseByOrg": "Browse by Organization",
+  "home.crossReferenceCta": "Cross-Reference Standards",
+  "home.searchCta": "Start Searching",
+
+  "org.astm": "ASTM",
+  "org.ams": "AMS",
+  "org.iso": "ISO",
+  "org.din": "DIN",
+
+  "crossReference.title": "Cross-Reference",
+  "crossReference.description": "Find equivalent and related standards across organizations.",
+  "crossReference.relationship": "Relationship",
+  "crossReference.equivalent": "Equivalent",
+  "crossReference.similar": "Similar",
+  "crossReference.related": "Related",
+
+  "common.backToHome": "Back to home",
+  "common.close": "Close",
+  "common.more": "More",
+  "common.showMore": "Show more",
+  "common.showLess": "Show less"
+}

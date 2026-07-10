@@ -1,0 +1,68 @@
+{
+  "nav.home": "בית",
+  "nav.crossReference": "הפניות צולבות",
+  "nav.browse": "עיון בתקנים",
+  "nav.about": "אודות",
+
+  "search.placeholder": "חיפוש תקנים…",
+  "search.button": "חיפוש",
+  "search.clear": "ניקוי חיפוש",
+  "search.globalPlaceholder": "חיפוש בכל הארגונים…",
+
+  "filters.title": "מסננים",
+  "filters.organization": "ארגון",
+  "filters.materialType": "סוג חומר",
+  "filters.application": "יישום",
+  "filters.status": "סטטוס",
+  "filters.statusActive": "פעיל",
+  "filters.statusSuperseded": "הוחלף",
+  "filters.all": "הכל",
+  "filters.clear": "ניקוי מסננים",
+  "filters.apply": "החל",
+
+  "results.count": "תוצאות",
+  "results.countSingular": "תוצאה",
+  "results.empty": "אין תקנים התואמים את הקריטריונים שלך.",
+  "results.emptyHint": "נסה להתאים את החיפוש או המסננים.",
+  "results.loading": "טוען…",
+
+  "standard.designation": "סימון",
+  "standard.code": "קוד",
+  "standard.committee": "ועדה",
+  "standard.revision": "מהדורה",
+  "standard.technicalCommittee": "ועדה טכנית",
+  "standard.enEquivalent": "שווה ערך EN",
+  "standard.supersededBy": "הוחלף על ידי",
+  "standard.viewDetails": "הצג פרטים",
+  "standard.material": "חומר",
+  "standard.applications": "יישומים",
+  "standard.status": "סטטוס",
+
+  "language.toggle": "שפה",
+  "language.english": "English",
+  "language.hebrew": "עברית",
+
+  "home.title": "MetalliCore",
+  "home.subtitle": "המקור העולמי לתקני הנדסה מתכתיים.",
+  "home.browseByOrg": "עיון לפי ארגון",
+  "home.crossReferenceCta": "הפניות צולבות בין תקנים",
+  "home.searchCta": "התחל בחיפוש",
+
+  "org.astm": "ASTM",
+  "org.ams": "AMS",
+  "org.iso": "ISO",
+  "org.din": "DIN",
+
+  "crossReference.title": "הפניות צולבות",
+  "crossReference.description": "מצא תקנים שווי ערך וקשורים בין ארגונים.",
+  "crossReference.relationship": "יחס",
+  "crossReference.equivalent": "שווה ערך",
+  "crossReference.similar": "דומה",
+  "crossReference.related": "קשור",
+
+  "common.backToHome": "חזרה לבית",
+  "common.close": "סגור",
+  "common.more": "עוד",
+  "common.showMore": "הצג עוד",
+  "common.showLess": "הצג פחות"
+}
