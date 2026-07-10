@@ -1,0 +1,23 @@
+{
+  "name": "@metallicore/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MetalliCore kernel — config, logging, database connection, and stub interfaces for the remaining kernel subsystems (auth, plugin loader, metadata engine, relationship engine, search engine, navigation, storage, security). Filled in phase-by-phase; see docs/adr.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.0.0",
+    "postgres": "^3.4.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  }
+}
