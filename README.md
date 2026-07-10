@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MetalliCore — Engineering Knowledge Platform
 
-## Getting Started
+Offline-first engineering knowledge platform for standards, materials, and
+related engineering objects. See `Metallicore_Prompt.md` (repo parent) for
+the full product spec and `docs/adr/` for architectural decisions.
 
-First, run the development server:
+This platform runs on a private, offline industrial network. Internet access
+and cloud AI must never be required for normal operation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Workspace layout
+
+```
+apps/web/            Next.js app — UI shell + API (Route Handlers)
+packages/core/        Kernel: config, logging, db connection, and stub
+                       interfaces for auth, plugin-loader, metadata-engine,
+                       relationship-engine, search-engine, navigation,
+                       storage, security
+packages/plugin-sdk/  Types + definePlugin() plugins will implement against
+packages/plugins/     Individual plugins (Standards, Materials, ...) — empty
+                       until Phase 7 of docs/adr/0001-core-architecture.md
+infra/                docker-compose.yml — local/offline Postgres
+docs/adr/             Architecture Decision Records
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+cp .env.example .env
+npm run db:up      # starts Postgres via Docker Compose
+npm run dev         # starts apps/web on http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts (from repo root)
 
-## Learn More
+| Command | Effect |
+|---|---|
+| `npm run dev` | Run the web app in dev mode |
+| `npm run build` | Build the web app |
+| `npm run lint` | Lint all workspaces |
+| `npm run typecheck` | Typecheck all workspaces |
+| `npm run db:up` / `db:down` | Start/stop local Postgres |
 
-To learn more about Next.js, take a look at the following resources:
+## Status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Phase 1 of 13 (Core Architecture) — see `docs/adr/0001-core-architecture.md`
+for what's implemented vs. stubbed, and the full phase order.
