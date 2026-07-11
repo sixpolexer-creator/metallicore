@@ -1,0 +1,34 @@
+{
+  "designation": "EN 10025-2 S275JR",
+  "full_name": "Hot rolled non-alloy structural steel S275JR (material number 1.0044)",
+  "version_year": "EN 10025-2:2004 / :2019",
+  "body": "EN",
+  "scope": "Non-alloy structural steel offering moderate strength, good weldability and impact resistance at +20 degC. 'S'=structural, '275'=min yield strength (MPa) for t <=16 mm, 'JR'=27 J at +20 degC.",
+  "chemical_composition": {
+    "C_max_pct": 0.22,
+    "Mn_max_pct": 1.50,
+    "P_max_pct": 0.040,
+    "S_max_pct": 0.040,
+    "N_max_pct": 0.012,
+    "Cu_max_pct": 0.55,
+    "CEV_max_pct": 0.42
+  },
+  "mechanical_properties": {
+    "yield_strength_ReH_MPa": {
+      "t_le_16mm": 275,
+      "t_16_40mm": 265,
+      "t_40_100mm": 255
+    },
+    "tensile_strength_Rm_MPa": "410-560",
+    "elongation_A_pct_min": 23,
+    "impact_energy_J": 27,
+    "impact_test_temp_C": 20
+  },
+  "source": [
+    "https://www.theworldmaterial.com/en-10025-s275-mild-steel/",
+    "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=3",
+    "https://metinvestholding.com/en/products/steel-grades/s275jr"
+  ],
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted EN document text",
+  "status": "open_data"
+}

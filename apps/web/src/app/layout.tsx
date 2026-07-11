@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LocaleProvider, HtmlDirSync } from "@/i18n";
+import { AuthProvider } from "@/auth/AuthProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MetalliCore — Global Metallic Standards Portal",
   description:
-    "Search and browse metallic engineering standards (ASTM, AMS, ISO, DIN) with strict data siloing.",
+    "Search and browse metallic engineering standards (ASTM, AMS, ISO, DIN, EN, JIS) with strict data siloing.",
 };
 
 export default function RootLayout({
@@ -32,7 +33,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <LocaleProvider>
           <HtmlDirSync />
-          {children}
+          <AuthProvider>{children}</AuthProvider>
         </LocaleProvider>
       </body>
     </html>

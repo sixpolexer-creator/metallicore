@@ -1,0 +1,106 @@
+[
+  {
+    "designation": "ASTM A312",
+    "full_name": "Standard Specification for Seamless, Welded, and Heavily Cold Worked Austenitic Stainless Steel Pipes",
+    "version_year": "2022a",
+    "scope_summary": "Covers seamless, straight-seam welded, and heavily cold-worked austenitic stainless steel pipe (grades such as TP304/304L, TP316/316L) for high-temperature and general corrosive service.",
+    "source": "https://www.octalsteel.com/resources/astm-a312-tp304-tp316-ss-pipe/ ; https://store.astm.org/a0312_a0312m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A53",
+    "full_name": "Standard Specification for Pipe, Steel, Black and Hot-Dipped, Zinc-Coated, Welded and Seamless",
+    "version_year": "2022",
+    "scope_summary": "Covers seamless and welded black and hot-dipped galvanized steel pipe (Types F, E, S; Grades A and B) for mechanical and pressure applications, and for ordinary use in steam, water, gas, and air lines.",
+    "source": "https://store.astm.org/a0053_a0053m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A500",
+    "full_name": "Standard Specification for Cold-Formed Welded and Seamless Carbon Steel Structural Tubing in Rounds and Shapes",
+    "version_year": "2021a",
+    "scope_summary": "Covers cold-formed welded and seamless carbon steel round, square, rectangular, and special-shape structural tubing (HSS) for welded, riveted, or bolted construction.",
+    "source": "https://store.astm.org/a0500_a0500m-21a.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A537",
+    "full_name": "Standard Specification for Pressure Vessel Plates, Heat-Treated, Carbon-Manganese-Silicon Steel",
+    "version_year": "2013(2020)",
+    "scope_summary": "Covers heat-treated (normalized, or quenched and tempered) carbon-manganese-silicon steel plates for pressure vessels, offering improved notch toughness. Classes 1, 2, and 3 differ by heat treatment and strength.",
+    "source": "https://store.astm.org/a0537_a0537m-13.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A182",
+    "full_name": "Standard Specification for Forged or Rolled Alloy and Stainless Steel Pipe Flanges, Forged Fittings, and Valves and Parts for High-Temperature Service",
+    "version_year": "2024",
+    "scope_summary": "Covers forged low-alloy and stainless steel piping components (flanges, fittings, valves, and parts) intended for high-temperature and high-pressure service, including grades such as F304, F316, F11, F22.",
+    "source": "https://store.astm.org/a0182_a0182m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B637 (Inconel 718 / UNS N07718)",
+    "full_name": "Standard Specification for Precipitation-Hardening and Cold Worked Nickel Alloy Bars, Forgings, and Forging Stock for Moderate or High Temperature Service",
+    "version_year": "2018",
+    "scope_summary": "Covers precipitation-hardenable and cold-worked nickel alloy bars, forgings, and forging stock (including UNS N07718 / Inconel 718) for moderate and high temperature service such as aerospace and oil and gas.",
+    "source": "https://broder-metals.com/news/alloy-718-what-is-it-alloy-718-to-astm-b637/ ; https://store.astm.org/b0637.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A276",
+    "full_name": "Standard Specification for Stainless Steel Bars and Shapes",
+    "version_year": "2017",
+    "scope_summary": "Covers hot- and cold-finished stainless steel bars (rounds, squares, hexagons) and hot-rolled or extruded shapes for general applications, in common austenitic, ferritic, and martensitic grades.",
+    "source": "https://boltport.com/specifications/astm-a276/ ; https://store.astm.org/a0276_a0276m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A479",
+    "full_name": "Standard Specification for Stainless Steel Bars and Shapes for Use in Boilers and Other Pressure Vessels",
+    "version_year": "2024",
+    "scope_summary": "Covers stainless steel bars and shapes for use in boilers and other pressure vessels, specifying grades, heat treatment conditions, and mechanical requirements for pressure-retaining service.",
+    "source": "https://store.astm.org/a0479_a0479m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A320",
+    "full_name": "Standard Specification for Alloy-Steel and Stainless Steel Bolting for Low-Temperature Service",
+    "version_year": "2023",
+    "scope_summary": "Covers alloy and stainless steel bolting materials (bolts, studs, and other fasteners) for pressure and low-temperature service, including grades such as L7 and B8, with impact toughness requirements.",
+    "source": "https://store.astm.org/a0320_a0320m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A105",
+    "full_name": "Standard Specification for Carbon Steel Forgings for Piping Applications",
+    "version_year": "2021",
+    "scope_summary": "Covers forged carbon steel piping components (flanges, fittings, valves, and similar parts) for ambient- and higher-temperature service in pressure systems.",
+    "source": "https://store.astm.org/a0105_a0105m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B265 (Titanium, Grade 2 etc.)",
+    "full_name": "Standard Specification for Titanium and Titanium Alloy Strip, Sheet, and Plate",
+    "version_year": "2025",
+    "scope_summary": "Covers annealed titanium and titanium alloy strip, sheet, and plate in numerous grades (e.g., unalloyed Grade 2, Ti-6Al-4V Grade 5) for aerospace, marine, medical, and industrial use.",
+    "source": "https://titanium.com/astm-b265-specification/ ; https://store.astm.org/b0265.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B221 (Aluminum, alloy 6061 etc.)",
+    "full_name": "Standard Specification for Aluminum and Aluminum-Alloy Extruded Bars, Rods, Wire, Profiles, and Tubes",
+    "version_year": "2021",
+    "scope_summary": "Covers aluminum and aluminum-alloy extruded bars, rods, wire, profiles, and tubes (including alloy 6061-T6) for general structural and industrial applications.",
+    "source": "https://store.astm.org/b0221-14.html ; https://steel1stop.com/aluminum/aluminum-pipe-6061-t6-astm-b221/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A167",
+    "full_name": "Standard Specification for Stainless and Heat-Resisting Chromium-Nickel Steel Plate, Sheet, and Strip (Withdrawn 2014)",
+    "version_year": "1999 (withdrawn 2014, replaced by A240)",
+    "scope_summary": "Formerly covered corrosion- and heat-resisting chromium-nickel (austenitic) stainless steel plate, sheet, and strip; withdrawn in 2014 with coverage largely superseded by ASTM A240.",
+    "source": "https://store.astm.org/a0167-99r09.html",
+    "status": "restricted_metadata_only"
+  }
+]

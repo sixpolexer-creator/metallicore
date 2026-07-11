@@ -1,0 +1,33 @@
+{
+  "designation": "EN 10088 1.4301 (X5CrNi18-10)",
+  "full_name": "Austenitic stainless steel X5CrNi18-10, material number 1.4301 (AISI 304)",
+  "version_year": "EN 10088-2:2014 (flat) / EN 10088-3 (long products)",
+  "body": "EN",
+  "scope": "Standard austenitic Cr-Ni stainless steel with good weldability and formability; the most widely used stainless grade. Not resistant to intergranular corrosion after welding in heavy sections (use 1.4307/304L). Data in solution-annealed condition.",
+  "chemical_composition": {
+    "C_max_pct": 0.07,
+    "Si_max_pct": 1.00,
+    "Mn_max_pct": 2.00,
+    "P_max_pct": 0.045,
+    "S_max_pct": 0.015,
+    "Cr_pct": "17.5-19.5",
+    "Ni_pct": "8.0-10.5",
+    "N_max_pct": 0.11
+  },
+  "mechanical_properties": {
+    "condition": "solution annealed",
+    "yield_strength_Rp02_MPa_min": 190,
+    "yield_strength_Rp10_MPa_min": 225,
+    "tensile_strength_Rm_MPa": "500-700",
+    "elongation_A_pct_min": 45,
+    "hardness_HB_max": 215,
+    "density_kg_dm3": 7.9
+  },
+  "source": [
+    "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=100",
+    "https://www.theworldmaterial.com/din-en-1-4301-material-x5crni18-10-stainless-steel/",
+    "https://www.agst.de/4301?lang=en"
+  ],
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted EN document text",
+  "status": "open_data"
+}

@@ -1,0 +1,31 @@
+{
+  "designation": "JIS G4051 S45C",
+  "full_name": "Carbon steels for machine structural use - grade S45C",
+  "version_year": "2016",
+  "body": "JIS",
+  "scope": "Medium-carbon steel (~0.45% C) for machine structural use; hot-rolled/forged bars for shafts, gears, bolts, pins and mould bases. Commonly used quenched and tempered. Equivalent to AISI 1045 / DIN C45.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.42-0.48",
+    "Si": "0.15-0.35",
+    "Mn": "0.60-0.90",
+    "P": "<= 0.030",
+    "S": "<= 0.035",
+    "Cu": "<= 0.30",
+    "Ni": "<= 0.20",
+    "Cr": "<= 0.20"
+  },
+  "mechanical_properties": {
+    "condition": "quenched and tempered (typical)",
+    "tensile_strength_MPa": ">= 570",
+    "yield_strength_MPa": ">= 345",
+    "elongation_percent": ">= 20",
+    "reduction_of_area_percent": ">= 45",
+    "impact_energy_J": ">= 39",
+    "hardness_normalized_HB": "167-229",
+    "hardness_annealed_HB": "137-170"
+  },
+  "source": "https://www.astmsteel.com/product/jis-s45c-steel-machine-structural/, https://matmatch.com/materials/minfc31777-jis-g4051-grade-s45c",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

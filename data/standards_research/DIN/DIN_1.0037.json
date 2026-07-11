@@ -1,0 +1,24 @@
+{
+  "designation": "DIN 1.0037 (St37-2 / S235JR)",
+  "full_name": "General structural steel St37-2, material number 1.0037 (old DIN 17100 designation; superseded by S235JR per EN 10025-2)",
+  "version_year": "originally DIN 17100:1980; superseded 1994/2004 by EN 10025",
+  "body": "DIN",
+  "scope": "Classic non-alloy general structural steel from the withdrawn DIN 17100 standard. Used for buildings, bridges, and load-bearing structures. New designation is S235JR (1.0038); St37 variants were St37-2, USt37-2, RSt37-2, St37-3.",
+  "chemical_composition": {
+    "C": "max 0.17-0.20 %",
+    "Mn": "max 1.40 %",
+    "P": "max 0.045 %",
+    "S": "max 0.045 %",
+    "N": "max 0.009-0.012 %"
+  },
+  "mechanical_properties": {
+    "yield_strength_ReH": ">= 235 MPa (thickness <= 16 mm)",
+    "tensile_strength_Rm": "340-470 MPa (thickness < 3-100 mm)",
+    "elongation_A": ">= 26 %",
+    "condition": "as-rolled"
+  },
+  "equivalents": ["S235JR (1.0038)", "ASTM A36 (approx)", "St37-2"],
+  "source": "https://www.theworldmaterial.com/1-0037-material-st37-steel-din-17100/",
+  "license_note": "composition/property data for this withdrawn grade are widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

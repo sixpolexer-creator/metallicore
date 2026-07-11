@@ -1,0 +1,146 @@
+[
+  {
+    "designation": "AMS 4911",
+    "full_name": "Titanium Alloy, Sheet, Strip, and Plate, 6Al - 4V, Annealed",
+    "version_year": "2021 (rev. T; see SAE catalog for current revision)",
+    "scope_summary": "Covers Ti-6Al-4V (Grade 5) titanium alloy in sheet, strip, and plate form up to 4.000 in (101.6 mm) thick, in the annealed condition, for aerospace parts.",
+    "source": "https://www.sae.org/standards/content/ams4911/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 4928",
+    "full_name": "Titanium Alloy Bars, Wire, Forgings, Rings, and Drawn Shapes, 6Al - 4V, Annealed",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Ti-6Al-4V titanium alloy bars, wire, forgings, rings, and drawn shapes in the annealed condition for aerospace applications.",
+    "source": "https://www.sae.org/standards/content/ams4928/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5662",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Bars, Forgings, and Rings, 52.5Ni-19Cr-3.0Mo-5.1Cb-0.90Ti-0.60Al-18Fe, Consumable Electrode or Vacuum Induction Melted, 1775F (968C) Solution Heat Treated, Precipitation-Hardenable (Alloy 718 / Inconel 718)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Alloy 718 (UNS N07718) bars, forgings, and rings supplied in the solution-heat-treated, precipitation-hardenable condition for aerospace parts requiring strength to about 1300F (704C).",
+    "source": "https://www.sae.org/standards/content/ams5662/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5663",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Bars, Forgings, and Rings, 52.5Ni-19Cr-3.0Mo-5.1Cb-0.90Ti-0.60Al-18Fe, Consumable Electrode or Vacuum Induction Melted, 1775F (968C) Solution and Precipitation Heat Treated (Alloy 718 / Inconel 718)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Alloy 718 (UNS N07718) bars, forgings, and rings supplied solution and precipitation (age) heat treated to high strength for aerospace parts.",
+    "source": "https://www.sae.org/standards/content/ams5663/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5596",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Sheet, Strip, and Plate, 52.5Ni-19Cr-3.0Mo-5.1Cb-0.90Ti-0.60Al-18Fe, Consumable Electrode or Vacuum Induction Melted, 1775F (968C) Solution Heat Treated (Alloy 718 / Inconel 718)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Alloy 718 (UNS N07718) sheet, strip, and plate in the solution-heat-treated, precipitation-hardenable condition for aerospace parts.",
+    "source": "https://www.sae.org/standards/content/ams5596/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5599",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Sheet, Strip, and Plate, 62Ni-21.5Cr-9.0Mo-3.6Cb, Solution Heat Treated (Alloy 625 / Inconel 625)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Alloy 625 (UNS N06625) sheet, strip, and plate in the solution-annealed condition for corrosion- and heat-resistant aerospace applications.",
+    "source": "https://www.sae.org/standards/content/ams5599/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5666",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Bars, Forgings, and Rings, 62Ni-21.5Cr-9.0Mo-3.6Cb, Annealed (Alloy 625 / Inconel 625)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Alloy 625 (UNS N06625) bars, forgings, and rings in the annealed condition for corrosion- and heat-resistant aerospace applications.",
+    "source": "https://www.sae.org/standards/content/ams5666/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5643",
+    "full_name": "Steel, Corrosion-Resistant, Bars, Wire, Forgings, Mechanical Tubing, and Rings, 16Cr-4.0Ni-4.0Cu-0.30Cb, Solution Heat Treated, Precipitation-Hardenable (17-4 PH / UNS S17400)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers 17-4 PH martensitic precipitation-hardening stainless steel (UNS S17400) bars, wire, forgings, mechanical tubing, and rings for aerospace parts requiring strength and corrosion resistance to about 600F.",
+    "source": "https://www.sae.org/standards/content/ams5643/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5604",
+    "full_name": "Steel, Corrosion-Resistant, Sheet, Strip, and Plate, 16Cr-4.0Ni-4.0Cu-0.30Cb, Solution Heat Treated, Precipitation-Hardenable (17-4 PH / UNS S17400)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers 17-4 PH stainless steel (UNS S17400) sheet, strip, and plate in the solution-treated, precipitation-hardenable condition.",
+    "source": "https://www.sae.org/standards/content/ams5604/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 6414",
+    "full_name": "Steel, Bars, Forgings, and Tubing, 0.80Cr-1.8Ni-0.25Mo (0.38-0.43C), Consumable Electrode Vacuum Melted (4340 modified)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers premium (consumable-electrode vacuum-melted) AISI 4340-type low-alloy steel bars, forgings, and tubing for high-strength aerospace structural parts.",
+    "source": "https://www.sae.org/standards/content/ams6414/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 6415",
+    "full_name": "Steel, Bars, Forgings, and Tubing, 0.80Cr-1.8Ni-0.25Mo (0.38-0.43C) (AISI 4340)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers AISI 4340 low-alloy steel bars, forgings, and tubing for heat-treated high-strength aerospace structural parts.",
+    "source": "https://www.sae.org/standards/content/ams6415/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 4037",
+    "full_name": "Aluminum Alloy, Sheet and Plate, 4.4Cu-1.5Mg-0.60Mn (2024; -T3 Flat Sheet, -T351 Plate), Solution Heat Treated",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers 2024 aluminum alloy sheet and plate, solution heat treated (T3/T351 tempers), for aerospace structural applications.",
+    "source": "https://www.sae.org/standards/content/ams4037/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 4045",
+    "full_name": "Aluminum Alloy, Sheet and Plate, 5.6Zn-2.5Mg-1.6Cu-0.23Cr (7075; -T6 Sheet, -T651 Plate), Solution and Precipitation Heat Treated",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers 7075 aluminum alloy sheet and plate in the -T6/-T651 tempers for high-strength aerospace structural applications.",
+    "source": "https://www.sae.org/standards/content/ams4045/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5510",
+    "full_name": "Steel, Corrosion and Heat-Resistant, Sheet, Strip, and Plate, 18Cr-10Ni-0.70Ti (SAE 30321), Solution Heat Treated (321 Stainless)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers 321 titanium-stabilized austenitic stainless steel sheet, strip, and plate in the solution-treated condition for elevated-temperature aerospace applications.",
+    "source": "https://www.sae.org/standards/content/ams5510/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5536",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Sheet, Strip, and Plate, 47.5Ni-22Cr-1.5Co-9.0Mo-0.60W-18.5Fe, Solution Heat Treated (Hastelloy X / UNS N06002)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Hastelloy X (UNS N06002) nickel-base superalloy sheet, strip, and plate in the solution-annealed condition for high-temperature aerospace applications.",
+    "source": "https://www.sae.org/standards/content/ams5536/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5754",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Bars, Forgings, and Rings, 47.5Ni-22Cr-1.5Co-9.0Mo-0.60W-18.5Fe, Solution Heat Treated (Hastelloy X / UNS N06002)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Hastelloy X (UNS N06002) bars, forgings, and rings in the solution-annealed condition for high-temperature aerospace applications.",
+    "source": "https://www.sae.org/standards/content/ams5754/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5731",
+    "full_name": "Steel, Corrosion and Heat-Resistant, Bars, Wire, Forgings, and Rings, 15Cr-25.5Ni-1.3Mo-2.1Ti-0.006B-0.30V, Consumable Electrode Melted, Solution Heat Treated (A-286 / UNS S66286)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers A-286 iron-nickel-base superalloy (UNS S66286) bars, wire, forgings, and rings in the solution-treated condition for elevated-temperature aerospace fasteners and parts. (Note: A-286, not Inconel 625.)",
+    "source": "https://www.sae.org/standards/content/ams5731/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 2750",
+    "full_name": "Pyrometry",
+    "version_year": "rev. F/G; see SAE catalog for current revision",
+    "scope_summary": "Process (not material) specification covering pyrometric requirements for thermal-processing equipment, including temperature sensors, instrumentation, thermal-processing equipment classification, and system accuracy/uniformity testing.",
+    "source": "https://www.sae.org/standards/content/ams2750/",
+    "status": "restricted_metadata_only"
+  }
+]

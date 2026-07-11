@@ -4,6 +4,7 @@ import Link from "next/link";
 import { STANDARD_ORGS } from "@/types/standard";
 import { useI18n } from "@/i18n";
 import { LanguageToggle } from "@/components/LanguageToggle";
+import { AdminLoginControl } from "@/components/AdminLoginControl";
 
 /**
  * Shared chrome: wordmark, org nav (links into the SILOED `[org]` routes),
@@ -41,7 +42,8 @@ export function SiteHeader() {
           </Link>
         </nav>
 
-        <div className="ms-auto">
+        <div className="ms-auto flex items-center gap-3">
+          <AdminLoginControl />
           <LanguageToggle />
         </div>
       </div>

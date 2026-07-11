@@ -1,0 +1,32 @@
+{
+  "designation": "EN AW-5083 (AlMg4.5Mn0.7)",
+  "full_name": "Wrought aluminium alloy EN AW-5083 [AlMg4.5Mn0.7]",
+  "version_year": "Designation per EN 573-3; properties per EN 485 (sheet/plate)",
+  "body": "EN",
+  "scope": "Non-heat-treatable Al-Mg alloy with the highest strength of the common non-heat-treatable alloys. Excellent resistance to seawater and industrial chemicals; used in marine, shipbuilding, pressure vessels and cryogenics. Data below typical for H111/O condition.",
+  "chemical_composition": {
+    "Al_pct": "balance",
+    "Mg_pct": "4.0-4.9",
+    "Mn_pct": "0.4-1.0",
+    "Cr_pct": "0.05-0.25",
+    "Fe_max_pct": 0.40,
+    "Si_max_pct": 0.40,
+    "Cu_max_pct": 0.10,
+    "Zn_max_pct": 0.25,
+    "Ti_max_pct": 0.15
+  },
+  "mechanical_properties": {
+    "temper": "O / H111 (typical)",
+    "yield_strength_Rp02_MPa": "~125 (O/H111); 228 typical for work-hardened tempers",
+    "tensile_strength_Rm_MPa": "275-350 (approx 317 typical)",
+    "elongation_A_pct": "12-16 (temper dependent)",
+    "note": "Yield and tensile strength scale with temper (H116/H321 higher) and section thickness."
+  },
+  "source": [
+    "https://en.wikipedia.org/wiki/5083_aluminium_alloy",
+    "https://www.theworldmaterial.com/5083-aluminum/",
+    "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1093"
+  ],
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted EN document text",
+  "status": "open_data"
+}

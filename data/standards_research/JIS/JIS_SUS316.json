@@ -1,0 +1,31 @@
+{
+  "designation": "JIS G4304 SUS316",
+  "full_name": "Hot-rolled stainless steel plate, sheet and strip - grade SUS316",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "Austenitic 18Cr-12Ni-2.5Mo stainless steel. Molybdenum addition improves pitting and crevice corrosion resistance, especially in chloride environments. Equivalent to AISI 316 / UNS S31600.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "<= 0.08",
+    "Si": "<= 1.00",
+    "Mn": "<= 2.00",
+    "P": "<= 0.045",
+    "S": "<= 0.030",
+    "Ni": "10.00-14.00",
+    "Cr": "16.00-18.00",
+    "Mo": "2.00-3.00"
+  },
+  "mechanical_properties": {
+    "condition": "solution annealed",
+    "tensile_strength_MPa": ">= 520",
+    "yield_strength_0.2_MPa": ">= 205",
+    "elongation_percent": ">= 40",
+    "hardness_HB": "<= 187"
+  },
+  "physical_properties": {
+    "density_g_cm3": 7.98
+  },
+  "source": "http://steeljis.com/jis_steel_datasheet.php?name_id=74",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

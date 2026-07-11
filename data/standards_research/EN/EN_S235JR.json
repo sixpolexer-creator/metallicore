@@ -1,0 +1,35 @@
+{
+  "designation": "EN 10025-2 S235JR",
+  "full_name": "Hot rolled non-alloy structural steel S235JR (material number 1.0038)",
+  "version_year": "EN 10025-2:2004 / :2019",
+  "body": "EN",
+  "scope": "Non-alloy structural steel (mild steel) for general structural use in bolted and welded construction. 'S'=structural, '235'=min yield strength (MPa) for thickness <=16 mm, 'JR'=Charpy V-notch impact energy 27 J at +20 degC.",
+  "chemical_composition": {
+    "C_max_pct": 0.17,
+    "Si_max_pct": 0.20,
+    "Mn_max_pct": 1.40,
+    "P_max_pct": 0.045,
+    "S_max_pct": 0.045,
+    "N_max_pct": 0.012,
+    "Cu_max_pct": 0.55,
+    "note": "Values for long/flat products; N limit may be waived where minimum Al or N-binding elements present."
+  },
+  "mechanical_properties": {
+    "yield_strength_ReH_MPa": {
+      "t_le_16mm": 235,
+      "t_16_40mm": 225,
+      "t_40_100mm": 215
+    },
+    "tensile_strength_Rm_MPa": "360-510 (t <= 3mm to 100mm range)",
+    "elongation_A_pct_min": 26,
+    "impact_energy_J": 27,
+    "impact_test_temp_C": 20
+  },
+  "source": [
+    "https://www.bebonchina.com/v3/bebon-show/news/en-10025-2-s235jr-equivalent-steel-grades_1240.html",
+    "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=100",
+    "https://metaldata.info/reports/S235JR.pdf"
+  ],
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted EN document text",
+  "status": "open_data"
+}

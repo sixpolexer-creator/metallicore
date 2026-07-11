@@ -1,0 +1,50 @@
+[
+  {
+    "designation": "DIN 17100",
+    "full_name": "Steels for general structural purposes (Allgemeine Baustaehle)",
+    "version_year": "1980 (withdrawn)",
+    "scope_summary": "Former German standard specifying non-alloy general structural steels (grades St33, St37-2, USt37-2, RSt37-2, St37-3, St44, St52-3, etc.) for buildings, bridges and load-bearing structures. Superseded by EN 10025 (adopted 1994; St37-2 discontinued 2004, new designation S235JR).",
+    "source": "https://www.theworldmaterial.com/1-0037-material-st37-steel-din-17100/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN EN 10025",
+    "full_name": "Hot rolled products of structural steels",
+    "version_year": "current edition DIN EN 10025-x:2019 (Parts 1-6)",
+    "scope_summary": "European standard (published as DIN EN in Germany) giving technical delivery conditions for hot-rolled structural steel products. Part 1 general conditions; Part 2 non-alloy structural steels (S235, S275, S355); Part 3 normalized fine-grain; Part 4 thermomechanical fine-grain; Part 5 weathering steels; Part 6 quenched-and-tempered high-yield flats. Beuth Verlag holds exclusive sale rights.",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN EN 10088",
+    "full_name": "Stainless steels",
+    "version_year": "Part 1: DIN EN 10088-1:2014 (list); Parts 2-5 various",
+    "scope_summary": "European stainless steel standard published as DIN EN in Germany. Part 1 lists stainless steels and chemical compositions, subdivided into corrosion-resisting, heat-resisting and creep-resisting steels; Part 2 sheet/plate/strip for general purposes; Part 3 semi-finished/bars/rods/wire/sections; Parts 4-5 construction-purpose products. Full grade tables are sold by Beuth Verlag.",
+    "source": "https://webstore.ansi.org/standards/din/dinen100882014",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 17175",
+    "full_name": "Seamless tubes of heat-resistant steels (Nahtlose Rohre aus warmfesten Staehlen)",
+    "version_year": "1979 (largely superseded)",
+    "scope_summary": "Former German standard for seamless tubes of heat-resistant steels used in boilers, pipelines, pressure vessels and equipment for service up to ~600 C at high pressure. Common grades St35.8, St45.8, 15Mo3, 13CrMo44, 10CrMo910. Largely replaced by EN 10216-2.",
+    "source": "https://www.sunnysteel.com/din-17175-79-seamless-steel-tubes.php",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 17440",
+    "full_name": "Stainless steels - Technical delivery conditions",
+    "version_year": "1996 / 2001 (largely superseded)",
+    "scope_summary": "Former German stainless steel delivery-conditions standard covering hot/cold rolled strip and plate, wire rod, drawn wire, bars, forgings and semi-finished products. The greater part of the 1996 edition was superseded by DIN EN 10088, DIN EN 10028-7, DIN EN 10222 and DIN EN 10272; the 2001 edition deals only with drawn wire.",
+    "source": "https://www.intertekinform.com/en-gb/standards/din-17440-2001-03-410655_saig_din_din_929760/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 1725",
+    "full_name": "Aluminium alloys (Part 1 wrought alloys; Part 2 casting alloys)",
+    "version_year": "Part 2: 1986 (withdrawn)",
+    "scope_summary": "Former German standard for aluminium alloys. Part 2 covered casting alloys for sand, gravity die, pressure die and investment casting. Superseded by European standards - casting alloys by DIN EN 1706 (published June 1998), wrought alloys by EN 573 / EN 485.",
+    "source": "https://standards.globalspec.com/std/1740771/din-1725",
+    "status": "restricted_metadata_only"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "designation": "EN 10025-1",
+    "full_name": "Hot rolled products of structural steels - Part 1: General technical delivery conditions",
+    "version_year": "2004",
+    "scope_summary": "General technical delivery conditions common to all parts of EN 10025; applies to flat and long hot rolled structural steel products for welded, bolted and riveted structures. Excludes hollow sections and tubes.",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10025-2",
+    "full_name": "Hot rolled products of structural steels - Part 2: Technical delivery conditions for non-alloy structural steels",
+    "version_year": "2004 / 2019",
+    "scope_summary": "Non-alloy structural steel grades S235, S275, S355, S450 with quality subgrades JR/J0/J2/K2 defining impact toughness. Covers chemical composition, mechanical properties, tolerances and delivery conditions.",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10025-3",
+    "full_name": "Hot rolled products of structural steels - Part 3: Technical delivery conditions for normalized/normalized rolled weldable fine grain structural steels",
+    "version_year": "2004 / 2019",
+    "scope_summary": "Normalized (N/NL) weldable fine grain structural steels, grades S275N to S460NL, for improved toughness at low temperatures.",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10025-4",
+    "full_name": "Hot rolled products of structural steels - Part 4: Technical delivery conditions for thermomechanical rolled weldable fine grain structural steels",
+    "version_year": "2004 / 2019",
+    "scope_summary": "Thermomechanically rolled (M/ML) weldable fine grain structural steels, grades S275M to S460ML, offering low carbon equivalent and good weldability.",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10025-5",
+    "full_name": "Hot rolled products of structural steels - Part 5: Technical delivery conditions for structural steels with improved atmospheric corrosion resistance",
+    "version_year": "2004 / 2019",
+    "scope_summary": "Weathering steels (grades S235W, S355W etc., e.g. J0W/J2W/K2W) with improved atmospheric corrosion resistance via a protective patina.",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10025-6",
+    "full_name": "Hot rolled products of structural steels - Part 6: Technical delivery conditions for flat products of high yield strength structural steels in the quenched and tempered condition",
+    "version_year": "2004+A1:2009 / 2019",
+    "scope_summary": "High yield strength quenched and tempered (Q) flat structural steels, grades S460Q to S960Q, for demanding structural applications.",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10088-1",
+    "full_name": "Stainless steels - Part 1: List of stainless steels",
+    "version_year": "2014",
+    "scope_summary": "Master list of standardized stainless steel grades with chemical compositions and reference physical properties; classifies ferritic, martensitic, austenitic and duplex grades.",
+    "source": "https://bssa.org.uk/bssa_articles/chemical-composition-of-stainless-steel-long-products-for-general-purposes-to-bs-en-10088-3/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10088-2",
+    "full_name": "Stainless steels - Part 2: Technical delivery conditions for sheet/plate and strip of corrosion resisting steels for general purposes",
+    "version_year": "2014",
+    "scope_summary": "Delivery conditions, mechanical properties and surface finishes for stainless steel flat products (sheet, plate, strip) for general corrosion-resisting applications.",
+    "source": "https://bssa.org.uk/bssa_articles/chemical-composition-of-stainless-steel-long-products-for-general-purposes-to-bs-en-10088-3/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10088-3",
+    "full_name": "Stainless steels - Part 3: Technical delivery conditions for semi-finished products, bars, rods, wire, sections and bright products of corrosion resisting steels for general purposes",
+    "version_year": "2014",
+    "scope_summary": "Delivery conditions and mechanical properties for stainless steel long products (bars, rods, wire, sections).",
+    "source": "https://bssa.org.uk/bssa_articles/chemical-composition-of-stainless-steel-long-products-for-general-purposes-to-bs-en-10088-3/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 573-3",
+    "full_name": "Aluminium and aluminium alloys - Chemical composition and form of wrought products - Part 3: Chemical composition and form of products",
+    "version_year": "2019",
+    "scope_summary": "Defines the EN AW-xxxx numeric designation system and chemical composition limits for wrought aluminium alloys (e.g. EN AW-6061, EN AW-5083).",
+    "source": "https://en.wikipedia.org/wiki/Aluminium_alloy",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 755",
+    "full_name": "Aluminium and aluminium alloys - Extruded rod/bar, tube and profiles",
+    "version_year": "2016 (multi-part)",
+    "scope_summary": "Technical conditions, dimensional tolerances and mechanical properties for extruded aluminium rod, bar, tube and profiles (multi-part: general, mechanical properties, tolerances).",
+    "source": "https://en.wikipedia.org/wiki/Aluminium_alloy",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 485",
+    "full_name": "Aluminium and aluminium alloys - Sheet, strip and plate",
+    "version_year": "2016 (multi-part)",
+    "scope_summary": "Technical conditions, mechanical properties and tolerances for aluminium sheet, strip and plate (multi-part: technical conditions, mechanical properties, tolerances on shape/dimensions).",
+    "source": "https://en.wikipedia.org/wiki/Aluminium_alloy",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 1706",
+    "full_name": "Aluminium and aluminium alloys - Castings - Chemical composition and mechanical properties",
+    "version_year": "2020",
+    "scope_summary": "Chemical composition and mechanical property requirements for aluminium alloy castings (EN AC-xxxxx designations), covering sand, permanent mould and die casting.",
+    "source": "https://en.wikipedia.org/wiki/Aluminium_alloy",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10210-1",
+    "full_name": "Hot finished steel structural hollow sections of non-alloy and fine grain steels - Part 1: Technical delivery conditions",
+    "version_year": "2006 / 2019",
+    "scope_summary": "Hot finished (hot formed and normalized) structural hollow sections (square, rectangular, circular) in non-alloy and fine grain steels; delivery conditions, composition and mechanical properties.",
+    "source": "https://www.botopsteelpipes.com/wp-content/uploads/2024/08/EN-10210-2-2019.pdf",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10219-1",
+    "full_name": "Cold formed welded steel structural hollow sections of non-alloy and fine grain steels - Part 1: Technical delivery conditions",
+    "version_year": "2006 / 2019",
+    "scope_summary": "Cold formed welded structural hollow sections in non-alloy and fine grain steels; thinner walls and tighter tolerances than hot finished EN 10210.",
+    "source": "https://energy-steel.com/en-10219-vs-en-10210-all-you-need-to-know/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10083-1",
+    "full_name": "Steels for quenching and tempering - Part 1: General technical delivery conditions",
+    "version_year": "2006",
+    "scope_summary": "General delivery conditions for quenched and tempered steels achieving high strength via quenching from above AC3 followed by tempering (parts 2 non-alloy, 3 alloy steels).",
+    "source": "https://en.wikipedia.org/wiki/EN_10025",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 12163",
+    "full_name": "Copper and copper alloys - Rod for general purposes",
+    "version_year": "2016",
+    "scope_summary": "Technical delivery conditions, composition and mechanical properties for copper and copper alloy rod for general purposes (e.g. CW614N CuZn39Pb3).",
+    "source": "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1356",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 12164",
+    "full_name": "Copper and copper alloys - Rod for free machining purposes",
+    "version_year": "2016",
+    "scope_summary": "Technical delivery conditions for copper alloy rod optimized for free machining, including leaded brasses such as CW614N (CuZn39Pb3).",
+    "source": "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1356",
+    "status": "restricted_metadata_only"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "designation": "DIN 1.0570 (S355J2 / S355J2G3)",
+  "full_name": "Non-alloy / low-alloy structural steel S355J2, material number 1.0570 (old designation St52-3)",
+  "version_year": "composition per EN 10025-2:2004 (also EN 10250-2:2000 for forgings)",
+  "body": "DIN",
+  "scope": "Fine-grain structural steel with minimum yield strength 355 MPa. 'J2' = 27 J impact energy at -20 C. Higher strength than S235; used in general machine/plant engineering, shipbuilding, gearboxes and load-bearing structures.",
+  "chemical_composition": {
+    "C": "max 0.22 %",
+    "Si": "max 0.55 %",
+    "Mn": "max 1.60 %",
+    "P": "max 0.035 %",
+    "S": "max 0.035 %",
+    "Cu": "max 0.55 %",
+    "N": "max 0.012 %",
+    "CEV": "max 0.45-0.47 %"
+  },
+  "mechanical_properties": {
+    "yield_strength_ReH": ">= 355 MPa (thickness <= 16 mm)",
+    "tensile_strength_Rm": "470-630 MPa (thickness < 3-100 mm)",
+    "elongation_A": ">= 22 %",
+    "impact_energy": ">= 27 J at -20 C (longitudinal)",
+    "condition": "normalized / as-rolled (+N)"
+  },
+  "equivalents": ["S355J2", "St52-3 (old DIN 17100)", "ASTM A572 Gr 50 (approx)"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=850, https://www.makeitfrom.com/material-properties/EN-1.0570-S355J2G3-Non-Alloy-Steel",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

@@ -1,0 +1,35 @@
+{
+  "designation": "AMS 6414",
+  "full_name": "Steel, Bars, Forgings, and Tubing, 0.80Cr-1.8Ni-0.25Mo (0.38-0.43C), Consumable Electrode Vacuum Melted (4340 type)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "Premium consumable-electrode vacuum-melted AISI 4340-type low-alloy steel bars, forgings, and tubing for high-strength aerospace structural parts.",
+  "alloy": "AISI 4340 (UNS G43400)",
+  "chemical_composition": {
+    "note": "Nominal composition of AISI 4340 as widely published by independent sources (MatWeb, ASM, AISI/SAE grade data); values in wt%.",
+    "C": "0.38-0.43",
+    "Mn": "0.60-0.80",
+    "Si": "0.15-0.35",
+    "Cr": "0.70-0.90",
+    "Ni": "1.65-2.00",
+    "Mo": "0.20-0.30",
+    "P": "0.010 max",
+    "S": "0.010 max",
+    "Fe": "balance"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties vary strongly with heat treatment; representative values for quenched and tempered condition from independent datasheets.",
+    "tensile_strength_ultimate": "1240-1980 MPa (180-287 ksi) depending on temper; ~1860 MPa (270 ksi) at low tempering",
+    "yield_strength_0.2pct": "1080-1620 MPa (157-235 ksi) depending on temper",
+    "elongation_pct": "10-15",
+    "density": "7.85 g/cm3",
+    "elastic_modulus": "205 GPa (29.7 x 10^6 psi)",
+    "hardness": "up to approx 53 HRC (fully hardened)"
+  },
+  "source": [
+    "https://www.matweb.com (AISI 4340 steel)",
+    "https://www.aircraftmaterials.com (4340 / AMS 6414)"
+  ],
+  "license_note": "Alloy composition/property data for AISI 4340 steel is widely published by independent free sources (MatWeb, ASM, AISI/SAE grade tables). Not reproduced from the copyrighted AMS document; AMS 6414 designation used only as an identifier.",
+  "status": "open_data"
+}

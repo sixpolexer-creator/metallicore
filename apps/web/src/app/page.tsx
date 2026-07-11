@@ -16,6 +16,8 @@ const ORG_BLURB: Record<StandardOrg, string> = {
   AMS: "Aerospace Material Specifications",
   ISO: "International Organization for Standardization",
   DIN: "Deutsches Institut für Normung",
+  EN: "European Norm (CEN harmonized standards)",
+  JIS: "Japanese Industrial Standards",
 };
 
 const ORG_ACCENT: Record<StandardOrg, string> = {
@@ -23,6 +25,8 @@ const ORG_ACCENT: Record<StandardOrg, string> = {
   AMS: "#7c6f9c",
   ISO: "#4f7c8a",
   DIN: "#8a6f4f",
+  EN: "#4f8a6f",
+  JIS: "#8a4f6f",
 };
 
 export default function HomePage() {
@@ -32,7 +36,7 @@ export default function HomePage() {
     <PageShell>
       <section className="mx-auto max-w-3xl text-center">
         <p className="text-xs font-medium uppercase tracking-[0.28em] text-[var(--color-accent)]">
-          ASTM · AMS · ISO · DIN
+          ASTM · AMS · ISO · DIN · EN · JIS
         </p>
         <h1 className="mt-5 text-4xl font-semibold tracking-tight text-neutral-900 md:text-6xl dark:text-neutral-50">
           {t("home.title")}

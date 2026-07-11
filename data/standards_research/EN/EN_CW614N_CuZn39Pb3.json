@@ -1,0 +1,30 @@
+{
+  "designation": "EN 12164/12163 CW614N (CuZn39Pb3)",
+  "full_name": "Leaded free-machining brass CuZn39Pb3, material number CW614N",
+  "version_year": "EN 12164 (rod for machining) / EN 12163 (rod for general purposes)",
+  "body": "EN",
+  "scope": "High-lead copper-zinc (brass) alloy optimised for machining and hot stamping; excellent turning/milling performance. Limited cold formability. Used in fittings, valves, fasteners and (in Pb-controlled variants) drinking-water installations.",
+  "chemical_composition": {
+    "Cu_pct": "57.0-59.0",
+    "Pb_pct": "2.5-3.5",
+    "Fe_max_pct": 0.30,
+    "Ni_max_pct": 0.30,
+    "Al_max_pct": 0.05,
+    "Sn_max_pct": 0.30,
+    "Zn_pct": "balance"
+  },
+  "mechanical_properties": {
+    "strength_classes": "R360 / R430 / R500 (number = min tensile strength in MPa)",
+    "tensile_strength_Rm_MPa": "360-500 (class dependent)",
+    "density_g_cm3": 8.5,
+    "thermal_expansion_20_200C_per_K": 19.97e-6,
+    "note": "Higher temper classes increase tensile strength and hardness at the expense of elongation."
+  },
+  "source": [
+    "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1356",
+    "https://www.diehl.com/cms/files/Diehl_Brass_Solutions_Material_Datasheet_002.pdf",
+    "https://www.hmemetal.com/fileadmin/user_upload/DOWNLOADCENTER/werkstoffe/en/Materials_Data_Sheet_CW614N_CuZn39Pb3__E_.pdf"
+  ],
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted EN document text",
+  "status": "open_data"
+}

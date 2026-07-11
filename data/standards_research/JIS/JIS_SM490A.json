@@ -1,0 +1,28 @@
+{
+  "designation": "JIS G3106 SM490A",
+  "full_name": "Rolled steels for welded structure - grade SM490A",
+  "version_year": "2020",
+  "body": "JIS",
+  "scope": "Weldable structural carbon steel for bridges, ships, offshore and welded construction. Higher strength than SS400 with controlled composition for weldability. '490' denotes minimum tensile strength in N/mm2; suffix A/B/C denotes toughness class.",
+  "chemical_composition": {
+    "note": "mass %, for thickness <= 50 mm",
+    "C": "<= 0.20",
+    "Si": "<= 0.55",
+    "Mn": "<= 1.65",
+    "P": "<= 0.035",
+    "S": "<= 0.035"
+  },
+  "mechanical_properties": {
+    "tensile_strength_MPa": "490-610",
+    "yield_strength_MPa": {
+      "thickness_<=16mm": ">= 325",
+      "thickness_16-40mm": ">= 315",
+      "thickness_40-75mm": ">= 295"
+    },
+    "elongation_percent": ">= 17",
+    "charpy_impact": "SM490A no requirement; SM490B >= 27 J at 0C; SM490C >= 27 J at 0C"
+  },
+  "source": "https://steeljis.com/, https://www.theworldmaterial.com/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

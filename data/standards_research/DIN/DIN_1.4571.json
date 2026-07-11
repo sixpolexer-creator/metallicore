@@ -1,0 +1,30 @@
+{
+  "designation": "DIN 1.4571 (X6CrNiMoTi17-12-2)",
+  "full_name": "Titanium-stabilized austenitic stainless steel X6CrNiMoTi17-12-2, material number 1.4571 (AISI 316Ti / UNS S31635)",
+  "version_year": "composition per EN 10088-2:2005",
+  "body": "DIN",
+  "scope": "Titanium-stabilized molybdenum-bearing austenitic chromium-nickel stainless steel. Titanium prevents chromium-carbide precipitation, giving superior intergranular corrosion resistance and stability above 800 C. Used in chemical, apparatus, shipbuilding, food, medical and pharmaceutical industries.",
+  "chemical_composition": {
+    "C": "max 0.08 %",
+    "Si": "max 1.00 %",
+    "Mn": "max 2.00 %",
+    "P": "max 0.045 %",
+    "S": "max 0.015 %",
+    "Cr": "16.5-18.5 %",
+    "Ni": "10.5-13.5 %",
+    "Mo": "2.0-2.5 %",
+    "Ti": "5xC to max 0.70 %"
+  },
+  "mechanical_properties": {
+    "yield_strength_Rp0.2": ">= 200 MPa",
+    "tensile_strength_Rm": "500-700 MPa",
+    "elongation_A5": ">= 40 %",
+    "hardness": "<= 215 HB",
+    "impact_energy_KV": ">= 100 J",
+    "condition": "solution annealed"
+  },
+  "equivalents": ["AISI 316Ti", "UNS S31635", "X6CrNiMoTi17-12-2"],
+  "source": "https://www.steelnumber.com/en/steel_composition_eu.php?name_id=107, https://steelgs.com/grades/stainless-steels/31/8022/X6CrNiMoTi17-12-2-1-4571-AISI-316Ti-UNS-S31635-steel.html",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

@@ -1,0 +1,36 @@
+{
+  "designation": "AMS 5643",
+  "full_name": "Steel, Corrosion-Resistant, Bars, Wire, Forgings, Mechanical Tubing, and Rings, 16Cr-4.0Ni-4.0Cu-0.30Cb, Solution Heat Treated, Precipitation-Hardenable (17-4 PH / UNS S17400)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "17-4 PH martensitic precipitation-hardening stainless steel (UNS S17400) bars, wire, forgings, mechanical tubing, and rings for aerospace parts requiring strength and corrosion resistance to about 600F (316C).",
+  "alloy": "17-4 PH (UNS S17400, AISI 630)",
+  "chemical_composition": {
+    "note": "Limiting composition of 17-4 PH as widely published by independent sources (AK Steel/Cleveland-Cliffs, MatWeb); values in wt%.",
+    "Cr": "15.0-17.5",
+    "Ni": "3.0-5.0",
+    "Cu": "3.0-5.0",
+    "Nb_plus_Ta": "0.15-0.45",
+    "C": "0.07 max",
+    "Mn": "1.0 max",
+    "Si": "1.0 max",
+    "P": "0.04 max",
+    "S": "0.03 max",
+    "Fe": "balance"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties in the H900 aged condition, from independent datasheets.",
+    "tensile_strength_ultimate": "1310 MPa (190 ksi) min",
+    "yield_strength_0.2pct": "1170 MPa (170 ksi) min",
+    "elongation_pct": "10-14",
+    "hardness": "40-47 HRC (H900)",
+    "density": "7.80 g/cm3",
+    "elastic_modulus": "196 GPa (28.5 x 10^6 psi)"
+  },
+  "source": [
+    "https://www.aircraftmaterials.com/data/alstst/ams5643.html",
+    "https://www.matweb.com (17-4 PH, UNS S17400)"
+  ],
+  "license_note": "Alloy composition/property data for 17-4 PH stainless is widely published by independent free sources (Cleveland-Cliffs/AK Steel, MatWeb, ASM). Not reproduced from the copyrighted AMS document; AMS 5643 designation used only as an identifier.",
+  "status": "open_data"
+}

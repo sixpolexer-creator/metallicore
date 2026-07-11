@@ -27,9 +27,9 @@ export default function CrossReferencePage() {
           </span>
         </div>
         <p className="mt-2 max-w-2xl text-sm text-neutral-600 dark:text-neutral-300">
-          This is the only view where ASTM, AMS, ISO and DIN standards are
-          searched together. Every other page is strictly siloed to a single
-          body.
+          This is the only view where ASTM, AMS, ISO, DIN, EN and JIS
+          standards are searched together. Every other page is strictly
+          siloed to a single body.
         </p>
       </div>
 

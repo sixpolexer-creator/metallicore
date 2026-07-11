@@ -1,0 +1,38 @@
+{
+  "designation": "AMS 5599",
+  "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Sheet, Strip, and Plate, 62Ni-21.5Cr-9.0Mo-3.6Cb, Solution Heat Treated (Alloy 625 / Inconel 625)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "Alloy 625 (Inconel 625, UNS N06625) sheet, strip, and plate in the solution-annealed condition for corrosion- and heat-resistant aerospace applications.",
+  "alloy": "Inconel 625 (UNS N06625)",
+  "chemical_composition": {
+    "note": "Limiting composition of Alloy 625 as widely published by independent sources (Special Metals, MatWeb); values in wt%.",
+    "Ni": "58.0 min",
+    "Cr": "20.0-23.0",
+    "Mo": "8.0-10.0",
+    "Nb_plus_Ta": "3.15-4.15",
+    "Fe": "5.0 max",
+    "Co": "1.0 max",
+    "C": "0.10 max",
+    "Al": "0.40 max",
+    "Ti": "0.40 max",
+    "Mn": "0.50 max",
+    "Si": "0.50 max",
+    "P": "0.015 max",
+    "S": "0.015 max"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties of annealed Alloy 625, from independent datasheets.",
+    "tensile_strength_ultimate": "827-1034 MPa (120-150 ksi), 120 ksi typical minimum",
+    "yield_strength_0.2pct": "414-517 MPa (60-75 ksi), 60 ksi typical minimum",
+    "elongation_pct": "30-50",
+    "density": "8.44 g/cm3",
+    "elastic_modulus": "207.5 GPa (30.1 x 10^6 psi)"
+  },
+  "source": [
+    "https://www.specialmetals.com (Inconel alloy 625 technical bulletin)",
+    "https://www.matweb.com (Inconel 625, UNS N06625)"
+  ],
+  "license_note": "Alloy composition/property data for Inconel 625 is widely published by independent free sources (Special Metals, MatWeb, ASM). Not reproduced from the copyrighted AMS document; AMS 5599 designation used only as an identifier.",
+  "status": "open_data"
+}

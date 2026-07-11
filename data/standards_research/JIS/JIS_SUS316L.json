@@ -1,0 +1,28 @@
+{
+  "designation": "JIS G4304 SUS316L",
+  "full_name": "Hot-rolled stainless steel plate, sheet and strip - grade SUS316L",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "Ultra-low carbon (<= 0.030% C) variant of SUS316. Reduced carbon minimises chromium carbide precipitation, improving intergranular corrosion resistance after welding. Equivalent to AISI 316L / UNS S31603.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "<= 0.030",
+    "Si": "<= 1.00",
+    "Mn": "<= 2.00",
+    "P": "<= 0.045",
+    "S": "<= 0.030",
+    "Ni": "12.00-15.00",
+    "Cr": "16.00-18.00",
+    "Mo": "2.00-3.00"
+  },
+  "mechanical_properties": {
+    "condition": "solution annealed",
+    "tensile_strength_MPa": ">= 480",
+    "yield_strength_0.2_MPa": ">= 175",
+    "elongation_percent": ">= 40",
+    "hardness_HB": "<= 187"
+  },
+  "source": "http://steeljis.com/jis_steel_datasheet.php?name_id=75",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}
