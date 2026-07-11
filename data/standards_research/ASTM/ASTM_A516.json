@@ -1,0 +1,23 @@
+{
+  "designation": "ASTM A516 Grade 70",
+  "full_name": "Standard Specification for Pressure Vessel Plates, Carbon Steel, for Moderate- and Lower-Temperature Service",
+  "version_year": "2021",
+  "body": "ASTM",
+  "scope": "Covers carbon steel plates intended primarily for service in welded pressure vessels where improved notch toughness is important, for moderate and lower temperature service. Grade 70 is the highest-strength common grade.",
+  "chemical_composition": {
+    "C": "0.27% max (thickness dependent, to ~0.31% for thicker plate)",
+    "Mn": "0.85-1.20%",
+    "P": "0.025% max",
+    "S": "0.025% max",
+    "Si": "0.15-0.40%"
+  },
+  "mechanical_properties": {
+    "yield_strength": "260 MPa (38 ksi) min",
+    "tensile_strength": "485-620 MPa (70-90 ksi)",
+    "elongation": "17-21% min",
+    "notch_toughness": "Good impact toughness at low temperature (down to approx -46 C when normalized/impact tested)"
+  },
+  "source": "https://www.ssab.com/en-us/brands-and-products/commercial-steel/pressure-vessel/astm-a516/grade-70 ; https://www.matweb.com/search/datasheet_print.aspx?matguid=9ccee2d0841a404ca504620085056e14",
+  "license_note": "Composition/property data widely republished by independent free sources (MatWeb, steel producers such as SSAB), not the copyrighted ASTM document text itself.",
+  "status": "open_data"
+}

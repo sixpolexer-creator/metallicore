@@ -1,0 +1,41 @@
+{
+  "designation": "AMS 5662",
+  "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Bars, Forgings, and Rings, 52.5Ni-19Cr-3.0Mo-5.1Cb-0.90Ti-0.60Al-18Fe, Consumable Electrode or Vacuum Induction Melted, 1775F (968C) Solution Heat Treated, Precipitation-Hardenable (Alloy 718 / Inconel 718)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "Alloy 718 (Inconel 718, UNS N07718) bars, forgings, and rings supplied solution-heat-treated and precipitation-hardenable, for aerospace parts requiring strength to about 1300F (704C).",
+  "alloy": "Inconel 718 (UNS N07718)",
+  "chemical_composition": {
+    "note": "Limiting composition of Alloy 718 as widely published by independent sources (Special Metals, MatWeb); values in wt%.",
+    "Ni_plus_Co": "50.0-55.0",
+    "Cr": "17.0-21.0",
+    "Fe": "balance (approx 17-19)",
+    "Nb_plus_Ta": "4.75-5.5",
+    "Mo": "2.8-3.3",
+    "Ti": "0.65-1.15",
+    "Al": "0.2-0.8",
+    "Co": "1.0 max",
+    "C": "0.08 max",
+    "Mn": "0.35 max",
+    "Si": "0.35 max",
+    "Cu": "0.30 max",
+    "B": "0.006 max",
+    "P": "0.015 max",
+    "S": "0.015 max"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties after standard solution + precipitation (age) heat treatment, from independent datasheets.",
+    "tensile_strength_ultimate": "1240-1400 MPa (180-203 ksi), 180 ksi typical minimum",
+    "yield_strength_0.2pct": "1030-1170 MPa (150-170 ksi), 150 ksi typical minimum",
+    "elongation_pct": "12-21",
+    "density": "8.19 g/cm3",
+    "elastic_modulus": "200 GPa (29 x 10^6 psi)",
+    "hardness": "approx 36-44 HRC (aged)"
+  },
+  "source": [
+    "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-718.pdf",
+    "https://www.matweb.com (Inconel 718, UNS N07718)"
+  ],
+  "license_note": "Alloy composition/property data for Inconel 718 is widely published by independent free sources (Special Metals, MatWeb, ASM). Not reproduced from the copyrighted AMS document; AMS 5662 designation used only as an identifier.",
+  "status": "open_data"
+}

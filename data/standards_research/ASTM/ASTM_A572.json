@@ -1,0 +1,24 @@
+{
+  "designation": "ASTM A572 Grade 50",
+  "full_name": "Standard Specification for High-Strength Low-Alloy Columbium-Vanadium Structural Steel",
+  "version_year": "2021",
+  "body": "ASTM",
+  "scope": "Covers high-strength low-alloy (HSLA) structural steel shapes, plates, sheet piling, and bars for structural applications. Grade 50 is the most common grade; strengthening is by grain refinement and microalloying rather than high carbon.",
+  "chemical_composition": {
+    "C": "0.23% max",
+    "Mn": "1.35% max (1.50% max for some products)",
+    "P": "0.04% max",
+    "S": "0.05% max",
+    "Si": "0.40% max",
+    "Nb": "0.005-0.05% (columbium/niobium)",
+    "V": "0.01-0.15% (vanadium, when used)"
+  },
+  "mechanical_properties": {
+    "yield_strength": "345 MPa (50 ksi) min",
+    "tensile_strength": "450 MPa (65 ksi) min",
+    "elongation": "21% min in 50 mm (18% in 200 mm)"
+  },
+  "source": "https://en.wikipedia.org/wiki/A572_steel ; https://www.theworldmaterial.com/astm-a572-steel/ ; https://www.kloecknermetals.com/blog/a572-steel-explained-grades-applications-and-benefits/",
+  "license_note": "Composition/property data widely republished by independent free sources (Wikipedia, metal suppliers, educational sites), not the copyrighted ASTM document text itself.",
+  "status": "open_data"
+}

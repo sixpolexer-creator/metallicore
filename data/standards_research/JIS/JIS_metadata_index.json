@@ -1,0 +1,130 @@
+[
+  {
+    "designation": "JIS G3101",
+    "full_name": "Rolled steels for general structure",
+    "version_year": "2020",
+    "scope_summary": "Specifies hot-rolled plates, sheets, strips, sections, flats and bars of general structural carbon steel (grades SS330, SS400, SS490, SS540) used in construction and general machinery.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G3106",
+    "full_name": "Rolled steels for welded structure",
+    "version_year": "2020",
+    "scope_summary": "Weldable structural steel plates, sheets, strips and sections (grades SM400, SM490, SM490Y, SM520, SM570) for bridges, ships and welded construction, classified by toughness sub-grades A/B/C.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4051",
+    "full_name": "Carbon steels for machine structural use",
+    "version_year": "2016",
+    "scope_summary": "Hot-rolled and forged carbon steel bars and materials for machine structural use (grades S10C to S58C, plus free-cutting and boron grades).",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4052",
+    "full_name": "Structural steels with specified hardenability bands (H steels)",
+    "version_year": "2016",
+    "scope_summary": "Low-alloy structural steels supplied to guaranteed hardenability (Jominy) bands, designated with an 'H' suffix (e.g. SCM440H, SMn438H).",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4053",
+    "full_name": "Low-alloyed steels for machine structural use",
+    "version_year": "2016",
+    "scope_summary": "Alloy steel bars for machine structural use, covering Mn, Cr, Cr-Mo (SCM), Ni-Cr-Mo (SNCM) and boron steel grades used quenched and tempered or case hardened.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4303",
+    "full_name": "Stainless steel bars",
+    "version_year": "2021",
+    "scope_summary": "Hot- and cold-finished stainless steel bars in austenitic, ferritic, martensitic and precipitation-hardening grades (SUS303, SUS304, SUS316, SUS420J2, etc.).",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4304",
+    "full_name": "Hot-rolled stainless steel plate, sheet and strip",
+    "version_year": "2021",
+    "scope_summary": "Hot-rolled stainless steel flat products across austenitic, ferritic and martensitic grades (SUS304, SUS316, SUS430, etc.).",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4305",
+    "full_name": "Cold-rolled stainless steel plate, sheet and strip",
+    "version_year": "2021",
+    "scope_summary": "Cold-rolled stainless steel flat products; companion standard to G4304 covering the same grade families with cold-rolled surface finishes and tempers.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G3444",
+    "full_name": "Carbon steel tubes for general structural purposes (STK)",
+    "version_year": "2021",
+    "scope_summary": "Welded and seamless carbon steel tubes for structural applications such as scaffolding, towers and frameworks (grades STK290, STK400, STK500, STK490).",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G3454",
+    "full_name": "Carbon steel pipes for pressure service (STPG)",
+    "version_year": "2017",
+    "scope_summary": "Seamless and electric-resistance-welded carbon steel pipes for pressure piping at ordinary and moderate temperatures (grades STPG370, STPG410).",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS H4000",
+    "full_name": "Aluminium and aluminium alloy sheets, plates and strips",
+    "version_year": "2022",
+    "scope_summary": "Wrought aluminium and aluminium alloy flat-rolled products across 1000-7000 series (A1050, A5052, A5083, A6061, A7075, etc.) in various tempers.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS H4040",
+    "full_name": "Aluminium and aluminium alloy rods, bars and wires",
+    "version_year": "2015",
+    "scope_summary": "Wrought aluminium and aluminium alloy rods, bars and wires for structural and machining use, covering the common wrought alloy series and tempers.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS H3100",
+    "full_name": "Copper and copper alloy sheets, plates and strips",
+    "version_year": "2018",
+    "scope_summary": "Flat-rolled copper and copper alloys including tough pitch copper (C1100), oxygen-free copper (C1020), phosphorus-deoxidised copper (C1220), brasses and phosphor bronzes.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G5501",
+    "full_name": "Grey iron castings",
+    "version_year": "1995",
+    "scope_summary": "Grey (flake graphite) cast iron classified by tensile strength (FC100 to FC350) for machine bases, housings and general castings.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS Z2241",
+    "full_name": "Metallic materials - Tensile testing - Method of test at room temperature",
+    "version_year": "2011",
+    "scope_summary": "Specifies the method for tensile testing of metallic materials at room temperature and the mechanical properties determined; aligned with ISO 6892-1.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS Z2242",
+    "full_name": "Method for Charpy pendulum impact test of metallic materials",
+    "version_year": "2018",
+    "scope_summary": "Specifies the Charpy V-notch and U-notch pendulum impact test method for determining the absorbed energy (toughness) of metallic materials; aligned with ISO 148-1.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  }
+]

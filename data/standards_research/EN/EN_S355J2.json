@@ -1,0 +1,35 @@
+{
+  "designation": "EN 10025-2 S355J2",
+  "full_name": "Hot rolled non-alloy structural steel S355J2 (material number 1.0577)",
+  "version_year": "EN 10025-2:2004 / :2019",
+  "body": "EN",
+  "scope": "Fine-grain non-alloy structural steel widely used in construction, bridges and heavy engineering for its strength, toughness and weldability. 'S'=structural, '355'=min yield strength (MPa) for t <=16 mm, 'J2'=Charpy 27 J at -20 degC.",
+  "chemical_composition": {
+    "C_max_pct": 0.22,
+    "Si_max_pct": 0.55,
+    "Mn_max_pct": 1.60,
+    "P_max_pct": 0.030,
+    "S_max_pct": 0.030,
+    "Cu_max_pct": 0.55,
+    "CEV_max_pct": 0.47
+  },
+  "mechanical_properties": {
+    "yield_strength_ReH_MPa": {
+      "t_le_16mm": 355,
+      "t_16_40mm": 345,
+      "t_40_63mm": 335
+    },
+    "tensile_strength_Rm_MPa": "470-630 (t <= 100mm)",
+    "elongation_A_pct_min": 20,
+    "impact_energy_J": 27,
+    "impact_test_temp_C": -20
+  },
+  "source": [
+    "https://gangsteel.net/product/lowalloy/en10025-2/s355j2.html",
+    "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=10",
+    "https://www.theworldmaterial.com/material-s355-steel-en-10025/",
+    "https://www.matweb.com/search/datasheet.aspx?matguid=e1d213ed19644af984de4d3b630484d5"
+  ],
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted EN document text",
+  "status": "open_data"
+}

@@ -8,24 +8,28 @@ const ORG_ACCENT: Record<AnyStandard["standardBody"], string> = {
   AMS: "text-[#7c6f9c]",
   ISO: "text-[#4f7c8a]",
   DIN: "text-[#8a6f4f]",
+  EN: "text-[#4f8a6f]",
+  JIS: "text-[#8a4f6f]",
 };
 
 /**
  * Renders a single standard record. Because `standard` is the read-only
  * AnyStandard union, we NARROW on `standardBody` before reading any
  * body-specific field (committee / revision / technicalCommittee /
- * hasEnEquivalent). Data-payload strings (codes, titles, values) are rendered
- * verbatim and marked `.ltr-data` so they stay LTR under RTL chrome — they are
- * NEVER passed through t().
+ * hasEnEquivalent / materialNumber / jisNumber). Data-payload strings (codes,
+ * titles, values) are rendered verbatim and marked `.ltr-data` so they stay
+ * LTR under RTL chrome — they are NEVER passed through t().
  */
 export function StandardCard({
   standard,
   span = "sm",
   showOrg = false,
+  onView,
 }: {
   standard: AnyStandard;
   span?: "sm" | "md" | "lg";
   showOrg?: boolean;
+  onView?: (standard: AnyStandard) => void;
 }) {
   const { t } = useI18n();
 
@@ -51,7 +55,12 @@ export function StandardCard({
             {standard.fullCode}
           </h3>
         </div>
-        <StatusBadge status={standard.status} />
+        <div className="flex shrink-0 items-center gap-1.5">
+          {standard.dataAccess === "restricted" && (
+            <RestrictedBadge label={t("standard.restricted")} />
+          )}
+          <StatusBadge status={standard.status} />
+        </div>
       </div>
 
       <p className="ltr-data mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">
@@ -80,7 +89,29 @@ export function StandardCard({
           </span>
         </p>
       )}
+
+      {onView && (
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            onView(standard);
+          }}
+          className="mt-4 self-start text-xs font-medium text-[var(--color-accent)] transition hover:underline"
+        >
+          {t("standard.viewFullStandard")} →
+        </button>
+      )}
     </BentoCard>
+  );
+}
+
+function RestrictedBadge({ label }: { label: string }) {
+  return (
+    <span className="mc-surface-strong inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-[11px] font-medium uppercase tracking-wider text-amber-700 dark:text-amber-300">
+      <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+      {label}
+    </span>
   );
 }
 
@@ -108,15 +139,23 @@ function BodySpecific({ standard }: { standard: AnyStandard }) {
       break;
     case "AMS":
       label = t("standard.revision");
-      value = standard.revision;
+      value = standard.revision ?? "—";
       break;
     case "ISO":
       label = t("standard.technicalCommittee");
-      value = standard.technicalCommittee;
+      value = standard.technicalCommittee ?? "—";
       break;
     case "DIN":
       label = t("standard.enEquivalent");
       value = standard.hasEnEquivalent ? "EN" : "—";
+      break;
+    case "EN":
+      label = t("standard.materialNumber");
+      value = standard.materialNumber ?? "—";
+      break;
+    case "JIS":
+      label = t("standard.jisNumber");
+      value = standard.jisNumber;
       break;
   }
 

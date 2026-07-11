@@ -1,0 +1,27 @@
+{
+  "designation": "DIN 1.0038 (S235JR)",
+  "full_name": "Non-alloy structural steel S235JR, material number 1.0038",
+  "version_year": "composition per EN 10025-2:2004",
+  "body": "DIN",
+  "scope": "Low-carbon non-alloy structural steel. 'S' = structural, '235' = minimum yield strength 235 MPa, 'JR' = 27 J impact energy at +20 C. Good weldability and cold-bending; very common general structural steel.",
+  "chemical_composition": {
+    "C": "max 0.17-0.20 % (thickness dependent)",
+    "Mn": "max 1.40 %",
+    "P": "max 0.045 %",
+    "S": "max 0.045 %",
+    "N": "max 0.012 %",
+    "Cu": "max 0.55 %",
+    "CEV": "max 0.35-0.38 %"
+  },
+  "mechanical_properties": {
+    "yield_strength_ReH": ">= 235 MPa (thickness <= 16 mm)",
+    "tensile_strength_Rm": "360-510 MPa (thickness < 16 mm)",
+    "elongation_A": ">= 26 %",
+    "impact_energy": ">= 27 J at +20 C",
+    "condition": "as-rolled"
+  },
+  "equivalents": ["S235JR", "ASTM A283 Gr C/D (approx)", "St37-2 (old DIN 17100)"],
+  "source": "https://www.steelnumber.com/en/steel_composition_eu.php?name_id=4, https://www.theworldmaterial.com/1-0038-steel-s235jr-material/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

@@ -1,0 +1,26 @@
+{
+  "designation": "JIS G5501 FC250",
+  "full_name": "Grey iron castings - grade FC250",
+  "version_year": "1995",
+  "body": "JIS",
+  "scope": "Grey cast iron with flake graphite for castings such as machine bases, housings, cylinder blocks and brake components. 'FC' denotes ferrum casting; '250' is the minimum tensile strength in N/mm2 on a 30 mm test bar. Good machinability, damping and wear resistance.",
+  "chemical_composition": {
+    "note": "typical, mass % (JIS classifies grey iron primarily by tensile strength rather than fixed chemistry)",
+    "C": "3.1-3.4",
+    "Si": "1.9-2.3",
+    "Mn": "0.5-0.9",
+    "P": "<= 0.15",
+    "S": "<= 0.12"
+  },
+  "mechanical_properties": {
+    "tensile_strength_MPa": ">= 250",
+    "hardness_HB": "<= 241",
+    "note": "grey iron has negligible elongation; strength quoted on 30 mm diameter separately cast test bar"
+  },
+  "physical_properties": {
+    "density_g_cm3": 7.2
+  },
+  "source": "https://steeljis.com/, https://www.matweb.com/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

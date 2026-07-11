@@ -1,0 +1,33 @@
+{
+  "designation": "EN AW-6061 (AlMg1SiCu)",
+  "full_name": "Wrought aluminium alloy EN AW-6061 [AlMg1SiCu], material number 3.3211",
+  "version_year": "Designation per EN 573-3; properties per EN 485 / EN 755 product standards",
+  "body": "EN",
+  "scope": "Medium-strength heat-treatable wrought Al-Mg-Si alloy strengthened by Mg2Si precipitation. Good weldability and atmospheric/seawater corrosion resistance; used in architecture, automotive, railway and structural extrusions. Data below for T6 temper.",
+  "chemical_composition": {
+    "Al_pct": "balance (95.8-98.6)",
+    "Mg_pct": "0.8-1.2",
+    "Si_pct": "0.4-0.8",
+    "Fe_max_pct": 0.7,
+    "Cu_pct": "0.15-0.40",
+    "Mn_max_pct": 0.15,
+    "Cr_pct": "0.04-0.35",
+    "Zn_max_pct": 0.25,
+    "Ti_max_pct": 0.15
+  },
+  "mechanical_properties": {
+    "temper": "T6",
+    "yield_strength_Rp02_MPa": "240-280",
+    "tensile_strength_Rm_MPa": "290-338",
+    "elongation_A_pct": "10-14",
+    "hardness_HB": "90-100",
+    "youngs_modulus_GPa": "66-70"
+  },
+  "source": [
+    "https://metalzenith.com/blogs/aluminium-properties/aluminum-en-aw-6061-composition-properties-temper-guide-applications",
+    "https://www.theworldmaterial.com/al-6061-t6-aluminum-alloy/",
+    "https://xometry.eu/wp-content/uploads/2020/09/Datasheet-EN-AW-6061.pdf"
+  ],
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted EN document text",
+  "status": "open_data"
+}

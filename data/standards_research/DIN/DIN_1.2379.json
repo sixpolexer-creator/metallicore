@@ -1,0 +1,24 @@
+{
+  "designation": "DIN 1.2379 (X153CrMoV12)",
+  "full_name": "High-carbon high-chromium cold-work tool steel X153CrMoV12 (older name X155CrVMo12-1), material number 1.2379 (AISI D2 / JIS SKD11 equivalent)",
+  "version_year": "composition per EN ISO 4957",
+  "body": "DIN",
+  "scope": "Ledeburitic secondary-hardening cold-work tool steel. High resistance to abrasive and adhesive wear, air-hardening with low distortion, good dimensional stability. Not corrosion resistant. Used for blanking/forming dies, thread-rolling dies, cutting and stamping tools, and plastic moulds.",
+  "chemical_composition": {
+    "C": "1.50-1.60 % (approx 1.53)",
+    "Si": "approx 0.35 %",
+    "Mn": "approx 0.40 %",
+    "Cr": "11.0-13.0 % (approx 12.0)",
+    "Mo": "0.70-1.00 %",
+    "V": "0.70-1.00 % (approx 0.85)"
+  },
+  "mechanical_properties": {
+    "hardness_annealed": "<= 255 HB",
+    "working_hardness": "54-60 HRC (after hardening and tempering)",
+    "condition": "air-hardened / tempered"
+  },
+  "equivalents": ["AISI D2", "JIS SKD11", "Bohler K110", "X155CrVMo12-1 (old DIN)"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=979, https://us.abrams-industries.com/steel/tool-steel/d2",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

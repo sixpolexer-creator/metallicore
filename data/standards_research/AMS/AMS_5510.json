@@ -1,0 +1,35 @@
+{
+  "designation": "AMS 5510",
+  "full_name": "Steel, Corrosion and Heat-Resistant, Sheet, Strip, and Plate, 18Cr-10Ni-0.70Ti (SAE 30321), Solution Heat Treated (321 Stainless)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "321 titanium-stabilized austenitic stainless steel sheet, strip, and plate in the solution-treated condition for elevated-temperature aerospace applications.",
+  "alloy": "AISI 321 (UNS S32100)",
+  "chemical_composition": {
+    "note": "Limiting composition of Type 321 stainless as widely published by independent sources (MatWeb, ASM, AISI); values in wt%.",
+    "Cr": "17.0-19.0",
+    "Ni": "9.0-12.0",
+    "Ti": "5xC min to 0.70 max",
+    "C": "0.08 max",
+    "Mn": "2.0 max",
+    "Si": "1.0 max",
+    "P": "0.045 max",
+    "S": "0.03 max",
+    "Fe": "balance"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties in the annealed condition, from independent datasheets.",
+    "tensile_strength_ultimate": "515-620 MPa (75-90 ksi), 75 ksi typical minimum",
+    "yield_strength_0.2pct": "205-240 MPa (30-35 ksi), 30 ksi typical minimum",
+    "elongation_pct": "40-45",
+    "density": "7.90 g/cm3",
+    "elastic_modulus": "193 GPa (28 x 10^6 psi)",
+    "hardness": "approx 80 HRB"
+  },
+  "source": [
+    "https://www.matweb.com (AISI Type 321 stainless steel)",
+    "https://www.aircraftmaterials.com (321 / AMS 5510)"
+  ],
+  "license_note": "Alloy composition/property data for Type 321 stainless is widely published by independent free sources (MatWeb, ASM, AISI). Not reproduced from the copyrighted AMS document; AMS 5510 designation used only as an identifier.",
+  "status": "open_data"
+}

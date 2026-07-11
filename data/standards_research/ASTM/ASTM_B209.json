@@ -1,0 +1,26 @@
+{
+  "designation": "ASTM B209 (Alloy 6061-T6)",
+  "full_name": "Standard Specification for Aluminum and Aluminum-Alloy Sheet and Plate",
+  "version_year": "2021",
+  "body": "ASTM",
+  "scope": "Covers aluminum and aluminum-alloy flat sheet and plate. Data below is for the common structural alloy 6061 in the T6 temper (UNS A96061).",
+  "chemical_composition": {
+    "Si": "0.40-0.80%",
+    "Fe": "0.70% max",
+    "Cu": "0.15-0.40%",
+    "Mn": "0.15% max",
+    "Mg": "0.80-1.20%",
+    "Cr": "0.04-0.35%",
+    "Zn": "0.25% max",
+    "Ti": "0.15% max",
+    "Al": "balance"
+  },
+  "mechanical_properties": {
+    "yield_strength": "276 MPa (40 ksi) min",
+    "tensile_strength": "310 MPa (45 ksi) min",
+    "elongation": "12% min in 50 mm (2 in.), thickness dependent"
+  },
+  "source": "https://www.aluminum-sheet-metal.com/a/astm-b209-alloy-6061-t6-aluminium-sheet.html ; https://www.theworldmaterial.com/al-6061-t6-aluminum-alloy/ ; https://fastmetals.com/products/190-sheet-6061-t6-astm-b209",
+  "license_note": "Composition/property data for 6061-T6 widely republished by independent free sources (aluminum distributors, educational/material-property sites), not the copyrighted ASTM document text itself.",
+  "status": "open_data"
+}

@@ -1,0 +1,30 @@
+{
+  "designation": "JIS H3100 C1100",
+  "full_name": "Copper and copper alloy sheets, plates and strips - alloy C1100 (tough pitch copper)",
+  "version_year": "2018",
+  "body": "JIS",
+  "scope": "Electrolytic tough pitch copper (min 99.90% Cu) with high electrical and thermal conductivity. Used for electrical conductors, bus bars, gaskets, roofing and heat exchangers. Equivalent to UNS C11000 / ETP copper.",
+  "chemical_composition": {
+    "note": "mass %",
+    "Cu": ">= 99.90",
+    "O": "present as Cu2O (tough pitch)",
+    "Pb": "<= 0.005 (typical impurity limit)"
+  },
+  "mechanical_properties": {
+    "temper_O_annealed": {
+      "tensile_strength_MPa": ">= 195",
+      "elongation_percent": ">= 35"
+    },
+    "temper_H_hard": {
+      "tensile_strength_MPa": ">= 275",
+      "elongation_percent": "typically < 5"
+    }
+  },
+  "physical_properties": {
+    "density_g_cm3": 8.94,
+    "electrical_conductivity_percent_IACS": ">= 100"
+  },
+  "source": "https://steeljis.com/, https://www.matweb.com/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

@@ -1,0 +1,29 @@
+{
+  "designation": "JIS G4053 SCM440",
+  "full_name": "Low-alloyed steels for machine structural use - grade SCM440",
+  "version_year": "2016",
+  "body": "JIS",
+  "scope": "Chromium-molybdenum (Cr-Mo) low-alloy steel for machine structural use. High strength and toughness after quenching and tempering; used for shafts, gears, bolts and high-stress components. Equivalent to AISI 4140 / DIN 42CrMo4.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.38-0.43",
+    "Si": "0.15-0.35",
+    "Mn": "0.60-0.90",
+    "P": "<= 0.030",
+    "S": "<= 0.030",
+    "Cr": "0.90-1.20",
+    "Mo": "0.15-0.30"
+  },
+  "mechanical_properties": {
+    "condition": "quenched and tempered",
+    "tensile_strength_MPa": ">= 980",
+    "yield_strength_MPa": ">= 835",
+    "elongation_percent": ">= 12",
+    "reduction_of_area_percent": ">= 45",
+    "impact_energy_J": ">= 55",
+    "hardness_HB": "285-352"
+  },
+  "source": "https://steeljis.com/, https://www.astmsteel.com/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

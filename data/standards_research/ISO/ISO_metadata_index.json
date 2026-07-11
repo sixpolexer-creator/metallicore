@@ -1,0 +1,138 @@
+[
+  {
+    "designation": "ISO 6892-1",
+    "full_name": "Metallic materials — Tensile testing — Part 1: Method of test at room temperature",
+    "version_year": "2019",
+    "scope_summary": "Defines the room-temperature tensile test method for metallic materials in any product form and the mechanical properties (e.g. yield strength, tensile strength, elongation) determined from it. Third edition; tests performed at 23 +/- 5 degrees C.",
+    "source": "https://www.iso.org/standard/78322.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 148-1",
+    "full_name": "Metallic materials — Charpy pendulum impact test — Part 1: Test method",
+    "version_year": "2016",
+    "scope_summary": "Specifies the Charpy V-notch and U-notch pendulum impact test for measuring the energy absorbed when a notched specimen is broken by a single pendulum blow. Excludes instrumented impact testing (covered by ISO 14556). Third edition.",
+    "source": "https://www.iso.org/standard/63802.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6506-1",
+    "full_name": "Metallic materials — Brinell hardness test — Part 1: Test method",
+    "version_year": "2014",
+    "scope_summary": "Specifies the Brinell hardness test method for metallic materials using a hard-metal ball indenter (1, 2.5, 5 or 10 mm) forced into the surface; hardness is derived from the diameter of the residual indentation. Applies to fixed and portable machines.",
+    "source": "https://www.iso.org/standard/59671.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6507-1",
+    "full_name": "Metallic materials — Vickers hardness test — Part 1: Test method",
+    "version_year": "2023",
+    "scope_summary": "Specifies the Vickers hardness test method across three test-force ranges for metallic materials, hard metals, and metallic and inorganic coatings, for indentation diagonals between 0.020 mm and 1.400 mm. Fifth edition.",
+    "source": "https://www.iso.org/standard/83898.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6508-1",
+    "full_name": "Metallic materials — Rockwell hardness test — Part 1: Test method",
+    "version_year": "2023",
+    "scope_summary": "Specifies the Rockwell regular and superficial hardness test method for scales A, B, C, D, E, F, G, H, K, 15N, 30N, 45N, 15T, 30T and 45T for metallic materials, applicable to stationary and portable machines. Fifth edition.",
+    "source": "https://www.iso.org/standard/84343.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 18265",
+    "full_name": "Metallic materials — Conversion of hardness values",
+    "version_year": "2013",
+    "scope_summary": "Provides the principles and tables for converting hardness values between scales and estimating tensile strength, for unalloyed/low-alloy and cast steels, quenched and tempered steels, cold-working steels, high-speed and tool steels, hardmetals, and non-ferrous alloys. Converted values are indicative only.",
+    "source": "https://www.iso.org/standard/53810.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 683-1",
+    "full_name": "Heat-treatable steels, alloy steels and free-cutting steels — Part 1: Non-alloy steels for quenching and tempering",
+    "version_year": "2016",
+    "scope_summary": "Specifies technical delivery requirements for non-alloy steels for quenching and tempering, supplied as semi-finished products, bars, wire rod, flat products and forgings, intended for quenched-and-tempered or austempered and surface-hardened machine parts. Part of the ISO 683 series maintained by ISO/TC 17.",
+    "source": "https://www.iso.org/standard/70642.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 683-2",
+    "full_name": "Heat-treatable steels, alloy steels and free-cutting steels — Part 2: Alloy steels for quenching and tempering",
+    "version_year": "2016",
+    "scope_summary": "Specifies technical delivery requirements for alloy steels for quenching and tempering, supplied as semi-finished products, hot-formed bars, wire rod, finished flat products and forgings. Part of the ISO 683 series maintained by ISO/TC 17.",
+    "source": "https://www.iso.org/standard/70643.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 3506-1",
+    "full_name": "Fasteners — Mechanical properties of corrosion-resistant stainless steel fasteners — Part 1: Bolts, screws and studs with specified grades and property classes",
+    "version_year": "2020",
+    "scope_summary": "Specifies mechanical and physical properties and property classes for bolts, screws and studs (coarse and fine pitch) made of austenitic, martensitic, ferritic and duplex corrosion-resistant stainless steels, tested at ambient temperature.",
+    "source": "https://www.iso.org/standard/70045.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 15630-1",
+    "full_name": "Steel for the reinforcement and prestressing of concrete — Test methods — Part 1: Reinforcing bars, rods and wire",
+    "version_year": "2019",
+    "scope_summary": "Specifies mechanical, chemical and geometrical test methods for reinforcing bars, rods and wire used in concrete reinforcement, consolidating the relevant test procedures for reinforcing steels. Maintained by ISO/TC 17/SC 16.",
+    "source": "https://www.iso.org/standard/66130.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 630-1",
+    "full_name": "Structural steels — Part 1: General technical delivery conditions for hot-rolled products",
+    "version_year": "2021",
+    "scope_summary": "Specifies general technical delivery conditions for hot-rolled structural steel flat and long products (plates, wide flats, sections, bars) intended for welded or bolted structures. Excludes sheet/strip and tubular products.",
+    "source": "https://www.iso.org/standard/73841.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 1083",
+    "full_name": "Spheroidal graphite cast irons — Classification",
+    "version_year": "2018",
+    "scope_summary": "Defines grades and requirements for spheroidal (nodular) graphite cast irons, classified by mechanical properties measured on machined test pieces, covering ferritic-to-pearlitic and solid-solution-strengthened ferritic grades. Maintained by ISO/TC 25.",
+    "source": "https://www.iso.org/standard/66643.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 209",
+    "full_name": "Wrought aluminium and aluminium alloys — Chemical composition",
+    "version_year": "2024",
+    "scope_summary": "Specifies the chemical composition limits of wrought products and ingots intended to be wrought in aluminium and aluminium alloys, together with the designations for their chemical composition. Supersedes the 2007 edition.",
+    "source": "https://www.iso.org/standard/86374.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 9328-1",
+    "full_name": "Steel flat products for pressure purposes — Technical delivery conditions — Part 1: General requirements",
+    "version_year": "2018",
+    "scope_summary": "Specifies general technical delivery conditions for steel flat products (plate, sheet and strip) used mainly in the construction of pressure equipment; the general requirements of ISO 404 also apply. Part 1 of a multi-part series covering specific steel types.",
+    "source": "https://www.iso.org/standard/72060.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 5832-3",
+    "full_name": "Implants for surgery — Metallic materials — Part 3: Wrought titanium 6-aluminium 4-vanadium alloy",
+    "version_year": "2021",
+    "scope_summary": "Specifies the characteristics and corresponding test methods for wrought Ti-6Al-4V titanium alloy used in the manufacture of surgical implants, including chemical composition and mechanical property requirements.",
+    "source": "https://www.iso.org/standard/79626.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 16120-1",
+    "full_name": "Non-alloy steel wire rod for conversion to wire — Part 1: General requirements",
+    "version_year": "2017",
+    "scope_summary": "Specifies general requirements for non-alloy steel wire rod intended for wire drawing and/or cold rolling, of various cross-sections generally at least 5 mm in nominal dimension with a smooth surface. Part 1 of a four-part series.",
+    "source": "https://www.iso.org/standard/63741.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 4954",
+    "full_name": "Steels for cold heading and cold extruding",
+    "version_year": "2022",
+    "scope_summary": "Specifies requirements for non-alloy and alloy steels intended for cold heading or cold extruding, delivered as wire rod, wire or bars, primarily addressing the properties of parts subjected to subsequent heat treatment. Later split into Part 1 (non-alloy/alloy) and Part 2 (stainless).",
+    "source": "https://www.iso.org/standard/84275.html",
+    "status": "restricted_metadata_only"
+  }
+]

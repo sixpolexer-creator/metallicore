@@ -1,0 +1,36 @@
+{
+  "designation": "JIS G3101 SS400",
+  "full_name": "Rolled steels for general structure - grade SS400",
+  "version_year": "2020",
+  "body": "JIS",
+  "scope": "General structural hot-rolled carbon steel used for plates, sheets, strips, sections and bars in construction, bridges and general machinery. 'SS' denotes structural steel and '400' the minimum tensile strength in N/mm2.",
+  "chemical_composition": {
+    "note": "JIS G3101 specifies only P and S limits for SS400 (chemistry otherwise controlled by mechanical properties). Typical ladle analysis, mass %.",
+    "C": "not specified",
+    "Si": "not specified",
+    "Mn": "not specified",
+    "P": "<= 0.050",
+    "S": "<= 0.050"
+  },
+  "mechanical_properties": {
+    "tensile_strength_MPa": "400-510",
+    "yield_strength_MPa": {
+      "thickness_<=16mm": ">= 245",
+      "thickness_16-40mm": ">= 235",
+      "thickness_40-100mm": ">= 215",
+      "thickness_>100mm": ">= 205"
+    },
+    "elongation_percent": {
+      "thickness_<=16mm": ">= 17",
+      "thickness_16-50mm": ">= 21",
+      "thickness_>50mm": ">= 23"
+    }
+  },
+  "physical_properties": {
+    "density_g_cm3": 7.85,
+    "youngs_modulus_GPa": 206
+  },
+  "source": "https://www.theworldmaterial.com/jis-g3101-ss400-steel-equivalent-material/, https://www.sunnysteel.com/jis-g3101-ss400.php",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

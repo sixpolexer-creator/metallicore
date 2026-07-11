@@ -1,0 +1,31 @@
+{
+  "designation": "DIN 1.7225 (42CrMo4)",
+  "full_name": "Chromium-molybdenum quenched and tempered alloy steel 42CrMo4, material number 1.7225 (AISI 4142 equivalent)",
+  "version_year": "composition per EN 10083-3:2006",
+  "body": "DIN",
+  "scope": "Low-alloy chromium-molybdenum steel for quenching and tempering (+QT). High strength, toughness and good hardenability; used for axles, gear shafts, crankshafts, and heavily loaded machine parts.",
+  "chemical_composition": {
+    "C": "0.38-0.45 %",
+    "Si": "max 0.40 %",
+    "Mn": "0.60-0.90 %",
+    "P": "max 0.025 %",
+    "S": "max 0.035 %",
+    "Cr": "0.90-1.20 %",
+    "Mo": "0.15-0.30 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm": ">= 1080 MPa (small sections, +QT)",
+    "yield_strength_Re": ">= 930 MPa",
+    "elongation_A": ">= 12 %",
+    "reduction_of_area_Z": ">= 45 %",
+    "condition": "quenched and tempered (+QT)"
+  },
+  "heat_treatment": {
+    "quenching": "820-880 C, oil or water",
+    "tempering": "540-680 C"
+  },
+  "equivalents": ["AISI 4142", "42CrMo4", "SCM440 (approx)"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=335, https://www.theworldmaterial.com/42crmo4-steel-1-7225-material/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

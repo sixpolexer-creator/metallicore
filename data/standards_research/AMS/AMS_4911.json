@@ -1,0 +1,35 @@
+{
+  "designation": "AMS 4911",
+  "full_name": "Titanium Alloy, Sheet, Strip, and Plate, 6Al - 4V, Annealed",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "Ti-6Al-4V (Grade 5) titanium alloy in sheet, strip, and plate form, annealed condition, for aerospace parts.",
+  "alloy": "Ti-6Al-4V (Grade 5, UNS R56400)",
+  "chemical_composition": {
+    "note": "Nominal / limiting composition of Ti-6Al-4V as widely published by independent sources; values in wt%.",
+    "Al": "5.5-6.75",
+    "V": "3.5-4.5",
+    "Fe": "0.30 max",
+    "O": "0.20 max",
+    "C": "0.08 max",
+    "N": "0.05 max",
+    "H": "0.015 max",
+    "Y": "0.005 max",
+    "Ti": "balance"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties of annealed Ti-6Al-4V from independent datasheets.",
+    "tensile_strength_ultimate": "895-965 MPa (130-140 ksi), 130 ksi typical minimum",
+    "yield_strength_0.2pct": "828-895 MPa (120-130 ksi), 120 ksi typical minimum",
+    "elongation_pct": "10-14",
+    "density": "4.43 g/cm3",
+    "elastic_modulus": "113.8 GPa (16.5 x 10^6 psi)",
+    "hardness": "approx 36 HRC"
+  },
+  "source": [
+    "https://www.azom.com/properties.aspx?ArticleID=1547",
+    "https://www.matweb.com (Ti-6Al-4V, Grade 5)"
+  ],
+  "license_note": "Alloy composition/property data for Ti-6Al-4V is widely published by independent free sources (AZoM, MatWeb, ASM). Not reproduced from the copyrighted AMS document; AMS 4911 designation used only as an identifier.",
+  "status": "open_data"
+}

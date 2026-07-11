@@ -14,6 +14,7 @@ import {
 import { BentoGrid } from "./BentoGrid";
 import { StandardCard } from "./StandardCard";
 import { CrossReferenceLinks } from "./CrossReferenceLinks";
+import { StandardDetailOverlay } from "./StandardDetailOverlay";
 
 /**
  * Shared search + facet + results surface.
@@ -41,6 +42,7 @@ export function StandardsExplorer({
   const isGlobal = mode === "global";
 
   const [query, setQuery] = useState("");
+  const [selected, setSelected] = useState<AnyStandard | null>(null);
   const [selection, setSelection] = useState<FacetSelection>(() => ({
     organization: new Set<string>(),
     materialType: new Set<string>(),
@@ -156,9 +158,17 @@ export function StandardsExplorer({
                 showOrg={isGlobal}
                 // Bento rhythm: occasional feature cell.
                 span={i % 7 === 0 ? "md" : "sm"}
+                onView={setSelected}
               />
             ))}
           </BentoGrid>
+        )}
+
+        {selected && (
+          <StandardDetailOverlay
+            standard={selected}
+            onClose={() => setSelected(null)}
+          />
         )}
 
         {isGlobal && crossReferenceLinks.length > 0 && (

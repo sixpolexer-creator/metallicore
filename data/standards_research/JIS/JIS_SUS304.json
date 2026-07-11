@@ -1,0 +1,31 @@
+{
+  "designation": "JIS G4304 SUS304",
+  "full_name": "Hot-rolled stainless steel plate, sheet and strip - grade SUS304",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "Austenitic 18Cr-8Ni stainless steel, the most widely used grade. Good corrosion resistance, formability and weldability. Also covered by JIS G4305 (cold-rolled) and JIS G4303 (bars). Equivalent to AISI 304 / UNS S30400.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "<= 0.08",
+    "Si": "<= 1.00",
+    "Mn": "<= 2.00",
+    "P": "<= 0.045",
+    "S": "<= 0.030",
+    "Ni": "8.00-10.50",
+    "Cr": "18.00-20.00"
+  },
+  "mechanical_properties": {
+    "condition": "solution annealed",
+    "tensile_strength_MPa": ">= 520",
+    "yield_strength_0.2_MPa": ">= 205",
+    "elongation_percent": ">= 40",
+    "hardness_HB": "<= 187",
+    "hardness_HRB": "<= 90"
+  },
+  "physical_properties": {
+    "density_g_cm3": 7.93
+  },
+  "source": "https://www.theworldmaterial.com/sus304-stainless-steel-material/, https://steeljis.com/jis_steel_datasheet.php?name_id=60",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

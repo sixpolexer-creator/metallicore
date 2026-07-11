@@ -1,0 +1,26 @@
+{
+  "designation": "ASTM A240 Type 304",
+  "full_name": "Standard Specification for Chromium and Chromium-Nickel Stainless Steel Plate, Sheet, and Strip for Pressure Vessels and for General Applications",
+  "version_year": "2022",
+  "body": "ASTM",
+  "scope": "Covers chromium and chromium-nickel stainless steel plate, sheet, and strip for pressure vessels and general applications. Type 304 (UNS S30400) is the common austenitic 18/8 grade.",
+  "chemical_composition": {
+    "C": "0.08% max",
+    "Cr": "18.0-20.0%",
+    "Ni": "8.0-10.5%",
+    "Mn": "2.0% max",
+    "Si": "0.75% max",
+    "P": "0.045% max",
+    "S": "0.030% max",
+    "N": "0.10% max"
+  },
+  "mechanical_properties": {
+    "yield_strength": "205 MPa (30 ksi) min (0.2% offset)",
+    "tensile_strength": "515 MPa (75 ksi) min",
+    "elongation": "40% min in 50 mm",
+    "hardness": "92 HRB max / 201 HB max"
+  },
+  "source": "https://www.pennstainless.com/stainless-steel-plate-304-304l-astm-a240/ ; https://boltport.com/specifications/astm-a240/",
+  "license_note": "Composition/property data for Type 304 widely republished by independent free sources (stainless distributors, educational sites), not the copyrighted ASTM document text itself.",
+  "status": "open_data"
+}

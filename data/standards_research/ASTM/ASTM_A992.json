@@ -1,0 +1,29 @@
+{
+  "designation": "ASTM A992",
+  "full_name": "Standard Specification for Structural Steel Shapes",
+  "version_year": "2022",
+  "body": "ASTM",
+  "scope": "Covers rolled structural steel wide-flange shapes for use in building framing or bridges, or for general structural purposes. It is the preferred standard for wide-flange (W) beams in the US.",
+  "chemical_composition": {
+    "C": "0.23% max",
+    "Mn": "0.50-1.60%",
+    "P": "0.035% max",
+    "S": "0.045% max",
+    "Si": "0.40% max",
+    "V": "0.15% max",
+    "Nb": "0.05% max (columbium/niobium)",
+    "Cu": "0.60% max",
+    "Ni": "0.45% max",
+    "Cr": "0.35% max",
+    "Mo": "0.15% max"
+  },
+  "mechanical_properties": {
+    "yield_strength": "345-450 MPa (50-65 ksi), 50 ksi min",
+    "tensile_strength": "450 MPa (65 ksi) min",
+    "elongation": "21% min in 50 mm; 18% min in 200 mm",
+    "yield_to_tensile_ratio": "0.85 max"
+  },
+  "source": "https://en.wikipedia.org/wiki/ASTM_A992 ; https://store.astm.org/a0992_a0992m-22.html ; https://www.steel-sections.com/steelsections/a992-i-beam.html",
+  "license_note": "Composition/property data widely republished by independent free sources (Wikipedia, steel section suppliers), not the copyrighted ASTM document text itself.",
+  "status": "open_data"
+}

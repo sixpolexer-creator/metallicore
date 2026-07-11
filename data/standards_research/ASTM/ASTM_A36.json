@@ -1,0 +1,25 @@
+{
+  "designation": "ASTM A36",
+  "full_name": "Standard Specification for Carbon Structural Steel",
+  "version_year": "2019",
+  "body": "ASTM",
+  "scope": "Covers carbon structural steel shapes, plates, and bars of structural quality for use in riveted, bolted, or welded construction of bridges, buildings, and general structural purposes.",
+  "chemical_composition": {
+    "C": "0.25-0.29% max (thickness dependent)",
+    "Mn": "0.80-1.20% (for certain thicknesses; not required for shapes)",
+    "P": "0.04% max",
+    "S": "0.05% max",
+    "Si": "0.40% max",
+    "Cu": "0.20% min when copper steel specified"
+  },
+  "mechanical_properties": {
+    "yield_strength": "250 MPa (36 ksi) min",
+    "tensile_strength": "400-550 MPa (58-80 ksi)",
+    "elongation": "~20% min in 200 mm (8 in.)",
+    "modulus_of_elasticity": "200 GPa (29,000 ksi)",
+    "hardness": "119-162 HB (typical)"
+  },
+  "source": "https://en.wikipedia.org/wiki/A36_steel ; https://www.matweb.com/search/datasheet.aspx?MatGUID=afc003f4fb40465fa3df05129f0e88e6 ; https://www.theworldmaterial.com/astm-a36-steel/",
+  "license_note": "Composition/property data widely republished by independent free sources (MatWeb, Wikipedia, educational/manufacturer sites), not the copyrighted ASTM document text itself.",
+  "status": "open_data"
+}

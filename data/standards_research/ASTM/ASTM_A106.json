@@ -1,0 +1,27 @@
+{
+  "designation": "ASTM A106 Grade B",
+  "full_name": "Standard Specification for Seamless Carbon Steel Pipe for High-Temperature Service",
+  "version_year": "2023",
+  "body": "ASTM",
+  "scope": "Covers seamless carbon steel pipe for high-temperature service, suitable for bending, flanging, and similar forming operations. Grade B is the most widely used grade for medium- and high-pressure piping.",
+  "chemical_composition": {
+    "C": "0.30% max",
+    "Mn": "0.29-1.06%",
+    "P": "0.035% max",
+    "S": "0.035% max",
+    "Si": "0.10% min",
+    "Cr": "0.40% max",
+    "Cu": "0.40% max",
+    "Mo": "0.15% max",
+    "Ni": "0.40% max",
+    "V": "0.08% max"
+  },
+  "mechanical_properties": {
+    "yield_strength": "240 MPa (35 ksi) min",
+    "tensile_strength": "415 MPa (60 ksi) min",
+    "elongation": "22% min (longitudinal, basic)"
+  },
+  "source": "https://pandapipe.com/blog/astm-a106-grade-b/ ; https://www.octalsteel.com/astm-a106-grade-b-pipe/ ; https://www.central-steels.com/newsdetail/what-is-astm-a106-grade-b-seamless-pipe.html",
+  "license_note": "Composition/property data widely republished by independent free sources (pipe distributors, educational sites), not the copyrighted ASTM document text itself.",
+  "status": "open_data"
+}

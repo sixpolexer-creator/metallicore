@@ -1,0 +1,35 @@
+{
+  "designation": "AMS 4045",
+  "full_name": "Aluminum Alloy, Sheet and Plate, 5.6Zn-2.5Mg-1.6Cu-0.23Cr (7075; -T6 Sheet, -T651 Plate), Solution and Precipitation Heat Treated",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "7075 aluminum alloy sheet and plate in the -T6/-T651 tempers for high-strength aerospace structural applications.",
+  "alloy": "7075 aluminum (UNS A97075)",
+  "chemical_composition": {
+    "note": "Limiting composition of 7075 aluminum as widely published by independent sources (Aluminum Association, MatWeb); values in wt%.",
+    "Zn": "5.1-6.1",
+    "Mg": "2.1-2.9",
+    "Cu": "1.2-2.0",
+    "Cr": "0.18-0.28",
+    "Fe": "0.50 max",
+    "Si": "0.40 max",
+    "Mn": "0.30 max",
+    "Ti": "0.20 max",
+    "Al": "balance"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties in the -T6 temper, from independent datasheets.",
+    "tensile_strength_ultimate": "572 MPa (83 ksi)",
+    "yield_strength_0.2pct": "503 MPa (73 ksi)",
+    "elongation_pct": "9-11",
+    "density": "2.81 g/cm3",
+    "elastic_modulus": "71.7 GPa (10.4 x 10^6 psi)",
+    "hardness": "approx 150 HB"
+  },
+  "source": [
+    "https://www.matweb.com (Aluminum 7075-T6)",
+    "https://www.aluminum.org (Aluminum Association alloy data)"
+  ],
+  "license_note": "Alloy composition/property data for 7075 aluminum is widely published by independent free sources (Aluminum Association, MatWeb, ASM). Not reproduced from the copyrighted AMS document; AMS 4045 designation used only as an identifier.",
+  "status": "open_data"
+}

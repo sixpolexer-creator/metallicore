@@ -1,0 +1,41 @@
+{
+  "designation": "JIS H4000 A5052",
+  "full_name": "Aluminium and aluminium alloy sheets, plates and strips - alloy A5052",
+  "version_year": "2022",
+  "body": "JIS",
+  "scope": "Non-heat-treatable Al-Mg (5000 series) alloy. Good corrosion resistance (marine), moderate strength, good formability and weldability. Strengthened by cold work. Equivalent to AA 5052.",
+  "chemical_composition": {
+    "note": "mass %",
+    "Si": "<= 0.25",
+    "Fe": "<= 0.40",
+    "Cu": "<= 0.10",
+    "Mn": "<= 0.10",
+    "Mg": "2.2-2.8",
+    "Cr": "0.15-0.35",
+    "Zn": "<= 0.10",
+    "Al": "remainder"
+  },
+  "mechanical_properties": {
+    "temper_O": {
+      "tensile_strength_MPa": "170-215",
+      "proof_stress_0.2_MPa": ">= 65",
+      "elongation_percent": ">= 19"
+    },
+    "temper_H32": {
+      "tensile_strength_MPa": "215-265",
+      "proof_stress_0.2_MPa": ">= 160",
+      "elongation_percent": ">= 7"
+    },
+    "temper_H34": {
+      "tensile_strength_MPa": "235-285",
+      "proof_stress_0.2_MPa": ">= 180",
+      "elongation_percent": ">= 6"
+    }
+  },
+  "physical_properties": {
+    "density_g_cm3": 2.68
+  },
+  "source": "https://www.scribd.com/document/393244024/Precision-Steel-Catalog-Aluminium, https://en.wikipedia.org/wiki/5052_aluminium_alloy",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

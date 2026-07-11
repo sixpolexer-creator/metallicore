@@ -1,0 +1,36 @@
+{
+  "designation": "AMS 5731",
+  "full_name": "Steel, Corrosion and Heat-Resistant, Bars, Wire, Forgings, and Rings, 15Cr-25.5Ni-1.3Mo-2.1Ti-0.006B-0.30V, Consumable Electrode Melted, Solution Heat Treated (A-286 / UNS S66286)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "A-286 iron-nickel-base superalloy (UNS S66286) bars, wire, forgings, and rings in the solution-treated condition for elevated-temperature aerospace fasteners and parts to about 1300F (704C). Note: A-286, not Inconel 625 as sometimes cross-referenced.",
+  "alloy": "A-286 (UNS S66286)",
+  "chemical_composition": {
+    "note": "Limiting composition of A-286 as widely published by independent sources (MatWeb, ASM, Carpenter); values in wt%.",
+    "Fe": "balance (approx 53)",
+    "Ni": "24.0-27.0",
+    "Cr": "13.5-16.0",
+    "Mo": "1.0-1.5",
+    "Ti": "1.9-2.35",
+    "V": "0.1-0.5",
+    "Al": "0.35 max",
+    "Mn": "2.0 max",
+    "Si": "1.0 max",
+    "C": "0.08 max",
+    "B": "0.003-0.010"
+  },
+  "mechanical_properties": {
+    "note": "Typical room-temperature properties in the solution-treated and aged condition, from independent datasheets.",
+    "tensile_strength_ultimate": "895-1035 MPa (130-150 ksi)",
+    "yield_strength_0.2pct": "590-725 MPa (85-105 ksi)",
+    "elongation_pct": "15-25",
+    "density": "7.94 g/cm3",
+    "elastic_modulus": "201 GPa (29.1 x 10^6 psi)"
+  },
+  "source": [
+    "https://www.matweb.com (A-286, UNS S66286)",
+    "https://www.aircraftmaterials.com (A-286)"
+  ],
+  "license_note": "Alloy composition/property data for A-286 superalloy is widely published by independent free sources (MatWeb, ASM, Carpenter Technology). Not reproduced from the copyrighted AMS document; AMS 5731 designation used only as an identifier.",
+  "status": "open_data"
+}
