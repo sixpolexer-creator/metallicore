@@ -37,7 +37,7 @@ yarn-error.log*
 !.env.example
 
 # local document/attachment storage (Document Engine, phase 9+)
-storage/
+/storage/
 
 # vercel
 .vercel
