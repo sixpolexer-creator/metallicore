@@ -1,0 +1,412 @@
+# Instincts generated from https://github.com/sixpolexer-creator/metallicore
+# Generated: 2026-07-11T09:13:22.805Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: metallicore-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/sixpolexer-creator/metallicore
+---
+
+# Metallicore Commit Length
+
+## Action
+
+Write moderate-length commit messages (~72 characters)
+
+## Evidence
+
+- Average commit message length: 72 chars
+- Based on 1 commits
+
+---
+id: metallicore-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/sixpolexer-creator/metallicore
+---
+
+# Metallicore Naming Files
+
+## Action
+
+Use snake_case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: snake_case
+
+---
+id: metallicore-import-alias
+trigger: "when importing modules"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/sixpolexer-creator/metallicore
+---
+
+# Metallicore Import Alias
+
+## Action
+
+Use path aliases (@/, ~/) instead of relative imports
+
+## Evidence
+
+- Import analysis shows alias pattern
+- Example: import { x } from '@/lib/x'
+
+---
+id: metallicore-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/sixpolexer-creator/metallicore
+---
+
+# Metallicore Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: metallicore-arch-type-based
+trigger: "when adding new code"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: https://github.com/sixpolexer-creator/metallicore
+---
+
+# Metallicore Arch Type Based
+
+## Action
+
+Place code in the appropriate type folder (components/, services/, utils/, etc.)
+
+## Evidence
+
+- Type-based module organization detected
+- Folders: app, auth, components, data, i18n
+
+---
+id: metallicore-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/sixpolexer-creator/metallicore
+---
+
+# Metallicore Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: metallicore-instinct-file-naming
+trigger: "When creating a new file"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct File Naming
+
+## Action
+
+Name the file using snake_case
+
+## Evidence
+
+- Pattern in namingConventions.files
+
+---
+id: metallicore-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Function Naming
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.functions
+
+---
+id: metallicore-instinct-class-naming
+trigger: "When creating a new class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Class Naming
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.classes
+
+---
+id: metallicore-instinct-constant-naming
+trigger: "When defining a constant"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Constant Naming
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE
+
+## Evidence
+
+- Pattern in namingConventions.constants
+
+---
+id: metallicore-instinct-import-alias
+trigger: "When importing modules"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Import Alias
+
+## Action
+
+Use import aliases instead of relative paths
+
+## Evidence
+
+- Pattern in importStyle
+
+---
+id: metallicore-instinct-export-named
+trigger: "When exporting modules or functions"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Export Named
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle
+
+---
+id: metallicore-instinct-try-catch-errors
+trigger: "When handling errors in code"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Try Catch Errors
+
+## Action
+
+Use try-catch blocks for error handling
+
+## Evidence
+
+- Pattern in errorHandling.style
+
+---
+id: metallicore-instinct-no-custom-error-class
+trigger: "When creating error handling logic"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct No Custom Error Class
+
+## Action
+
+Do not create custom error classes
+
+## Evidence
+
+- Pattern in errorHandling.customErrorClasses
+
+---
+id: metallicore-instinct-no-error-boundaries
+trigger: "When considering React error boundaries"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct No Error Boundaries
+
+## Action
+
+Do not implement error boundaries
+
+## Evidence
+
+- Pattern in errorHandling.errorBoundaries
+
+---
+id: metallicore-instinct-no-global-error-handler
+trigger: "When considering a global error handler"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct No Global Error Handler
+
+## Action
+
+Do not implement a global error handler
+
+## Evidence
+
+- Pattern in errorHandling.globalHandler
+
+---
+id: metallicore-instinct-test-location-separate
+trigger: "When adding new tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Test Location Separate
+
+## Action
+
+Place test files in a separate location from source files
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation
+
+---
+id: metallicore-instinct-single-package-structure
+trigger: "When adding new modules or folders"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Single Package Structure
+
+## Action
+
+Organize code within a single-package structure under src
+
+## Evidence
+
+- Pattern in architecture.folderStructure.type
+
+---
+id: metallicore-instinct-type-based-organization
+trigger: "When organizing modules"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Type Based Organization
+
+## Action
+
+Group modules by type (e.g., components, data, auth)
+
+## Evidence
+
+- Pattern in architecture.moduleOrganization
+
+---
+id: metallicore-instinct-git-freeform-commits
+trigger: "When writing a commit message"
+confidence: 0.8
+domain: git
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Git Freeform Commits
+
+## Action
+
+Use a freeform commit message without a specific prefix
+
+## Evidence
+
+- Pattern in commits.type
+- Seen in commit: 'Ingest standards research data; add EN/JIS orgs and restricted-access UI'
+
+---
+id: metallicore-instinct-git-commit-length
+trigger: "When composing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: sixpolexer-creator/metallicore
+---
+
+# Metallicore Instinct Git Commit Length
+
+## Action
+
+Write commit messages with an average length around 72 characters
+
+## Evidence
+
+- Pattern in commits.averageLength
+
