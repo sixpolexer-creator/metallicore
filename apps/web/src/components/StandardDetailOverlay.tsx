@@ -5,8 +5,10 @@ import type { AnyStandard, StandardRevision } from "@/types/standard";
 import { useI18n } from "@/i18n";
 import { useAuth } from "@/auth/AuthProvider";
 import { getRevisionsFor } from "@/data/revisions";
+import { getPdfAttachment, type PdfAttachment } from "@/data/pdfAttachments";
 import { StatusBadge } from "./StatusBadge";
 import { UploadRevisionForm } from "./UploadRevisionForm";
+import { UploadPdfForm } from "./UploadPdfForm";
 
 const BODY_SPECIFIC_KEY: Record<AnyStandard["standardBody"], string> = {
   ASTM: "standard.committee",
@@ -52,13 +54,22 @@ export function StandardDetailOverlay({
   const [revisions, setRevisions] = useState<StandardRevision[]>(() =>
     getRevisionsFor(standard),
   );
+  const [pdfAttachment, setPdfAttachmentState] = useState<PdfAttachment | null>(() =>
+    getPdfAttachment(standard),
+  );
 
   // Re-sync when the overlay is retargeted at a different standard (the
   // component instance persists across selections in StandardsExplorer).
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setRevisions(getRevisionsFor(standard));
+    setPdfAttachmentState(getPdfAttachment(standard));
   }, [standard]);
+
+  const canViewOriginalPdf =
+    pdfAttachment !== null &&
+    pdfAttachment.isShareablePdf &&
+    pdfAttachment.pdfUrl.trim().length > 0;
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
@@ -79,41 +90,79 @@ export function StandardDetailOverlay({
         onClick={(e) => e.stopPropagation()}
         className="mc-hairline mc-elev relative flex max-h-[90vh] w-full max-w-2xl flex-col overflow-hidden rounded-t-3xl border bg-[var(--background)] sm:rounded-3xl"
       >
-        <div className="mc-hairline flex items-start justify-between gap-3 border-b p-6">
-          <div className="min-w-0">
+        {/* Header */}
+        <div className="mc-hairline flex flex-wrap items-start justify-between gap-x-3 gap-y-2 border-b p-6">
+          <div className="min-w-0 flex-1 basis-48">
             <span
               data-ltr
               className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--color-accent)]"
             >
               {standard.standardBody}
             </span>
-            <h2 className="ltr-data mt-1 truncate text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+            <h2 className="ltr-data mt-1 break-words text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
               {standard.fullCode}
             </h2>
-            <p className="ltr-data mt-1 text-sm text-neutral-500 dark:text-neutral-400">
+            <p className="ltr-data mt-1 break-words text-sm text-neutral-500 dark:text-neutral-400">
               {standard.title}
             </p>
+            <div className="mt-3 flex flex-wrap items-center gap-1.5">
+              {standard.dataAccess === "restricted" && (
+                <span className="mc-surface-strong inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-[11px] font-medium uppercase tracking-wider text-amber-700 dark:text-amber-300">
+                  <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+                  {t("standard.restricted")}
+                </span>
+              )}
+              <StatusBadge status={standard.status} />
+            </div>
           </div>
-          <div className="flex shrink-0 items-center gap-3">
-            {standard.dataAccess === "restricted" && (
-              <span className="mc-surface-strong inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-[11px] font-medium uppercase tracking-wider text-amber-700 dark:text-amber-300">
-                <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-amber-500" />
-                {t("standard.restricted")}
-              </span>
-            )}
-            <StatusBadge status={standard.status} />
-            <button
-              type="button"
-              onClick={onClose}
-              aria-label={t("common.close")}
-              className="rounded-full p-1.5 text-neutral-400 transition hover:bg-[var(--mc-surface-strong)] hover:text-neutral-900 dark:hover:text-neutral-100"
-            >
-              ✕
-            </button>
-          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label={t("common.close")}
+            className="shrink-0 rounded-full p-1.5 text-neutral-400 transition hover:bg-[var(--mc-surface-strong)] hover:text-neutral-900 dark:hover:text-neutral-100"
+          >
+            ✕
+          </button>
         </div>
 
+        {/* Body */}
         <div className="flex-1 space-y-6 overflow-y-auto p-6">
+          <Section title={t("standard.details")}>
+            <dl className="mc-hairline grid grid-cols-2 gap-px overflow-hidden rounded-xl border bg-[var(--mc-hairline)] sm:grid-cols-3">
+              <MetaCell label={t("standard.material")} value={standard.materialType} />
+              <MetaCell
+                label={t(BODY_SPECIFIC_KEY[standard.standardBody])}
+                value={bodySpecificValue(standard)}
+              />
+              <MetaCell
+                label={t("standard.status")}
+                value={
+                  standard.status === "active"
+                    ? t("filters.statusActive")
+                    : t("filters.statusSuperseded")
+                }
+              />
+              {standard.status === "superseded" && standard.supersededBy && (
+                <MetaCell
+                  label={t("standard.supersededBy")}
+                  value={standard.supersededBy}
+                />
+              )}
+              <MetaCell label={t("standard.applications")} className="col-span-2 sm:col-span-3">
+                <div className="mt-1 flex flex-wrap gap-1.5">
+                  {standard.application.map((app) => (
+                    <span
+                      key={app}
+                      className="ltr-data mc-hairline rounded-md border px-2 py-0.5 text-[11px] text-neutral-500 dark:text-neutral-400"
+                    >
+                      {app}
+                    </span>
+                  ))}
+                </div>
+              </MetaCell>
+            </dl>
+          </Section>
+
           {standard.dataAccess === "restricted" ? (
             <RestrictedNotice standard={standard} />
           ) : (
@@ -123,6 +172,14 @@ export function StandardDetailOverlay({
                   {standard.scope ?? standard.description}
                 </p>
               </Section>
+
+              {standard.description && (
+                <Section title={t("standard.description")}>
+                  <p className="ltr-data max-h-48 overflow-y-auto text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">
+                    {standard.description}
+                  </p>
+                </Section>
+              )}
 
               {standard.chemicalComposition && standard.chemicalComposition.length > 0 && (
                 <Section title={t("standard.chemicalComposition")}>
@@ -145,25 +202,6 @@ export function StandardDetailOverlay({
           {standard.dataAccess === "restricted" && isAdmin && (
             <UploadRevisionForm standard={standard} onUploaded={setRevisions} />
           )}
-
-          <Section title={t("standard.applications")}>
-            <div className="flex flex-wrap gap-1.5">
-              {standard.application.map((app) => (
-                <span
-                  key={app}
-                  className="ltr-data mc-hairline rounded-md border px-2 py-0.5 text-[11px] text-neutral-500 dark:text-neutral-400"
-                >
-                  {app}
-                </span>
-              ))}
-            </div>
-          </Section>
-
-          <Section title={t(BODY_SPECIFIC_KEY[standard.standardBody])}>
-            <p className="ltr-data text-sm font-medium text-neutral-700 dark:text-neutral-200">
-              {bodySpecificValue(standard)}
-            </p>
-          </Section>
 
           <Section title={t("standard.revisions")}>
             <ul className="space-y-2">
@@ -194,6 +232,37 @@ export function StandardDetailOverlay({
 
           {standard.dataAccess === "full" && isAdmin && (
             <UploadRevisionForm standard={standard} onUploaded={setRevisions} />
+          )}
+
+          {isAdmin && (
+            <UploadPdfForm
+              standard={standard}
+              attachment={pdfAttachment}
+              onSaved={setPdfAttachmentState}
+            />
+          )}
+        </div>
+
+        {/* Action footer */}
+        <div className="mc-hairline flex shrink-0 items-center justify-end gap-3 border-t p-4">
+          <button
+            type="button"
+            onClick={onClose}
+            className="mc-hairline rounded-xl border px-4 py-2 text-sm font-medium text-neutral-600 transition hover:bg-[var(--mc-surface-strong)] dark:text-neutral-300"
+          >
+            {t("common.close")}
+          </button>
+          {canViewOriginalPdf && pdfAttachment && (
+            <a
+              href={pdfAttachment.pdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-xl bg-[var(--color-accent)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[color-mix(in_srgb,var(--color-accent)_88%,black)]"
+            >
+              <span aria-hidden>📄</span>
+              {t("standard.viewOriginalPdf")}
+              <span aria-hidden>↗</span>
+            </a>
           )}
         </div>
       </div>
@@ -231,6 +300,33 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
       </h3>
       {children}
     </section>
+  );
+}
+
+function MetaCell({
+  label,
+  value,
+  children,
+  className = "",
+}: {
+  label: string;
+  value?: string;
+  children?: ReactNode;
+  className?: string;
+}) {
+  return (
+    <div className={["mc-surface bg-[var(--background)] px-3 py-2.5", className].join(" ")}>
+      <p className="text-[10px] font-medium uppercase tracking-[0.12em] text-neutral-400 dark:text-neutral-500">
+        {label}
+      </p>
+      {value !== undefined ? (
+        <p className="ltr-data mt-0.5 truncate text-sm font-medium text-neutral-800 dark:text-neutral-100">
+          {value}
+        </p>
+      ) : (
+        children
+      )}
+    </div>
   );
 }
 

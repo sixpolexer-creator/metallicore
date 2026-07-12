@@ -20,17 +20,23 @@ export function BentoCard({
   children,
   span = "sm",
   href,
+  interactive = false,
+  onClick,
   className = "",
 }: {
   children: ReactNode;
   span?: BentoSpan;
   href?: string;
+  /** Apply the hover lift/glow treatment even when the card isn't a Link
+   *  (e.g. it opens a modal via onClick instead of navigating). */
+  interactive?: boolean;
+  onClick?: () => void;
   className?: string;
 }) {
   const shell = [
     "mc-card group relative flex flex-col overflow-hidden rounded-2xl p-5",
     SPAN_CLASSES[span],
-    href ? "mc-card-interactive cursor-pointer" : "",
+    href || interactive ? "mc-card-interactive cursor-pointer" : "",
     className,
   ].join(" ");
 
@@ -39,6 +45,25 @@ export function BentoCard({
       <Link href={href} className={shell}>
         {children}
       </Link>
+    );
+  }
+
+  if (onClick) {
+    return (
+      <div
+        role="button"
+        tabIndex={0}
+        onClick={onClick}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            onClick();
+          }
+        }}
+        className={shell}
+      >
+        {children}
+      </div>
     );
   }
 
