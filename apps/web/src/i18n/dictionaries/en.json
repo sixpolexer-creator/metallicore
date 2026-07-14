@@ -52,6 +52,8 @@
   "standard.restricted": "Restricted",
   "standard.restrictedNotice": "Full specification restricted. Awaiting physical upload.",
   "standard.viewOriginalPdf": "View Original Standard (PDF)",
+  "standard.details": "Details",
+  "standard.description": "Description",
 
   "language.toggle": "Language",
   "language.english": "English",
