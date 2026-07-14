@@ -1,0 +1,29 @@
+{
+  "designation": "JIS G4103 SNCM420",
+  "full_name": "Nickel chromium molybdenum steels - case hardening grade SNCM420",
+  "version_year": "2016",
+  "body": "JIS",
+  "scope": "Low-carbon nickel-chromium-molybdenum case-hardening (carburizing) alloy steel combining a hard wear-resistant case with a tough core. Used for heavy-duty gears, drive shafts, bearings and cams. Equivalent to AISI 4320 / DIN 20NiCrMo7.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.17-0.23",
+    "Si": "0.15-0.35",
+    "Mn": "0.40-0.70",
+    "P": "<= 0.030",
+    "S": "<= 0.030",
+    "Ni": "1.55-2.00",
+    "Cr": "0.40-0.65",
+    "Mo": "0.15-0.30"
+  },
+  "mechanical_properties": {
+    "condition": "carburized, quenched and tempered",
+    "tensile_strength_MPa": ">= 980",
+    "yield_strength_MPa": ">= 835",
+    "elongation_percent": ">= 15",
+    "reduction_of_area_percent": ">= 40",
+    "impact_energy_J": ">= 69"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=32, https://www.jfs-steel.com/en/product/SNCM420/SNCM420.html",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

@@ -1,0 +1,31 @@
+{
+  "designation": "EN AW-2024 (AlCu4Mg1)",
+  "full_name": "Wrought aluminium alloy EN AW-2024 [Al Cu4Mg1], numeric 3.1355",
+  "version_year": "Composition per EN 573-3; properties per EN 485 / EN 754 / EN 755",
+  "body": "EN",
+  "scope": "High-strength heat-treatable Al-Cu-Mg aerospace alloy with good high-temperature strength and machinability but limited corrosion resistance (often clad). Used for aircraft structures, fittings and highly stressed parts.",
+  "chemical_composition": {
+    "Si": "max 0.50",
+    "Fe": "max 0.50",
+    "Cu": "3.8-4.9",
+    "Mn": "0.30-0.90",
+    "Mg": "1.2-1.8",
+    "Cr": "max 0.10",
+    "Zn": "max 0.25",
+    "Ti": "max 0.15",
+    "Al": "balance",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition": "T3",
+    "tensile_strength_Rm_MPa": ">=400-450",
+    "proof_strength_Rp0.2_MPa": ">=270-310",
+    "elongation_A_percent": ">=8",
+    "hardness_HB": "~120",
+    "density_g_cm3": 2.78,
+    "modulus_GPa": 73.1
+  },
+  "source": "https://asm.matweb.com/search/specificmaterial.asp?bassnum=ma2024t3 ; https://www.bikar.com/fileadmin/Unterlagen_BIKAR/Unterlagen_BIKAR_eng/2024-complete-en.pdf ; https://www.smithmetal.com/pdf/aluminium/2xxx/2024.pdf ; https://www.theworldmaterial.com/2024-aluminum-alloy/",
+  "license_note": "EN AW-2024 designation and its nominal composition and typical T3 property ranges are widely published in free manufacturer datasheets and MatWeb; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

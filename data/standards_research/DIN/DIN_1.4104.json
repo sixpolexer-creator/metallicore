@@ -1,0 +1,26 @@
+{
+  "designation": "DIN 1.4104 (X14CrMoS17)",
+  "full_name": "Free-machining martensitic stainless steel X14CrMoS17, material number 1.4104 (AISI 430F equivalent)",
+  "version_year": "composition per EN 10088-3:2014",
+  "body": "DIN",
+  "scope": "Sulphur-bearing free-machining chromium-molybdenum stainless steel, hardenable by heat treatment. Optimised for high-speed automatic (screw-machine) turning of screws, nuts and small precision parts for water and steam service.",
+  "chemical_composition": {
+    "C": "0.10-0.17 %",
+    "Si": "max 1.00 %",
+    "Mn": "max 1.50 %",
+    "P": "max 0.040 %",
+    "S": "0.15-0.35 %",
+    "Cr": "15.5-17.5 %",
+    "Mo": "0.20-0.60 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm": "650-850 N/mm^2 (quenched and tempered)",
+    "hardness_annealed": "<= 250 HB",
+    "density": "7.7 kg/dm^3 at 20 C",
+    "condition": "quenched and tempered / annealed"
+  },
+  "equivalents": ["AISI 430F", "X14CrMoS17", "Z13CF17"],
+  "source": "https://virgamet.com/offer/1-4104-x14crmos17-1-4105-x6crmos17-z13cf17-z8cf17-aisi-430f-stainless-steel, https://www.theworldmaterial.com/1-4104-stainless-steel-x14crmos17/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

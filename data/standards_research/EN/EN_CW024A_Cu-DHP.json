@@ -1,0 +1,28 @@
+{
+  "designation": "EN CW024A (Cu-DHP)",
+  "full_name": "Phosphorus-deoxidized copper Cu-DHP, EN number CW024A / 2.0090",
+  "version_year": "Grade per EN 1652 / EN 12449 / EN 1057",
+  "body": "EN",
+  "scope": "Deoxidized high-residual-phosphorus copper (min 99.90% Cu). Phosphorus deoxidation removes oxygen so the copper is not susceptible to hydrogen embrittlement, making it well suited to welding and brazing. Used for water/gas tube, heating and HVAC pipe, roofing/cladding and vessels.",
+  "chemical_composition": {
+    "Cu": "min 99.90 (Cu+Ag)",
+    "P": "0.015-0.040",
+    "unit": "wt%"
+  },
+  "mechanical_properties": {
+    "condition_R220_annealed": {
+      "tensile_strength_Rm_MPa": ">=220",
+      "proof_strength_Rp0.2_MPa": ">=~40-70",
+      "elongation_A_percent": ">=~40",
+      "hardness_HV": "40-65"
+    },
+    "condition_R290_hard": {
+      "tensile_strength_Rm_MPa": ">=290",
+      "hardness_HV": "90-110"
+    },
+    "density_g_cm3": 8.94
+  },
+  "source": "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1280 ; https://www.alumeco.at/media/2obdf02o/cw024a_rolled_version1.pdf ; https://www.holmedodsworth.com/data-sheets/c106-cw024a-dhp-copper ; https://batz-burgel.com/en/metal-trading/copper-product-range/cw024a/",
+  "license_note": "CW024A / Cu-DHP designation and its composition and typical temper property ranges are widely published in free manufacturer datasheets; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

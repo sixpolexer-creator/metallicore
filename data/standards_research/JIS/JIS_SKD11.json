@@ -1,0 +1,27 @@
+{
+  "designation": "JIS SKD11",
+  "full_name": "Alloy tool steel grade SKD11 - cold work die steel (per JIS G4404)",
+  "version_year": "2015",
+  "body": "JIS",
+  "scope": "High-carbon high-chromium (12% Cr) cold-work alloy tool steel with excellent wear resistance and dimensional stability on hardening. Used for cold forming dies, blanking and forming punches, shear blades and thread rolling dies. Equivalent to AISI D2 / DIN 1.2379.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "1.40-1.60",
+    "Si": "<= 0.40",
+    "Mn": "<= 0.60",
+    "P": "<= 0.030",
+    "S": "<= 0.030",
+    "Cr": "11.00-13.00",
+    "Mo": "0.80-1.20",
+    "V": "0.20-0.50"
+  },
+  "mechanical_properties": {
+    "condition_annealed": "annealed",
+    "hardness_annealed_HB": "<= 255",
+    "condition_hardened": "quenched and tempered",
+    "hardness_hardened_HRC": ">= 58"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=159, https://www.matweb.com/search/datasheet.aspx?matguid=fe70b11f028448eeb6a4abb951e37ec5",
+  "license_note": "composition/property data widely republished by independent free material databases, not the copyrighted JIS document text",
+  "status": "open_data"
+}

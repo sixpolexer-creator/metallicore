@@ -1,0 +1,30 @@
+{
+  "designation": "EN 1.4404 (X2CrNiMo17-12-2)",
+  "full_name": "Austenitic stainless steel X2CrNiMo17-12-2, material number 1.4404 (AISI 316L)",
+  "version_year": "Grade per EN 10088-2 / EN 10088-3 (2014)",
+  "body": "EN",
+  "scope": "Low-carbon molybdenum-alloyed austenitic stainless steel; the low carbon (max 0.03%) reduces sensitization for improved intergranular corrosion resistance in the as-welded condition. Widely used in chemical, food, marine and architectural applications.",
+  "chemical_composition": {
+    "C": "max 0.03",
+    "Si": "max 1.0",
+    "Mn": "max 2.0",
+    "P": "max 0.045",
+    "S": "max 0.015",
+    "Cr": "16.5-18.5",
+    "Mo": "2.0-2.5",
+    "Ni": "10.0-13.0",
+    "N": "max 0.11",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition": "solution annealed (per EN 10088-3, bar/section)",
+    "proof_strength_Rp0.2_MPa": ">=200",
+    "proof_strength_Rp1.0_MPa": ">=235",
+    "tensile_strength_Rm_MPa": "500-700",
+    "elongation_A_percent": ">=40 (longitudinal)",
+    "hardness_HB": "<=215"
+  },
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=104 ; https://www.makeitfrom.com/material-properties/EN-1.4404-X2CrNiMo17-12-2-Stainless-Steel ; https://www.theworldmaterial.com/din-en-1-4404-material-x2crnimo17-12-2-stainless-steel/",
+  "license_note": "Grade name (X2CrNiMo17-12-2 / 1.4404 / 316L) and its nominal composition and typical mechanical property ranges are widely reproduced across free manufacturer datasheets and reference sites; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

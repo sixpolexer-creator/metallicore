@@ -829,5 +829,1171 @@ export const enStandards: EnStandard[] = [
       }
     ],
     "materialNumber": "3.3211"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10088 1.4310 (X10CrNi18-8)",
+    "fullCode": "EN 10088 1.4310 (X10CrNi18-8)",
+    "title": "Austenitic spring stainless steel X10CrNi18-8, material number 1.4310 (AISI 301)",
+    "materialType": "Stainless Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Lean austenitic stainless steel with restricted nickel that produces a metastable austenite work-hardening rapidly under cold deformation, allowing very high strength in spring tempers. Used for springs, spring washers, wire, flexible connectors and fasteners.",
+    "dataAccess": "full",
+    "scope": "Lean austenitic stainless steel with restricted nickel that produces a metastable austenite work-hardening rapidly under cold deformation, allowing very high strength (spring tempers). Used for springs, spring washers, wire, flexible connectors and fasteners.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.05-0.15"
+      },
+      {
+        "element": "Si",
+        "range": "max 2.0"
+      },
+      {
+        "element": "Mn",
+        "range": "max 2.0"
+      },
+      {
+        "element": "P",
+        "range": "max 0.045"
+      },
+      {
+        "element": "S",
+        "range": "max 0.015"
+      },
+      {
+        "element": "Cr",
+        "range": "16.0-19.0"
+      },
+      {
+        "element": "Ni",
+        "range": "6.0-9.5"
+      },
+      {
+        "element": "Mo",
+        "range": "max 0.8"
+      },
+      {
+        "element": "N",
+        "range": "max 0.11"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "solution annealed (base); strength increases greatly with cold-rolled spring tempers"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": ">= 250 (annealed)"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "600-950 (annealed); up to ~2000 in high cold-work spring temper"
+      },
+      {
+        "label": "Elongation A % Min",
+        "value": "40 (annealed)"
+      }
+    ],
+    "materialNumber": "1.4310"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10088 1.4404 (X2CrNiMo17-12-2)",
+    "fullCode": "EN 10088 1.4404 (X2CrNiMo17-12-2)",
+    "title": "Austenitic stainless steel X2CrNiMo17-12-2, material number 1.4404 (AISI 316L)",
+    "materialType": "Stainless Steel",
+    "application": [
+      "Marine",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Low-carbon molybdenum-alloyed austenitic stainless steel; the low carbon (max 0.03%) reduces sensitization for improved intergranular corrosion resistance in the as-welded condition. Widely used in chemical, food, marine and architectural applications.",
+    "dataAccess": "full",
+    "scope": "Low-carbon molybdenum-alloyed austenitic stainless steel; the low carbon (max 0.03%) reduces sensitization for improved intergranular corrosion resistance in the as-welded condition. Widely used in chemical, food, marine and architectural applications.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "max 0.03"
+      },
+      {
+        "element": "Si",
+        "range": "max 1.0"
+      },
+      {
+        "element": "Mn",
+        "range": "max 2.0"
+      },
+      {
+        "element": "P",
+        "range": "max 0.045"
+      },
+      {
+        "element": "S",
+        "range": "max 0.015"
+      },
+      {
+        "element": "Cr",
+        "range": "16.5-18.5"
+      },
+      {
+        "element": "Mo",
+        "range": "2.0-2.5"
+      },
+      {
+        "element": "Ni",
+        "range": "10.0-13.0"
+      },
+      {
+        "element": "N",
+        "range": "max 0.11"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "solution annealed (per EN 10088-3, bar/section)"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": ">= 200"
+      },
+      {
+        "label": "Proof Strength Rp1.0 MPa",
+        "value": ">= 235"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "500-700"
+      },
+      {
+        "label": "Elongation A % Min",
+        "value": "40 (longitudinal)"
+      },
+      {
+        "label": "Hardness HB Max",
+        "value": "215"
+      }
+    ],
+    "materialNumber": "1.4404"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10088 1.4462 (X2CrNiMoN22-5-3)",
+    "fullCode": "EN 10088 1.4462 (X2CrNiMoN22-5-3)",
+    "title": "Duplex stainless steel X2CrNiMoN22-5-3, material number 1.4462 (Duplex 2205, UNS S32205/S31803)",
+    "materialType": "Stainless Steel",
+    "application": [
+      "Marine",
+      "Energy",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "The most widely used duplex stainless steel, with a roughly 50/50 austenite-ferrite microstructure giving about double the yield strength of standard austenitics plus high resistance to pitting, crevice and stress-corrosion cracking. Used in chemical process, oil and gas, marine and pressure equipment.",
+    "dataAccess": "full",
+    "scope": "The most widely used duplex stainless steel, with a roughly 50/50 austenite-ferrite microstructure giving about double the yield strength of standard austenitics plus high resistance to pitting, crevice and stress-corrosion cracking. Used in chemical process, oil and gas, marine and pressure equipment.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "max 0.03"
+      },
+      {
+        "element": "Si",
+        "range": "max 1.0"
+      },
+      {
+        "element": "Mn",
+        "range": "max 2.0"
+      },
+      {
+        "element": "P",
+        "range": "max 0.035"
+      },
+      {
+        "element": "S",
+        "range": "max 0.015"
+      },
+      {
+        "element": "Cr",
+        "range": "21.0-23.0"
+      },
+      {
+        "element": "Mo",
+        "range": "2.5-3.5"
+      },
+      {
+        "element": "Ni",
+        "range": "4.5-6.5"
+      },
+      {
+        "element": "N",
+        "range": "0.10-0.22"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "solution annealed / quench-annealed"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": ">= 450"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "640-840"
+      },
+      {
+        "label": "Elongation A % Min",
+        "value": "25"
+      }
+    ],
+    "materialNumber": "1.4462"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10088 1.4571 (X6CrNiMoTi17-12-2)",
+    "fullCode": "EN 10088 1.4571 (X6CrNiMoTi17-12-2)",
+    "title": "Titanium-stabilized austenitic stainless steel X6CrNiMoTi17-12-2, material number 1.4571 (AISI 316Ti)",
+    "materialType": "Stainless Steel",
+    "application": [
+      "Marine",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Titanium-stabilized molybdenum-alloyed austenitic stainless steel; titanium ties up carbon to prevent chromium-carbide precipitation, giving resistance to intergranular corrosion after welding and improved strength/stability at elevated temperatures.",
+    "dataAccess": "full",
+    "scope": "Titanium-stabilized molybdenum-alloyed austenitic stainless steel; titanium ties up carbon to prevent chromium-carbide precipitation, giving resistance to intergranular corrosion after welding and improved strength/stability at elevated temperatures (above ~800 C).",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "max 0.08"
+      },
+      {
+        "element": "Si",
+        "range": "max 1.0"
+      },
+      {
+        "element": "Mn",
+        "range": "max 2.0"
+      },
+      {
+        "element": "P",
+        "range": "max 0.045"
+      },
+      {
+        "element": "S",
+        "range": "max 0.015"
+      },
+      {
+        "element": "Cr",
+        "range": "16.5-18.5"
+      },
+      {
+        "element": "Mo",
+        "range": "2.0-2.5"
+      },
+      {
+        "element": "Ni",
+        "range": "10.5-13.5"
+      },
+      {
+        "element": "Ti",
+        "range": "max 0.70 (>= 5xC)"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "solution annealed (per EN 10088-3, bar/section <= 160 mm)"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": ">= 200"
+      },
+      {
+        "label": "Proof Strength Rp1.0 MPa",
+        "value": ">= 235"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "500-700"
+      },
+      {
+        "label": "Elongation A % Min",
+        "value": "40"
+      },
+      {
+        "label": "Hardness HB Max",
+        "value": "215"
+      }
+    ],
+    "materialNumber": "1.4571"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "AC-42100 (AlSi7Mg0.3)",
+    "fullCode": "EN AC-42100 (AlSi7Mg0.3)",
+    "title": "Aluminium casting alloy EN AC-42100 [Al Si7Mg0.3]",
+    "materialType": "Aluminum",
+    "application": [
+      "Automotive",
+      "Aerospace",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Hypoeutectic Al-Si-Mg heat-treatable casting alloy with excellent castability, high strength and ductility after T6 and good corrosion resistance. Used for critical sand and permanent-mould castings in automotive, aerospace and machinery.",
+    "dataAccess": "full",
+    "scope": "Hypoeutectic Al-Si-Mg heat-treatable casting alloy with excellent castability, high strength and ductility after T6 and good corrosion resistance. Used for critical sand and permanent-mould castings in automotive, aerospace and machinery.",
+    "chemicalComposition": [
+      {
+        "element": "Si",
+        "range": "6.5-7.5"
+      },
+      {
+        "element": "Fe",
+        "range": "max 0.19"
+      },
+      {
+        "element": "Cu",
+        "range": "max 0.05"
+      },
+      {
+        "element": "Mn",
+        "range": "max 0.10"
+      },
+      {
+        "element": "Mg",
+        "range": "0.25-0.45"
+      },
+      {
+        "element": "Zn",
+        "range": "max 0.07"
+      },
+      {
+        "element": "Ti",
+        "range": "0.08-0.25"
+      },
+      {
+        "element": "Al",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Tensile Strength Rm MPa (Permanent Mould T6)",
+        "value": ">= 290"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa (Permanent Mould T6)",
+        "value": ">= 210"
+      },
+      {
+        "label": "Elongation A % (Permanent Mould T6)",
+        "value": ">= 4"
+      },
+      {
+        "label": "Tensile Strength Rm MPa (Sand T6)",
+        "value": ">= 230"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "~90-110"
+      }
+    ],
+    "materialNumber": "EN AC-42100"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "AC-46000 (AlSi9Cu3(Fe))",
+    "fullCode": "EN AC-46000 (AlSi9Cu3(Fe))",
+    "title": "Aluminium casting alloy EN AC-46000 [Al Si9Cu3(Fe)]",
+    "materialType": "Aluminum",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Hypoeutectic Al-Si-Cu high-pressure die-casting alloy, the most common aluminium die-casting alloy. Good castability, strength and hardness at moderate cost; used widely in automotive housings such as gearbox, motor mounts, turbocharger and generator parts.",
+    "dataAccess": "full",
+    "scope": "Hypoeutectic Al-Si-Cu high-pressure die-casting alloy, the most common aluminium die-casting alloy. Good castability, strength and hardness at moderate cost; used widely in automotive housings (gearbox, motor mounts, turbocharger, generator).",
+    "chemicalComposition": [
+      {
+        "element": "Si",
+        "range": "8.0-11.0"
+      },
+      {
+        "element": "Fe",
+        "range": "max 1.3"
+      },
+      {
+        "element": "Cu",
+        "range": "2.0-4.0"
+      },
+      {
+        "element": "Mn",
+        "range": "max 0.55"
+      },
+      {
+        "element": "Mg",
+        "range": "0.05-0.55"
+      },
+      {
+        "element": "Cr",
+        "range": "max 0.15"
+      },
+      {
+        "element": "Ni",
+        "range": "max 0.55"
+      },
+      {
+        "element": "Zn",
+        "range": "max 1.2"
+      },
+      {
+        "element": "Pb",
+        "range": "max 0.35"
+      },
+      {
+        "element": "Sn",
+        "range": "max 0.25"
+      },
+      {
+        "element": "Ti",
+        "range": "max 0.25"
+      },
+      {
+        "element": "Al",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "high-pressure die cast (F), separately cast test bars typical"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "~240-310"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": "~140-240"
+      },
+      {
+        "label": "Elongation A %",
+        "value": "<= 1-2"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "~80-110"
+      }
+    ],
+    "materialNumber": "EN AC-46000"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "AW-1050A (Al 99.5)",
+    "fullCode": "EN AW-1050A (Al 99.5)",
+    "title": "Wrought commercially pure aluminium EN AW-1050A [Al 99.5], numeric 3.0255",
+    "materialType": "Aluminum",
+    "application": [
+      "Energy",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Commercially pure (min 99.5% Al) non-heat-treatable wrought aluminium with high electrical and thermal conductivity, excellent corrosion resistance, formability and weldability; strengthened only by cold work. Used in electrical, chemical, food and architectural applications.",
+    "dataAccess": "full",
+    "scope": "Commercially pure (min 99.5% Al) non-heat-treatable wrought aluminium. High electrical and thermal conductivity, excellent corrosion resistance, formability and weldability; strengthened only by cold work. Used in electrical, chemical, food and architectural applications.",
+    "chemicalComposition": [
+      {
+        "element": "Si",
+        "range": "max 0.25"
+      },
+      {
+        "element": "Fe",
+        "range": "max 0.40"
+      },
+      {
+        "element": "Cu",
+        "range": "max 0.05"
+      },
+      {
+        "element": "Mn",
+        "range": "max 0.05"
+      },
+      {
+        "element": "Mg",
+        "range": "max 0.05"
+      },
+      {
+        "element": "Zn",
+        "range": "max 0.07"
+      },
+      {
+        "element": "Ti",
+        "range": "max 0.05"
+      },
+      {
+        "element": "Al",
+        "range": "min 99.50"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Tensile Strength Rm MPa (O, Annealed)",
+        "value": "65-95"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa (O, Annealed)",
+        "value": ">= 20"
+      },
+      {
+        "label": "Elongation A % (O, Annealed)",
+        "value": ">= 25-30"
+      },
+      {
+        "label": "Tensile Strength Rm MPa (H14)",
+        "value": "100-140"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "2.70"
+      },
+      {
+        "label": "Youngs Modulus GPa",
+        "value": "70"
+      },
+      {
+        "label": "Electrical Conductivity % IACS",
+        "value": "57"
+      }
+    ],
+    "materialNumber": "3.0255"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "AW-2024 (AlCu4Mg1)",
+    "fullCode": "EN AW-2024 (AlCu4Mg1)",
+    "title": "Wrought aluminium alloy EN AW-2024 [Al Cu4Mg1], numeric 3.1355",
+    "materialType": "Aluminum",
+    "application": [
+      "Aerospace"
+    ],
+    "status": "active",
+    "description": "High-strength heat-treatable Al-Cu-Mg aerospace alloy with good high-temperature strength and machinability but limited corrosion resistance (often clad). Used for aircraft structures, fittings and highly stressed parts.",
+    "dataAccess": "full",
+    "scope": "High-strength heat-treatable Al-Cu-Mg aerospace alloy with good high-temperature strength and machinability but limited corrosion resistance (often clad). Used for aircraft structures, fittings and highly stressed parts.",
+    "chemicalComposition": [
+      {
+        "element": "Si",
+        "range": "max 0.50"
+      },
+      {
+        "element": "Fe",
+        "range": "max 0.50"
+      },
+      {
+        "element": "Cu",
+        "range": "3.8-4.9"
+      },
+      {
+        "element": "Mn",
+        "range": "0.30-0.90"
+      },
+      {
+        "element": "Mg",
+        "range": "1.2-1.8"
+      },
+      {
+        "element": "Cr",
+        "range": "max 0.10"
+      },
+      {
+        "element": "Zn",
+        "range": "max 0.25"
+      },
+      {
+        "element": "Ti",
+        "range": "max 0.15"
+      },
+      {
+        "element": "Al",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Temper",
+        "value": "T3"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": ">= 400-450"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": ">= 270-310"
+      },
+      {
+        "label": "Elongation A %",
+        "value": ">= 8"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "~120"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "2.78"
+      },
+      {
+        "label": "Youngs Modulus GPa",
+        "value": "73.1"
+      }
+    ],
+    "materialNumber": "3.1355"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "AW-7075 (AlZn5.5MgCu)",
+    "fullCode": "EN AW-7075 (AlZn5.5MgCu)",
+    "title": "Wrought aluminium alloy EN AW-7075 [Al Zn5.5MgCu], numeric 3.4365",
+    "materialType": "Aluminum",
+    "application": [
+      "Aerospace"
+    ],
+    "status": "active",
+    "description": "High-strength heat-treatable Al-Zn-Mg-Cu aerospace alloy. In the T6 temper it offers among the highest strength of common aluminium alloys with good fatigue performance; used for aircraft structures, highly stressed parts, moulds and tooling.",
+    "dataAccess": "full",
+    "scope": "High-strength heat-treatable Al-Zn-Mg-Cu aerospace alloy. In the T6 temper it offers among the highest strength of common aluminium alloys with good fatigue performance, used for aircraft structures, highly stressed parts, moulds and tooling.",
+    "chemicalComposition": [
+      {
+        "element": "Si",
+        "range": "max 0.40"
+      },
+      {
+        "element": "Fe",
+        "range": "max 0.50"
+      },
+      {
+        "element": "Cu",
+        "range": "1.2-2.0"
+      },
+      {
+        "element": "Mn",
+        "range": "max 0.30"
+      },
+      {
+        "element": "Mg",
+        "range": "2.1-2.9"
+      },
+      {
+        "element": "Cr",
+        "range": "0.18-0.28"
+      },
+      {
+        "element": "Zn",
+        "range": "5.1-6.1"
+      },
+      {
+        "element": "Ti",
+        "range": "max 0.20"
+      },
+      {
+        "element": "Al",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Temper",
+        "value": "T6"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "510-540"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": "430-480"
+      },
+      {
+        "label": "Elongation A %",
+        "value": "6-11"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "2.81"
+      },
+      {
+        "label": "Youngs Modulus GPa",
+        "value": "72"
+      }
+    ],
+    "materialNumber": "3.4365"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "CW024A (Cu-DHP)",
+    "fullCode": "EN CW024A (Cu-DHP)",
+    "title": "Phosphorus-deoxidized copper Cu-DHP, EN number CW024A / 2.0090",
+    "materialType": "Copper Alloy",
+    "application": [
+      "Construction",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Deoxidized high-residual-phosphorus copper (min 99.90% Cu). Phosphorus deoxidation removes oxygen so the copper is not susceptible to hydrogen embrittlement, making it well suited to welding and brazing. Used for water/gas tube, heating and HVAC pipe, roofing/cladding and vessels.",
+    "dataAccess": "full",
+    "scope": "Deoxidized high-residual-phosphorus copper (min 99.90% Cu). Phosphorus deoxidation removes oxygen so the copper is not susceptible to hydrogen embrittlement, making it well suited to welding and brazing. Used for water/gas tube, heating and HVAC pipe, roofing/cladding and vessels.",
+    "chemicalComposition": [
+      {
+        "element": "Cu",
+        "range": "min 99.90 (Cu+Ag)"
+      },
+      {
+        "element": "P",
+        "range": "0.015-0.040"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Tensile Strength Rm MPa (R220, Annealed)",
+        "value": ">= 220"
+      },
+      {
+        "label": "Elongation A % (R220, Annealed)",
+        "value": ">= ~40"
+      },
+      {
+        "label": "Tensile Strength Rm MPa (R290, Hard)",
+        "value": ">= 290"
+      },
+      {
+        "label": "Hardness HV",
+        "value": "40-65 (annealed); 90-110 (hard)"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "8.94"
+      }
+    ],
+    "materialNumber": "CW024A"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "CW508L (CuZn37)",
+    "fullCode": "EN CW508L (CuZn37)",
+    "title": "Brass CuZn37, EN number CW508L / 2.0321 (formerly CZ108)",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Single-phase (alpha) 37% zinc brass with excellent cold formability and good electrical/thermal conductivity. High-purity cold-forming brass used for deep drawing, severe bending, stamping, connectors, fasteners and decorative parts.",
+    "dataAccess": "full",
+    "scope": "Single-phase (alpha) 37% zinc brass with excellent cold formability and good electrical/thermal conductivity. High-purity cold-forming brass used for deep drawing, severe bending, stamping, connectors, fasteners and decorative parts.",
+    "chemicalComposition": [
+      {
+        "element": "Cu",
+        "range": "62.0-64.0"
+      },
+      {
+        "element": "Pb",
+        "range": "max 0.10"
+      },
+      {
+        "element": "Fe",
+        "range": "max 0.10"
+      },
+      {
+        "element": "Sn",
+        "range": "max 0.10"
+      },
+      {
+        "element": "Ni",
+        "range": "max 0.30"
+      },
+      {
+        "element": "Al",
+        "range": "max 0.05"
+      },
+      {
+        "element": "Zn",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Tensile Strength Rm MPa (R300, Soft)",
+        "value": "300-370"
+      },
+      {
+        "label": "Elongation A % (R300, Soft)",
+        "value": ">= 43"
+      },
+      {
+        "label": "Tensile Strength Rm MPa (R480, Hard)",
+        "value": ">= 480"
+      },
+      {
+        "label": "Hardness HV",
+        "value": "65-95 (soft); 150-175 (hard)"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "8.44"
+      },
+      {
+        "label": "Youngs Modulus GPa",
+        "value": "103"
+      }
+    ],
+    "materialNumber": "CW508L"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "GJL-250 (EN-JL1040)",
+    "fullCode": "EN-GJL-250 (EN-JL1040)",
+    "title": "Grey (lamellar/flake graphite) cast iron EN-GJL-250, number EN-JL1040",
+    "materialType": "Cast Iron",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Lamellar (flake) graphite grey cast iron classified by tensile strength on machined test pieces. Good machinability, vibration damping and moderate strength; used for machine frames, engine blocks, pump and turbine casings, and general engineering castings. Equivalent to former GG25.",
+    "dataAccess": "full",
+    "scope": "Lamellar (flake) graphite grey cast iron classified by tensile strength on machined test pieces. Good machinability, vibration damping and moderate strength; used for machine frames, engine blocks, pump and turbine casings, and general engineering castings.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "2.8-3.3 (typical)"
+      },
+      {
+        "element": "Si",
+        "range": "1.2-1.7 (typical)"
+      },
+      {
+        "element": "Mn",
+        "range": "0.8-1.2 (typical)"
+      },
+      {
+        "element": "P",
+        "range": "max ~0.15"
+      },
+      {
+        "element": "S",
+        "range": "max ~0.12"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "as-cast (30 mm separately cast test bar)"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "250-350"
+      },
+      {
+        "label": "Compressive Strength MPa",
+        "value": "~840"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "~180-250"
+      },
+      {
+        "label": "Elongation A %",
+        "value": "<1 (negligible, brittle)"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "7.2"
+      }
+    ],
+    "materialNumber": "EN-JL1040"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "GJS-400-15 (EN-JS1030)",
+    "fullCode": "EN-GJS-400-15 (EN-JS1030)",
+    "title": "Spheroidal graphite (ductile/nodular) cast iron EN-GJS-400-15, number EN-JS1030",
+    "materialType": "Cast Iron",
+    "application": [
+      "General Engineering",
+      "Automotive"
+    ],
+    "status": "active",
+    "description": "Ferritic to ferritic-pearlitic spheroidal (nodular) graphite cast iron classified by mechanical properties on machined test pieces. Combines good elongation and toughness with useful strength; used for structural and pressure-bearing components, housings and safety parts. Equivalent to former GGG40.",
+    "dataAccess": "full",
+    "scope": "Ferritic to ferritic-pearlitic spheroidal (nodular) graphite cast iron grade classified by mechanical properties on machined test pieces. Combines good elongation and toughness with useful strength; used for structural and pressure-bearing components, housings and safety parts.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "3.4-3.9 (typical)"
+      },
+      {
+        "element": "Si",
+        "range": "2.2-2.9 (typical)"
+      },
+      {
+        "element": "Mn",
+        "range": "max ~0.5"
+      },
+      {
+        "element": "P",
+        "range": "max ~0.05"
+      },
+      {
+        "element": "S",
+        "range": "max ~0.02"
+      },
+      {
+        "element": "Mg",
+        "range": "0.03-0.06 (nodulizing)"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "as-cast (separately cast test piece)"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": ">= 400"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": ">= 250"
+      },
+      {
+        "label": "Elongation A %",
+        "value": ">= 15"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "130-180"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "7.1"
+      }
+    ],
+    "materialNumber": "EN-JS1030"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10025-6 S690QL",
+    "fullCode": "EN 10025-6 S690QL",
+    "title": "High yield strength quenched and tempered structural steel S690QL (material number 1.8928)",
+    "materialType": "Steel",
+    "application": [
+      "Construction"
+    ],
+    "status": "active",
+    "description": "Ultra-high-strength weldable structural steel, quenched and tempered, with 690 MPa minimum yield strength and guaranteed -40 C impact toughness (suffix L). Used in cranes, bridges, mobile/lifting and earthmoving equipment and demanding load-bearing welded structures.",
+    "dataAccess": "full",
+    "scope": "Ultra-high-strength weldable structural steel, quenched and tempered, with 690 MPa minimum yield strength and guaranteed -40 C impact toughness (suffix L). Used in cranes, bridges, mobile/lifting and earthmoving equipment and demanding load-bearing welded structures.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "max 0.20"
+      },
+      {
+        "element": "Si",
+        "range": "max 0.80"
+      },
+      {
+        "element": "Mn",
+        "range": "max 1.70"
+      },
+      {
+        "element": "P",
+        "range": "max 0.020"
+      },
+      {
+        "element": "S",
+        "range": "max 0.010"
+      },
+      {
+        "element": "Cr",
+        "range": "max 1.50"
+      },
+      {
+        "element": "Mo",
+        "range": "max 0.70"
+      },
+      {
+        "element": "Ni",
+        "range": "max 2.0"
+      },
+      {
+        "element": "B",
+        "range": "max 0.005"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "quenched and tempered (+QT)"
+      },
+      {
+        "label": "Proof Strength Rp0.2 MPa",
+        "value": ">= 690 (t <= 50 mm)"
+      },
+      {
+        "label": "Tensile Strength Rm MPa",
+        "value": "770-940"
+      },
+      {
+        "label": "Elongation A % Min",
+        "value": "14"
+      },
+      {
+        "label": "Impact Energy KV J",
+        "value": ">= 30 at -40 C (longitudinal)"
+      }
+    ],
+    "materialNumber": "1.8928"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "1563",
+    "fullCode": "EN 1563",
+    "title": "Founding - Spheroidal graphite cast irons",
+    "materialType": "Cast Iron",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies grades and mechanical requirements for spheroidal (nodular) graphite cast irons classified by properties on machined test pieces (e.g. EN-GJS-400-15, EN-GJS-500-7), covering ferritic to pearlitic and solid-solution strengthened ferritic grades.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "1561",
+    "fullCode": "EN 1561",
+    "title": "Founding - Grey cast irons",
+    "materialType": "Cast Iron",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies grades of unalloyed and low-alloyed lamellar (flake) graphite grey cast iron, classified either by tensile strength (e.g. EN-GJL-250) or by Brinell hardness, measured on machined test pieces from cast samples.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10111",
+    "fullCode": "EN 10111",
+    "title": "Continuously hot rolled low carbon steel sheet and strip for cold forming - Technical delivery conditions",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies grades (DD11, DD12, DD13, DD14) of continuously hot rolled low carbon steel sheet and strip for cold forming, with delivery conditions, composition and mechanical/formability requirements.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10130",
+    "fullCode": "EN 10130",
+    "title": "Cold rolled low carbon steel flat products for cold forming - Technical delivery conditions",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies technical delivery conditions for cold rolled flat products of unalloyed low-carbon steel for cold forming (grades DC01-DC06), including chemical composition, mechanical properties and surface quality.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10149-2",
+    "fullCode": "EN 10149-2",
+    "title": "Hot rolled flat products made of high yield strength steels for cold forming - Part 2: Technical delivery conditions for thermomechanically rolled steels",
+    "materialType": "Steel",
+    "application": [
+      "Automotive"
+    ],
+    "status": "active",
+    "description": "Thermomechanically rolled (M) high yield strength micro-alloyed steels for cold forming, grades S315MC to S960MC, widely used in automotive structural parts.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10263-1",
+    "fullCode": "EN 10263-1",
+    "title": "Steel rod, bars and wire for cold heading and cold extrusion - Part 1: General technical delivery conditions",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "General delivery conditions for round rod, bars and wire for cold heading and cold extrusion (fasteners); multi-part series covering non-heat-treated, case hardening, quench-and-temper and stainless steels.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "10269",
+    "fullCode": "EN 10269",
+    "title": "Steels and nickel alloys for fasteners with specified elevated and/or low temperature properties",
+    "materialType": "Steel",
+    "application": [
+      "Energy",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies semi-finished products, bars and rods for fasteners (bolts, studs, nuts) with properties defined at elevated and/or low temperatures, in non-alloy, alloy, stainless steels and nickel alloys.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "12420",
+    "fullCode": "EN 12420",
+    "title": "Copper and copper alloys - Forgings",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies composition, property requirements and dimensional/form tolerances for copper and copper alloy die and hand forgings, plus sampling, test methods and delivery conditions.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "12449",
+    "fullCode": "EN 12449",
+    "title": "Copper and copper alloys - Seamless, round tubes for general purposes",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies composition, property requirements and tolerances for seamless round drawn copper and copper alloy tubes for general purposes, roughly 3-450 mm outside diameter.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "EN",
+    "designation": "1652",
+    "fullCode": "EN 1652",
+    "title": "Copper and copper alloys - Plate, sheet, strip and circles for general purposes",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies composition, property requirements and tolerances on dimensions/form for copper and copper alloy plate, sheet, strip and circles for general purposes (e.g. CuZn37/CW508L), with sampling and delivery conditions.",
+    "dataAccess": "restricted"
   }
 ];

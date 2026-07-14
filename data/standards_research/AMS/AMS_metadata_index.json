@@ -142,5 +142,125 @@
     "scope_summary": "Process (not material) specification covering pyrometric requirements for thermal-processing equipment, including temperature sensors, instrumentation, thermal-processing equipment classification, and system accuracy/uniformity testing.",
     "source": "https://www.sae.org/standards/content/ams2750/",
     "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 4967",
+    "full_name": "Titanium Alloy, Bars, Wire, Forgings, and Rings, 6.0Al-4.0V, Annealed, Heat Treatable",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Ti-6Al-4V (Grade 5) bars, wire, forgings, flash-welded rings, and forging/heading stock supplied annealed but heat treatable, allowing subsequent solution treatment and aging to higher strength for aerospace parts.",
+    "source": "https://www.sae.org/standards/content/ams4967/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 4965",
+    "full_name": "Titanium Alloy, Bars, Wire, Forgings, and Rings, 6.0Al-4.0V, Solution Heat Treated and Aged",
+    "version_year": "rev. N (2022); see SAE catalog for current revision",
+    "scope_summary": "Covers Ti-6Al-4V (Grade 5) bars, wire, forgings, and rings supplied in the solution-heat-treated and aged (STA) condition for high-strength aerospace parts such as airframe components and fasteners.",
+    "source": "https://www.sae.org/standards/content/ams4965/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5613",
+    "full_name": "Steel, Corrosion- and Heat-Resistant, Bars, Wire, Forgings, Forging and Ring Stock, Mechanical Tubing, and Rings, 12.5Cr (SAE 410), Aircraft Quality, Annealed (UNS S41000)",
+    "version_year": "rev. T; see SAE catalog for current revision",
+    "scope_summary": "Covers 410 (12.5Cr) martensitic stainless steel in bars, wire, forgings, mechanical tubing, and rings in the annealed condition for aircraft-quality parts needing corrosion resistance with good strength and ductility.",
+    "source": "https://www.sae.org/standards/content/ams5613/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5647",
+    "full_name": "Steel, Corrosion-Resistant, Bars, Wire, Forgings, Mechanical Tubing, and Rings, 19Cr-9.5Ni (SAE 304L, low carbon), Solution Heat Treated",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers 304L low-carbon austenitic stainless steel bars, wire, forgings, mechanical tubing, and rings in the solution-heat-treated condition for corrosion-resistant aerospace parts. Nominal 18-20Cr, 8-11Ni, 0.08C max.",
+    "source": "https://www.sae.org/standards/content/ams5647/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5734",
+    "full_name": "Steel, Corrosion and Heat-Resistant, Bars, Wire, Forgings, Mechanical Tubing, and Rings, 15Cr-25.5Ni-1.2Mo-2.1Ti-0.006B-0.30V, Consumable Electrode Melted, Solution Heat Treated (A-286 / UNS S66286)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers A-286 iron-nickel-base precipitation-hardening superalloy (UNS S66286) bars, wire, forgings, mechanical tubing, and rings in the solution-treated condition for elevated-temperature aerospace parts to about 1300F (704C).",
+    "source": "https://www.sae.org/standards/content/ams5734/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 6265",
+    "full_name": "Steel, Bars, Forgings, and Tubing, 3.2Ni-1.2Cr-0.12Mo (0.07-0.13C) (AISI 9310), Consumable Electrode Vacuum Melted, Carburizing Grade (UNS G93106)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Premium consumable-electrode vacuum-melted (VAR) version of AISI 9310 carburizing steel in bars, forgings, and tubing for critical aircraft gears, shafts, and bearings requiring high core toughness with a hard carburized case.",
+    "source": "https://www.sae.org/standards/content/ams6265/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 6440",
+    "full_name": "Steel, Bars, Forgings, and Tubing, 1.45Cr (0.93-1.05C) (SAE 52100), For Bearing Applications (UNS G52986)",
+    "version_year": "rev. T (2021); see SAE catalog for current revision",
+    "scope_summary": "Covers 52100 high-carbon chromium through-hardening bearing steel in bars, forgings, mechanical tubing, and forging stock for bearing components, typically hardened to about 60 HRC in sections under 0.50 in (12.7 mm).",
+    "source": "https://www.sae.org/standards/content/ams6440/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 6485",
+    "full_name": "Steel Bars and Forgings, 5.0Cr-1.3Mo-0.50V (0.38-0.43C) (H11 hot-work tool steel)",
+    "version_year": "rev. H (1989); CANCELLED Oct 2006, superseded by AMS 6487",
+    "scope_summary": "Covered aircraft-quality H11 (5Cr-Mo-V) hot-work tool/ultra-high-strength steel bars, forgings, and forging stock for high-toughness aerospace parts such as landing gear. Cancelled and superseded by AMS 6487.",
+    "source": "https://www.sae.org/standards/content/ams6485h/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5537",
+    "full_name": "Cobalt Alloy, Corrosion and Heat-Resistant, Sheet, Strip, Foil, and Plate, 52Co-20Cr-10Ni-15W (L-605 / Haynes 25), Solution Heat Treated (UNS R30605)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers L-605 (Haynes 25) cobalt-base superalloy sheet, strip, foil, and plate in the solution-annealed condition for high-temperature aerospace parts, with oxidation resistance to ~2000F (1093C). Nominal 19-21Cr, 9-11Ni, 14-16W, balance Co.",
+    "source": "https://www.sae.org/standards/content/ams5537/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5708",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Bars, Forgings, and Rings, 58Ni-19.5Cr-13.5Co-4.3Mo-3.0Ti-1.4Al (Waspaloy), Vacuum Melted, Solution and Precipitation Heat Treatable (UNS N07001)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers Waspaloy (UNS N07001) nickel-base age-hardenable superalloy bars, forgings, flash-welded rings, and stock for parts requiring high strength to about 1500F (816C), such as turbine discs, blades, and bolts.",
+    "source": "https://www.sae.org/standards/content/ams5708/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5544",
+    "full_name": "Nickel Alloy, Corrosion and Heat-Resistant, Sheet, Strip, and Plate, 57Ni-19.5Cr-13.5Co-4.2Mo-3.0Ti-1.4Al-0.05Zr-0.006B (Waspaloy), Consumable Electrode or Vacuum Induction Melted, Annealed (UNS N07001)",
+    "version_year": "rev. L (2020); see SAE catalog for current revision",
+    "scope_summary": "Covers Waspaloy (UNS N07001) nickel-base superalloy sheet, strip, and plate in the annealed condition for high-temperature aerospace applications. (Note: Rene 41 sheet is AMS 5545, a different alloy.)",
+    "source": "https://www.sae.org/standards/content/ams5544/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 6512",
+    "full_name": "Steel, Maraging, Bars, Forgings, Tubing, and Rings, 18Ni-7.8Co-4.9Mo-0.40Ti-0.10Al, Consumable Electrode Vacuum Melted, Annealed (Maraging 250 / UNS K92890)",
+    "version_year": "rev. H; see SAE catalog for current revision",
+    "scope_summary": "Covers 18Ni maraging 250 steel (UNS K92890) bars, forgings, mechanical tubing, and rings, consumable-electrode vacuum melted and supplied annealed (soft, machinable), which ages to ~250 ksi yield strength for rocket cases, landing gear, and high-strength structural parts.",
+    "source": "https://www.sae.org/standards/content/ams6512/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 4117",
+    "full_name": "Aluminum Alloy, Rolled or Cold-Finished Bars, Rods, Wire, and Flash-Welded Rings, 1.0Mg-0.60Si-0.28Cu-0.20Cr (6061; -T6, -T651), Solution and Precipitation Heat Treated (UNS A96061)",
+    "version_year": "rev. M; see SAE catalog for current revision",
+    "scope_summary": "Covers 6061 aluminum alloy rolled or cold-finished bars, rods, wire, and flash-welded rings in the -T6/-T651 tempers for general aerospace structural applications.",
+    "source": "https://www.sae.org/standards/content/ams4117k/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5644",
+    "full_name": "Steel, Corrosion-Resistant, Bars, Wire, Forgings, and Rings, 17Cr-7.1Ni-1.1Al (17-7 PH), Solution Heat Treated, Precipitation-Hardenable (UNS S17700)",
+    "version_year": "see SAE catalog for current revision",
+    "scope_summary": "Covers 17-7 PH semi-austenitic precipitation-hardening stainless steel (UNS S17700) bars, wire, forgings, and rings for aerospace parts and springs needing high strength and fatigue resistance with good corrosion resistance.",
+    "source": "https://www.sae.org/standards/content/ams5644/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "AMS 5862",
+    "full_name": "Steel, Corrosion-Resistant, Sheet, Strip, and Plate, 15Cr-4.5Ni-3.5Cu-0.30Cb (15-5 PH), Solution Heat Treated, Precipitation-Hardenable (UNS S15500)",
+    "version_year": "rev. D; see SAE catalog for current revision",
+    "scope_summary": "Covers 15-5 PH martensitic precipitation-hardening stainless steel (UNS S15500) sheet, strip, and plate in the solution-treated, precipitation-hardenable condition, offering better transverse toughness than 17-4 PH.",
+    "source": "https://www.sae.org/standards/content/ams5862/",
+    "status": "restricted_metadata_only"
   }
 ]

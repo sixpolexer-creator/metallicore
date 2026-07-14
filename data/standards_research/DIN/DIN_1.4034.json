@@ -1,0 +1,25 @@
+{
+  "designation": "DIN 1.4034 (X46Cr13)",
+  "full_name": "Martensitic stainless steel X46Cr13, material number 1.4034",
+  "version_year": "composition per EN 10088-3:2014",
+  "body": "DIN",
+  "scope": "High-carbon martensitic chromium stainless steel, hardenable to high hardness with good edge retention. Used for cutlery, knife blades, scissors, surgical and dental instruments, springs and wear parts.",
+  "chemical_composition": {
+    "C": "0.43-0.50 %",
+    "Si": "max 1.00 %",
+    "Mn": "max 1.00 %",
+    "P": "max 0.040 %",
+    "S": "max 0.015 %",
+    "Cr": "12.5-14.5 %"
+  },
+  "mechanical_properties": {
+    "hardness_hardened": "approx 54-56 HRC",
+    "hardness_annealed": "<= 245 HB",
+    "density": "7.7 kg/dm^3 at 20 C",
+    "condition": "hardened and tempered / annealed"
+  },
+  "equivalents": ["X46Cr13", "~AISI 420HC", "1.4034"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=87, https://www.makeitfrom.com/material-properties/EN-1.4034-X46Cr13-Stainless-Steel",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

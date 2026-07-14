@@ -1,0 +1,36 @@
+{
+  "designation": "EN AW-1050A (Al 99.5)",
+  "full_name": "Wrought commercially pure aluminium EN AW-1050A [Al 99.5], numeric 3.0255",
+  "version_year": "Composition per EN 573-3; properties per EN 485 / EN 754 / EN 755",
+  "body": "EN",
+  "scope": "Commercially pure (min 99.5% Al) non-heat-treatable wrought aluminium. High electrical and thermal conductivity, excellent corrosion resistance, formability and weldability; strengthened only by cold work. Used in electrical, chemical, food and architectural applications.",
+  "chemical_composition": {
+    "Si": "max 0.25",
+    "Fe": "max 0.40",
+    "Cu": "max 0.05",
+    "Mn": "max 0.05",
+    "Mg": "max 0.05",
+    "Zn": "max 0.07",
+    "Ti": "max 0.05",
+    "Al": "min 99.50",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition_O_annealed": {
+      "tensile_strength_Rm_MPa": "65-95",
+      "proof_strength_Rp0.2_MPa": ">=20",
+      "elongation_A_percent": ">=25-30",
+      "hardness_HB": "~22"
+    },
+    "condition_H14": {
+      "tensile_strength_Rm_MPa": "100-140",
+      "proof_strength_Rp0.2_MPa": ">=85"
+    },
+    "density_g_cm3": 2.70,
+    "modulus_GPa": 70,
+    "electrical_conductivity_IACS_percent": 57
+  },
+  "source": "https://www.bikar.com/fileadmin/Unterlagen_BIKAR/Unterlagen_BIKAR_eng/1050A-complete-en.pdf ; https://www.smithmetal.com/pdf/aluminium/1xxx/1050a.pdf ; https://www.hydro.com/globalassets/08-about-hydro/hydro-worldwide/austria/nenzing/alloy-data-sheets/hydro-en-aw-1050a.pdf ; https://www.azom.com/article.aspx?ArticleID=8691",
+  "license_note": "EN AW-1050A designation and its nominal composition and typical temper property ranges are widely published in free manufacturer datasheets and reference sites; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

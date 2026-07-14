@@ -1,0 +1,28 @@
+{
+  "designation": "JIS SUS410",
+  "full_name": "Martensitic stainless steel grade SUS410 (per JIS G4303/G4304/G4305)",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "12% Cr martensitic stainless steel, hardenable by quenching and tempering. Magnetic; moderate corrosion resistance with good strength. Used for turbine blades, valves, bolts, cutlery and general machine parts. Equivalent to AISI 410 / UNS S41000.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "<= 0.15",
+    "Si": "<= 1.00",
+    "Mn": "<= 1.00",
+    "P": "<= 0.040",
+    "S": "<= 0.030",
+    "Cr": "11.50-13.50",
+    "Ni": "<= 0.60"
+  },
+  "mechanical_properties": {
+    "condition": "quenched and tempered",
+    "tensile_strength_MPa": ">= 540",
+    "yield_strength_MPa": ">= 345",
+    "elongation_percent": ">= 25",
+    "reduction_of_area_percent": ">= 60",
+    "hardness_annealed_HB": "<= 183"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=111, https://www.tokkin.com/materials/stainless_steel/",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

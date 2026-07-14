@@ -1,0 +1,32 @@
+{
+  "designation": "EN AC-46000 (AlSi9Cu3(Fe))",
+  "full_name": "Aluminium casting alloy EN AC-46000 [Al Si9Cu3(Fe)]",
+  "version_year": "Per EN 1706:2020",
+  "body": "EN",
+  "scope": "Hypoeutectic Al-Si-Cu high-pressure die-casting alloy, the most common aluminium die-casting alloy. Good castability, strength and hardness at moderate cost; used widely in automotive housings (gearbox, motor mounts, turbocharger, generator).",
+  "chemical_composition": {
+    "Si": "8.0-11.0",
+    "Fe": "max 1.3",
+    "Cu": "2.0-4.0",
+    "Mn": "max 0.55",
+    "Mg": "0.05-0.55",
+    "Cr": "max 0.15",
+    "Ni": "max 0.55",
+    "Zn": "max 1.2",
+    "Pb": "max 0.35",
+    "Sn": "max 0.25",
+    "Ti": "max 0.25",
+    "Al": "balance",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition": "high-pressure die cast (F), separately cast test bars typical",
+    "tensile_strength_Rm_MPa": "~240-310",
+    "proof_strength_Rp0.2_MPa": "~140-240",
+    "elongation_A_percent": "<=1-2",
+    "hardness_HB": "~80-110"
+  },
+  "source": "https://www.raffmetal.com/wp-content/uploads/sites/4/EN-46000-AlSi9Cu3Fe-1.pdf ; https://www.sunrise-metal.com/aluminum-alloy-alsi9cu3/ ; https://casting-yz.com/aluminum-alloy-alsi9cu3-en-ac-46000-cast-aluminum/ ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9740475/",
+  "license_note": "EN AC-46000 designation and its nominal composition are widely published in free foundry datasheets and peer-reviewed open-access papers; mechanical values are typical/nominal, not reproduced EN table text.",
+  "status": "open_data"
+}

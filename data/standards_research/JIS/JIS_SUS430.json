@@ -1,0 +1,29 @@
+{
+  "designation": "JIS SUS430",
+  "full_name": "Ferritic stainless steel grade SUS430 (per JIS G4303/G4304/G4305)",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "16-18% Cr ferritic, nickel-free stainless steel. Magnetic, not hardenable by heat treatment; good corrosion and oxidation resistance. Used for kitchenware, trim, appliance panels and automotive exhaust parts. Equivalent to AISI 430 / UNS S43000.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "<= 0.12",
+    "Si": "<= 1.00",
+    "Mn": "<= 1.00",
+    "P": "<= 0.040",
+    "S": "<= 0.030",
+    "Cr": "16.00-18.00",
+    "Ni": "<= 0.60"
+  },
+  "mechanical_properties": {
+    "condition": "annealed",
+    "tensile_strength_MPa": ">= 420",
+    "yield_strength_MPa": ">= 205",
+    "elongation_percent": ">= 22",
+    "hardness_HB": "<= 183",
+    "density_g_cm3": 7.70,
+    "youngs_modulus_GPa": 200
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=98, https://www.osakastainless.com/stainless/sus430/",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

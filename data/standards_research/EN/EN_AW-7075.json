@@ -1,0 +1,30 @@
+{
+  "designation": "EN AW-7075 (AlZn5.5MgCu)",
+  "full_name": "Wrought aluminium alloy EN AW-7075 [Al Zn5.5MgCu], numeric 3.4365",
+  "version_year": "Composition per EN 573-3; properties per EN 485 / EN 755",
+  "body": "EN",
+  "scope": "High-strength heat-treatable Al-Zn-Mg-Cu aerospace alloy. In the T6 temper it offers among the highest strength of common aluminium alloys with good fatigue performance, used for aircraft structures, highly stressed parts, moulds and tooling.",
+  "chemical_composition": {
+    "Si": "max 0.40",
+    "Fe": "max 0.50",
+    "Cu": "1.2-2.0",
+    "Mn": "max 0.30",
+    "Mg": "2.1-2.9",
+    "Cr": "0.18-0.28",
+    "Zn": "5.1-6.1",
+    "Ti": "max 0.20",
+    "Al": "balance",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition": "T6",
+    "tensile_strength_Rm_MPa": "510-540",
+    "proof_strength_Rp0.2_MPa": "430-480",
+    "elongation_A_percent": "6-11",
+    "density_g_cm3": 2.81,
+    "modulus_GPa": 72
+  },
+  "source": "https://en.wikipedia.org/wiki/7075_aluminium_alloy ; https://www.theworldmaterial.com/al-7075-aluminum-alloy/ ; https://matmatch.com/learn/material/7075-t6-aluminium ; https://www.smithmetal.com/7075.htm",
+  "license_note": "EN AW-7075 designation and its nominal composition and typical T6 property ranges are widely published in free manufacturer datasheets, Wikipedia and reference sites; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

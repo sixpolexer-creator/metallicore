@@ -1,0 +1,29 @@
+{
+  "designation": "JIS A2017",
+  "full_name": "Wrought aluminium alloy A2017 (Al-Cu duralumin, per JIS H4000/H4040)",
+  "version_year": "2022",
+  "body": "JIS",
+  "scope": "Al-Cu-Mg heat-treatable wrought aluminium alloy (classic duralumin) with high strength and good machinability but limited corrosion resistance. Used for machine parts, structural fittings, bolts and rivets. Equivalent to AA 2017 / EN AW-2017A.",
+  "chemical_composition": {
+    "note": "mass %",
+    "Si": "0.20-0.80",
+    "Fe": "<= 0.70",
+    "Cu": "3.50-4.50",
+    "Mn": "0.40-1.00",
+    "Mg": "0.40-0.80",
+    "Cr": "<= 0.10",
+    "Zn": "<= 0.25",
+    "Ti": "<= 0.15",
+    "Al": "balance"
+  },
+  "mechanical_properties": {
+    "condition": "T4 (solution treated and naturally aged)",
+    "tensile_strength_MPa": ">= 355",
+    "yield_strength_MPa": ">= 215",
+    "elongation_percent": ">= 12",
+    "hardness_HB": "approx 105"
+  },
+  "source": "https://metalzenith.com/blogs/aluminium-properties/aluminum-a2017-composition-properties-temper-guide-applications, https://www.totalmateria.com/en-us/materials/group/N/JIS/1",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

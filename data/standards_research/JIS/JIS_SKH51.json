@@ -1,0 +1,28 @@
+{
+  "designation": "JIS SKH51",
+  "full_name": "High speed tool steel grade SKH51 - molybdenum type (per JIS G4403)",
+  "version_year": "2015",
+  "body": "JIS",
+  "scope": "Molybdenum-tungsten (Mo-W) general-purpose high speed tool steel with a balanced combination of toughness and wear resistance. Used for drills, taps, milling cutters, broaches, cold-forming tools and punches. Equivalent to AISI M2 / DIN 1.3343.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.80-0.88",
+    "Si": "<= 0.45",
+    "Mn": "<= 0.40",
+    "P": "<= 0.030",
+    "S": "<= 0.030",
+    "Cr": "3.80-4.50",
+    "Mo": "4.70-5.20",
+    "W": "5.90-6.70",
+    "V": "1.70-2.10"
+  },
+  "mechanical_properties": {
+    "condition_annealed": "annealed",
+    "hardness_annealed_HB": "<= 262",
+    "condition_hardened": "hardened and tempered",
+    "hardness_hardened_HRC": ">= 63"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=177",
+  "license_note": "composition/property data widely republished by independent free material databases, not the copyrighted JIS document text",
+  "status": "open_data"
+}

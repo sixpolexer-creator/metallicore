@@ -1,0 +1,27 @@
+{
+  "designation": "JIS SKD61",
+  "full_name": "Alloy tool steel grade SKD61 - hot work die steel (per JIS G4404)",
+  "version_year": "2015",
+  "body": "JIS",
+  "scope": "Chromium-molybdenum-vanadium hot-work alloy tool steel with high hot strength, thermal fatigue and heat-checking resistance. Used for die-casting dies, hot forging and extrusion tooling, and plastic moulds. Equivalent to AISI H13 / DIN 1.2344.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.35-0.42",
+    "Si": "0.80-1.20",
+    "Mn": "0.25-0.50",
+    "P": "<= 0.030",
+    "S": "<= 0.020",
+    "Cr": "4.80-5.50",
+    "Mo": "1.00-1.50",
+    "V": "0.80-1.50"
+  },
+  "mechanical_properties": {
+    "condition_annealed": "annealed",
+    "hardness_annealed_HB": "<= 229",
+    "condition_hardened": "quenched and tempered",
+    "hardness_hardened_HRC": "45-52"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=164",
+  "license_note": "composition/property data widely republished by independent free material databases, not the copyrighted JIS document text",
+  "status": "open_data"
+}

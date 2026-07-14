@@ -1,0 +1,24 @@
+{
+  "designation": "JIS FC200",
+  "full_name": "Grey (flake graphite) iron casting grade FC200 (per JIS G5501)",
+  "version_year": "1995",
+  "body": "JIS",
+  "scope": "Grey cast iron with flake graphite classified by min. tensile strength 200 MPa. Good castability, machinability, damping capacity and wear resistance. Used for cylinder blocks and heads, clutch housings, flywheels, gearboxes, machine bases and compressor frames. Roughly equivalent to ASTM Class 30 / EN GJL-200.",
+  "chemical_composition": {
+    "note": "mass % (typical - not tightly specified by grade; controlled by producer)",
+    "C": "3.10-3.40",
+    "Si": "1.90-2.30",
+    "Mn": "0.60-0.90",
+    "P": "<= 0.30",
+    "S": "<= 0.15"
+  },
+  "mechanical_properties": {
+    "condition": "as-cast (separately cast test bar)",
+    "tensile_strength_MPa": ">= 200",
+    "hardness_HB": "<= 223",
+    "compressive_strength_MPa": "approx 720"
+  },
+  "source": "https://www.iron-foundry.com/JIS-G5501-FC200-gray-cast-iron.html, https://www.totalmateria.com/en-us/material/1080703",
+  "license_note": "composition/property data widely republished by independent free foundry datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

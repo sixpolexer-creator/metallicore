@@ -1,14 +1,37 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Link from "next/link";
 import { useI18n } from "@/i18n";
 import { useAuth } from "@/auth/AuthProvider";
 
+/** Inline user-silhouette glyph — no icon package, kept local to avoid any external/CDN dependency. */
+function UserIcon({ filled = false }: { filled?: boolean }) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      width="16"
+      height="16"
+      fill={filled ? "currentColor" : "none"}
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="8" r="4" />
+      <path d="M4 20c0-4.418 3.582-8 8-8s8 3.582 8 8" />
+    </svg>
+  );
+}
+
 /**
- * Local Admin login control for the site header. Renders a small popover with
- * username/password fields; on success the app-wide `isAdmin` session flips
- * true and this control swaps to a "session active" badge + logout button.
- * No network request is ever made — see src/auth/AuthProvider.tsx.
+ * Local Admin login control for the site header (a plain icon button — see
+ * UserIcon below). Renders a small popover with username/password fields; on
+ * success the app-wide `isAdmin` session flips true and this control swaps to
+ * a session icon (linking to /admin) + logout button. Login/logout also call
+ * /api/admin/login and /api/admin/logout to establish the server-side
+ * session cookie — see src/auth/AuthProvider.tsx.
  */
 export function AdminLoginControl() {
   const { t } = useI18n();
@@ -22,9 +45,14 @@ export function AdminLoginControl() {
   if (isAdmin) {
     return (
       <div className="flex items-center gap-2">
-        <span className="ltr-data rounded-full px-2.5 py-1 text-[11px] font-medium uppercase tracking-wider text-[var(--color-accent)] mc-surface-strong">
-          {t("admin.sessionActive")}
-        </span>
+        <Link
+          href="/admin"
+          title={t("admin.sessionActive")}
+          aria-label={t("admin.sessionActive")}
+          className="mc-surface-strong flex h-8 w-8 items-center justify-center rounded-full text-[var(--color-accent)] transition hover:opacity-80"
+        >
+          <UserIcon filled />
+        </Link>
         <button
           type="button"
           onClick={logout}
@@ -56,9 +84,12 @@ export function AdminLoginControl() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="rounded-full px-3 py-1.5 text-xs font-medium text-neutral-500 transition hover:bg-[var(--mc-surface-strong)] hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+        title={t("admin.loginCta")}
+        aria-label={t("admin.loginCta")}
+        aria-expanded={open}
+        className="flex h-8 w-8 items-center justify-center rounded-full text-neutral-500 transition hover:bg-[var(--mc-surface-strong)] hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
       >
-        {t("admin.loginCta")}
+        <UserIcon />
       </button>
 
       {open && (

@@ -126,5 +126,93 @@
     "scope_summary": "Specifies the Charpy V-notch and U-notch pendulum impact test method for determining the absorbed energy (toughness) of metallic materials; aligned with ISO 148-1.",
     "source": "https://webdesk.jsa.or.jp/",
     "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4103",
+    "full_name": "Nickel chromium molybdenum steels",
+    "version_year": "2016",
+    "scope_summary": "Low-alloy nickel-chromium-molybdenum structural steel bars for machine use, covering through-hardening and case-hardening grades (SNCM220, SNCM420, SNCM439, SNCM630, etc.) for gears, shafts and highly stressed parts.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4401",
+    "full_name": "Carbon tool steels",
+    "version_year": "2009",
+    "scope_summary": "High-carbon plain carbon tool steels (grades SK140 to SK60, formerly SK1-SK7) for cutting tools, files, chisels, punches, springs and hand tools.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4403",
+    "full_name": "High speed tool steels",
+    "version_year": "2015",
+    "scope_summary": "Tungsten-type and molybdenum-type high speed tool steels (SKH2, SKH51, SKH55, SKH57, etc.) retaining hardness at elevated temperature, used for drills, taps, milling cutters and forming tools.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4404",
+    "full_name": "Alloy tool steels",
+    "version_year": "2015",
+    "scope_summary": "Alloy tool steels grouped into cold-work die steels (SKD1, SKD11), hot-work die steels (SKD6, SKD61, SKT4) and shock/cutting grades (SKS series), used for dies, moulds, punches and shear blades.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4805",
+    "full_name": "High carbon chromium bearing steels",
+    "version_year": "2019",
+    "scope_summary": "High-carbon chromium bearing steels (SUJ2, SUJ3, SUJ4, SUJ5) for rolling bearing rings, balls and rollers requiring high hardness, wear resistance and rolling-contact fatigue strength.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G4801",
+    "full_name": "Spring steels",
+    "version_year": "2011",
+    "scope_summary": "Hot-rolled spring steel bars in silicon-manganese, manganese-chromium and chromium-vanadium grades (SUP6, SUP9, SUP10, SUP11A, etc.) for leaf and coil springs and torsion bars.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G3131",
+    "full_name": "Hot-rolled mild steel plates, sheet and strip",
+    "version_year": "2018",
+    "scope_summary": "Hot-rolled low-carbon mild steel flat products for general forming and drawing (grades SPHC, SPHD, SPHE, SPHF) used in automotive, appliance and general fabrication.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G3141",
+    "full_name": "Cold-reduced carbon steel sheet and strip",
+    "version_year": "2021",
+    "scope_summary": "Cold-rolled low-carbon steel sheet and strip for forming (grades SPCC, SPCD, SPCE, SPCF, SPCG) with good surface finish, widely used for automotive body panels and appliances.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS H3250",
+    "full_name": "Copper and copper alloy rods and bars",
+    "version_year": "2021",
+    "scope_summary": "Extruded and drawn copper and copper alloy rods and bars including tough pitch copper, brasses and free-cutting leaded brass (C2600, C3601, C3604, C3771, etc.) for machined parts and fasteners.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS H3300",
+    "full_name": "Copper and copper alloy seamless pipes and tubes",
+    "version_year": "2018",
+    "scope_summary": "Seamless copper and copper alloy tubes (phosphorus-deoxidised copper C1220, brasses, cupro-nickels) for heat exchangers, plumbing, air-conditioning and general piping.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "JIS G5502",
+    "full_name": "Spheroidal graphite iron castings",
+    "version_year": "2001",
+    "scope_summary": "Spheroidal-graphite (ductile/nodular) cast iron classified by tensile strength and elongation (FCD350 to FCD800), covering ferritic to pearlitic grades for high-strength ductile castings.",
+    "source": "https://webdesk.jsa.or.jp/",
+    "status": "restricted_metadata_only"
   }
 ]
