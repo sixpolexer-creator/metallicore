@@ -17,7 +17,7 @@ export type Dictionary = Record<string, string>;
 
 const DICTIONARIES: Record<Locale, Dictionary> = { en, he };
 const STORAGE_KEY = "metallicore-locale";
-const DEFAULT_LOCALE: Locale = "en";
+const DEFAULT_LOCALE: Locale = "he";
 
 function dirForLocale(locale: Locale): Dir {
   return locale === "he" ? "rtl" : "ltr";

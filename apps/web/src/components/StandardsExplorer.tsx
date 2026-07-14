@@ -74,9 +74,8 @@ export function StandardsExplorer({
   );
 
   const results = useMemo(() => {
-    const base = query.trim()
-      ? fuse.search(query.trim()).map((r) => r.item)
-      : (standards as AnyStandard[]);
+    const q = query.trim();
+    const base = q ? searchStandards(standards as AnyStandard[], fuse, q) : (standards as AnyStandard[]);
     return base.filter((s) => matchesFacets(s, selection));
   }, [query, fuse, standards, selection]);
 
@@ -180,6 +179,57 @@ export function StandardsExplorer({
       </div>
     </div>
   );
+}
+
+// Normalizes for substring comparison: strips everything but letters/digits and
+// lowercases, so "A106", "a-106", and "106" all compare on equal footing.
+function normalizeAlphanumeric(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+const SUBSTRING_FIELDS = [
+  "fullCode",
+  "designation",
+  "title",
+  "materialType",
+  "description",
+] as const;
+
+/**
+ * Alphanumeric-aware search: Fuse's fuzzy scoring is tuned for typo tolerance
+ * on words, and can under-rank short numeric queries (e.g. "106", "304")
+ * against long codes like "ASTM A106 Grade B" or "ASTM A240 Type 304". To
+ * guarantee those substring lookups always resolve, exact normalized-substring
+ * matches are surfaced first (in their original standards order), then any
+ * additional Fuse fuzzy matches are appended.
+ */
+function searchStandards(
+  standards: readonly AnyStandard[],
+  fuse: Fuse<AnyStandard>,
+  query: string,
+): AnyStandard[] {
+  const normalizedQuery = normalizeAlphanumeric(query);
+
+  const substringMatches =
+    normalizedQuery.length > 0
+      ? standards.filter((s) =>
+          SUBSTRING_FIELDS.some((field) => {
+            const raw = s[field as keyof AnyStandard];
+            return (
+              typeof raw === "string" &&
+              normalizeAlphanumeric(raw).includes(normalizedQuery)
+            );
+          }),
+        )
+      : [];
+
+  const seen = new Set(substringMatches.map((s) => s.fullCode));
+  const fuzzyMatches = fuse
+    .search(query)
+    .map((r) => r.item)
+    .filter((s) => !seen.has(s.fullCode));
+
+  return [...substringMatches, ...fuzzyMatches];
 }
 
 function buildFacetOptions(standards: readonly AnyStandard[]): FacetOptions {
