@@ -1,0 +1,28 @@
+{
+  "designation": "EN-GJS-400-15 (EN-JS1030)",
+  "full_name": "Spheroidal graphite (ductile/nodular) cast iron EN-GJS-400-15, number EN-JS1030",
+  "version_year": "Grade per EN 1563:2018",
+  "body": "EN",
+  "scope": "Ferritic to ferritic-pearlitic spheroidal (nodular) graphite cast iron grade classified by mechanical properties on machined test pieces. Combines good elongation and toughness with useful strength; used for structural and pressure-bearing components, housings and safety parts. Equivalent to former GGG40 / ASTM A536 60-40-18.",
+  "chemical_composition": {
+    "note": "EN 1563 defines grades by mechanical properties/microstructure, not fixed composition. Typical foundry ranges below.",
+    "C": "3.4-3.9",
+    "Si": "2.2-2.9",
+    "Mn": "max ~0.5",
+    "P": "max ~0.05",
+    "S": "max ~0.02",
+    "Mg": "0.03-0.06 (nodulizing)",
+    "unit": "wt% typical"
+  },
+  "mechanical_properties": {
+    "condition": "as-cast (separately cast test piece)",
+    "tensile_strength_Rm_MPa": ">=400",
+    "proof_strength_Rp0.2_MPa": ">=250",
+    "elongation_A_percent": ">=15",
+    "hardness_HB": "130-180",
+    "density_g_cm3": 7.1
+  },
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=1520 ; https://www.iron-foundry.com/en-gjs-400-15-ggg40-cast-iron.html ; https://langhe-industry.com/en-gjs-400-15-ductile-iron/",
+  "license_note": "EN-GJS-400-15 grade designation and its property requirements (Rm/Rp0.2/A) are widely reproduced in free foundry datasheets and reference sites; composition is typical foundry practice, not reproduced EN text.",
+  "status": "open_data"
+}

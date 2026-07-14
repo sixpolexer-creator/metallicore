@@ -1,0 +1,34 @@
+{
+  "designation": "EN CW508L (CuZn37)",
+  "full_name": "Brass CuZn37, EN number CW508L / 2.0321 (formerly CZ108)",
+  "version_year": "Grade per EN 1652 (plate/sheet/strip) / EN 12164 / EN 12449",
+  "body": "EN",
+  "scope": "Single-phase (alpha) 37% zinc brass with excellent cold formability and good electrical/thermal conductivity. High-purity cold-forming brass used for deep drawing, severe bending, stamping, connectors, fasteners and decorative parts.",
+  "chemical_composition": {
+    "Cu": "62.0-64.0",
+    "Pb": "max 0.10",
+    "Fe": "max 0.10",
+    "Sn": "max 0.10",
+    "Ni": "max 0.30",
+    "Al": "max 0.05",
+    "Zn": "balance",
+    "others_total": "max 0.20",
+    "unit": "wt%"
+  },
+  "mechanical_properties": {
+    "condition_R300_soft": {
+      "tensile_strength_Rm_MPa": "300-370",
+      "elongation_A_percent": ">=43",
+      "hardness_HV": "65-95"
+    },
+    "condition_R480_hard": {
+      "tensile_strength_Rm_MPa": ">=480",
+      "hardness_HV": "150-175"
+    },
+    "density_g_cm3": 8.44,
+    "modulus_GPa": 103
+  },
+  "source": "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1319 ; https://www.metal-rolling-services.com/cuzn37-en ; https://batz-burgel.com/en/metal-trading/brass-product-range/cw508l/ ; https://www.aalco.co.uk/datasheets/Copper-and-Copper-Alloys-CW508L-Sheet_114.ashx",
+  "license_note": "CW508L / CuZn37 designation and its composition and typical temper property ranges are widely published in free manufacturer datasheets; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

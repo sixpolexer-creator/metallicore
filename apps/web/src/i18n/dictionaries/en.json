@@ -8,6 +8,11 @@
   "search.button": "Search",
   "search.clear": "Clear search",
   "search.globalPlaceholder": "Search across all organizations…",
+  "search.companyBadge": "Company Standard",
+  "search.originLabel": "Standard origin",
+  "search.originAll": "Show All",
+  "search.originInternational": "International Only",
+  "search.originCompany": "Company Standards Only",
 
   "filters.title": "Filters",
   "filters.organization": "Organization",
@@ -99,6 +104,8 @@
   "admin.isShareablePdf": "Free to share — show this PDF to all visitors",
   "admin.savePdf": "Save PDF",
   "admin.pdfSaved": "PDF settings saved.",
+  "admin.dashboardTitle": "Local Standards Dashboard",
+  "admin.dashboardSubtitle": "Create, edit, and remove your organization's local/company standards and their PDF documents.",
   "validation.required": "Enter a version or revision label.",
   "validation.duplicate": "This version already exists for this standard.",
   "validation.pdfUrlRequired": "Enter a PDF URL before marking it free to share."

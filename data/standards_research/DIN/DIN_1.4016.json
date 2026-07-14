@@ -1,0 +1,28 @@
+{
+  "designation": "DIN 1.4016 (X6Cr17)",
+  "full_name": "Ferritic stainless steel X6Cr17, material number 1.4016 (AISI 430 equivalent)",
+  "version_year": "composition per EN 10088-2:2014",
+  "body": "DIN",
+  "scope": "Ferritic chromium stainless steel for wrought products; not hardenable by heat treatment, used in the annealed condition. Magnetic. General-purpose grade for household appliances, kitchen equipment, decorative trim and automotive components.",
+  "chemical_composition": {
+    "C": "max 0.08 %",
+    "Si": "max 1.00 %",
+    "Mn": "max 1.00 %",
+    "P": "max 0.040 %",
+    "S": "max 0.015 %",
+    "Cr": "16.0-18.0 %",
+    "N": "max 0.030 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm": "400-630 N/mm^2",
+    "yield_strength_Rp0.2": "min 240 N/mm^2",
+    "elongation_A": "min 20 %",
+    "hardness": "<= 200 HB",
+    "density": "7.7 kg/dm^3 at 20 C",
+    "condition": "annealed"
+  },
+  "equivalents": ["AISI 430", "X6Cr17", "UNS S43000", "430S17"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=61, https://www.makeitfrom.com/material-properties/EN-1.4016-X6Cr17-Stainless-Steel",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

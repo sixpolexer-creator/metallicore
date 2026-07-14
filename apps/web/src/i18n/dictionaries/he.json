@@ -8,6 +8,11 @@
   "search.button": "חיפוש",
   "search.clear": "ניקוי חיפוש",
   "search.globalPlaceholder": "חיפוש בכל הארגונים…",
+  "search.companyBadge": "תקן פנימי",
+  "search.originLabel": "מקור התקן",
+  "search.originAll": "הצג הכל",
+  "search.originInternational": "בינלאומי בלבד",
+  "search.originCompany": "תקנים פנימיים בלבד",
 
   "filters.title": "מסננים",
   "filters.organization": "ארגון",
@@ -99,6 +104,8 @@
   "admin.isShareablePdf": "פתוח לשיתוף — הצג PDF זה לכל המבקרים",
   "admin.savePdf": "שמור PDF",
   "admin.pdfSaved": "הגדרות ה-PDF נשמרו.",
+  "admin.dashboardTitle": "לוח בקרה לתקנים פנימיים",
+  "admin.dashboardSubtitle": "יצירה, עריכה והסרה של תקני הארגון הפנימיים ומסמכי ה-PDF שלהם.",
   "validation.required": "יש להזין תווית גרסה או מהדורה.",
   "validation.duplicate": "גרסה זו כבר קיימת עבור תקן זה.",
   "validation.pdfUrlRequired": "יש להזין כתובת PDF לפני סימונו כפתוח לשיתוף."

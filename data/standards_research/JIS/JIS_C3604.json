@@ -1,0 +1,24 @@
+{
+  "designation": "JIS C3604",
+  "full_name": "Copper alloy C3604 - free-cutting (leaded) brass (per JIS H3250)",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "Leaded free-cutting brass with excellent machinability, one of the most widely used brasses for automatic-lathe machined parts, screws, valves, fittings and electrical connectors. Equivalent to UNS C36000 (close) / DIN CuZn39Pb3 / GB HPb59-3.",
+  "chemical_composition": {
+    "note": "mass %",
+    "Cu": "57.0-61.0",
+    "Pb": "1.8-3.7",
+    "Fe": "<= 0.50",
+    "Fe_plus_Sn": "<= 1.2",
+    "Zn": "balance"
+  },
+  "mechanical_properties": {
+    "condition": "half hard / drawn (F)",
+    "tensile_strength_MPa": ">= 335",
+    "elongation_percent": ">= 20",
+    "hardness_HV": ">= 80"
+  },
+  "source": "https://www.lexusmetal.com/blog/c3604-brass-chemical-composition-and-standard-specifications, https://www.dgaotuo.com/chemical-composition-and-standard-of-c3604-brass/",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

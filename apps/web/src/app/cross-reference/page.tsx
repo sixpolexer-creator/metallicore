@@ -2,16 +2,19 @@
  * Cross-Reference / Global search route — the ONE sanctioned place org data
  * mixes. It is the only page allowed to call getAllStandardsForCrossReference().
  * The mixed AnyStandard[] + curated crossReferenceLinks are handed to the client
- * <StandardsExplorer mode="global">, which narrows on `standardBody` per record
- * and exposes the Organization facet only in this mode. A prominent banner makes
- * the deliberate "Global Mode" explicit — it is never the default surface.
+ * <UnifiedSearchExplorer>, which narrows on `standardBody` per international
+ * record and additionally fetches local/company standards client-side —
+ * itself a separate, non-No-Mix category (see types/localStandard.ts) — so
+ * this is also the natural home for the unified search/discovery portal.
+ * A prominent banner makes the deliberate "Global Mode" explicit — it is
+ * never the default surface.
  */
 import {
   getAllStandardsForCrossReference,
   crossReferenceLinks,
 } from "@/data/registry";
 import { PageShell } from "@/components/PageShell";
-import { StandardsExplorer } from "@/components/StandardsExplorer";
+import { UnifiedSearchExplorer } from "@/components/UnifiedSearchExplorer";
 
 export default function CrossReferencePage() {
   const all = getAllStandardsForCrossReference();
@@ -28,8 +31,9 @@ export default function CrossReferencePage() {
         </div>
         <p className="mt-2 max-w-2xl text-sm text-neutral-600 dark:text-neutral-300">
           This is the only view where ASTM, AMS, ISO, DIN, EN and JIS
-          standards are searched together. Every other page is strictly
-          siloed to a single body.
+          standards are searched together — alongside your organization&apos;s
+          own local/company standards. Every other page is strictly siloed to a
+          single body.
         </p>
       </div>
 
@@ -43,9 +47,8 @@ export default function CrossReferencePage() {
         </p>
       </header>
 
-      <StandardsExplorer
-        standards={all}
-        mode="global"
+      <UnifiedSearchExplorer
+        internationalStandards={all}
         crossReferenceLinks={crossReferenceLinks}
       />
     </PageShell>

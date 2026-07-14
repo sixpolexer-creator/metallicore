@@ -102,5 +102,157 @@
     "scope_summary": "Formerly covered corrosion- and heat-resisting chromium-nickel (austenitic) stainless steel plate, sheet, and strip; withdrawn in 2014 with coverage largely superseded by ASTM A240.",
     "source": "https://store.astm.org/a0167-99r09.html",
     "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A588",
+    "full_name": "Standard Specification for High-Strength Low-Alloy Structural Steel, up to 50 ksi [345 MPa] Minimum Yield Point, with Atmospheric Corrosion Resistance",
+    "version_year": "2019",
+    "scope_summary": "Covers high-strength low-alloy (weathering) structural steel plates, shapes, and bars in Grades A, B, and K with a minimum yield point of 50 ksi and enhanced atmospheric corrosion resistance. Used primarily in welded bridges and buildings where weight savings or added durability is important.",
+    "source": "https://store.astm.org/a0588_a0588m.html ; https://www.ssab.com/en-us/brands-and-products/commercial-steel/weathering-steel/astm-a588",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A709",
+    "full_name": "Standard Specification for Structural Steel for Bridges",
+    "version_year": "2021",
+    "scope_summary": "Covers carbon and high-strength low-alloy steel structural shapes, plates, and bars, and quenched-and-tempered alloy steel plates, intended for use in bridges. Grades include 36, 50, 50S, 50W, HPS 50W, HPS 70W, and HPS 100W.",
+    "source": "https://store.astm.org/a0709_a0709m-21.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A213",
+    "full_name": "Standard Specification for Seamless Ferritic and Austenitic Alloy-Steel Boiler, Superheater, and Heat-Exchanger Tubes",
+    "version_year": "2022a",
+    "scope_summary": "Covers minimum-wall-thickness seamless ferritic and austenitic alloy-steel tubes (e.g., T11, T22, T91, TP304, TP316, TP347H) for boilers, superheaters, and heat exchangers in high-temperature service. Corresponds to ASME SA-213.",
+    "source": "https://store.astm.org/a0213_a0213m-22a.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A249",
+    "full_name": "Standard Specification for Welded Austenitic Steel Boiler, Superheater, Heat-Exchanger, and Condenser Tubes",
+    "version_year": "2018a",
+    "scope_summary": "Covers nominal-wall-thickness welded austenitic steel tubes (grades such as TP304/304L, TP316/316L, TP321, TP347) for boiler, superheater, heat-exchanger, and condenser applications. Corresponds to ASME SA-249.",
+    "source": "https://store.astm.org/a0249_a0249m-18a.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A269",
+    "full_name": "Standard Specification for Seamless and Welded Austenitic Stainless Steel Tubing for General Service",
+    "version_year": "2015a(2019)",
+    "scope_summary": "Covers nominal-wall-thickness seamless and welded austenitic stainless steel tubing for general corrosion-resisting and low- or high-temperature service, in common grades such as TP304/304L and TP316/316L.",
+    "source": "https://store.astm.org/a0269_a0269m-15ar19.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A554",
+    "full_name": "Standard Specification for Welded Stainless Steel Mechanical Tubing",
+    "version_year": "2021",
+    "scope_summary": "Covers welded austenitic, ferritic, and austenitic-ferritic (duplex) stainless steel mechanical tubing for ornamental, structural, exhaust, and other applications requiring appearance, mechanical properties, or corrosion resistance, in round, square, rectangular, or special shapes.",
+    "source": "https://store.astm.org/a0554-21.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A666",
+    "full_name": "Standard Specification for Annealed or Cold-Worked Austenitic Stainless Steel Sheet, Strip, Plate, and Flat Bar",
+    "version_year": "2024",
+    "scope_summary": "Covers austenitic stainless steel sheet, strip, plate, and flat bar in the annealed and cold-worked conditions, with several strength levels for structural and general corrosion-resistant applications.",
+    "source": "https://store.astm.org/a0666_a0666m-24.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A193",
+    "full_name": "Standard Specification for Alloy-Steel and Stainless Steel Bolting for High Temperature or High Pressure Service and Other Special Purpose Applications",
+    "version_year": "2020",
+    "scope_summary": "Covers alloy-steel and stainless steel bolting materials (bolts, studs, screws) such as grades B7, B8, and B8M for high-temperature or high-pressure service in pressure vessels, valves, flanges, and fittings.",
+    "source": "https://store.astm.org/a0193_a0193m-20.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A194",
+    "full_name": "Standard Specification for Carbon Steel, Alloy Steel, and Stainless Steel Nuts for Bolts for High Pressure or High Temperature Service, or Both",
+    "version_year": "2020a",
+    "scope_summary": "Covers carbon, alloy, and martensitic and austenitic stainless steel nuts (grades such as 2H, 4, 7, 8, 8M) intended for use with bolting in high-pressure or high-temperature service, or both.",
+    "source": "https://store.astm.org/a0194_a0194m.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A582",
+    "full_name": "Standard Specification for Free-Machining Stainless Steel Bars",
+    "version_year": "2022",
+    "scope_summary": "Covers hot-finished or cold-finished free-machining stainless steel bars (rounds, squares, hexagons) in austenitic, martensitic, and ferritic grades (e.g., Type 303, 416, 430F) designed for optimum machinability and general corrosion or high-temperature service.",
+    "source": "https://store.astm.org/a0582_a0582m-22.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A681",
+    "full_name": "Standard Specification for Tool Steels Alloy",
+    "version_year": "2008(2022)",
+    "scope_summary": "Covers chemical, mechanical, and physical requirements for wrought alloy tool steel products, including air-hardening (A-series), high-carbon high-chromium (D-series), oil-hardening (O-series), shock-resisting (S-series), and hot-work (H-series) tool steels.",
+    "source": "https://store.astm.org/a0681-08r15.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM A335",
+    "full_name": "Standard Specification for Seamless Ferritic Alloy-Steel Pipe for High-Temperature Service",
+    "version_year": "2021a",
+    "scope_summary": "Covers nominal-wall and minimum-wall seamless ferritic (chromium-molybdenum) alloy-steel pipe such as grades P11, P22, P91, and P9 intended for high-temperature service in power plants and refineries. Corresponds to ASME SA-335.",
+    "source": "https://store.astm.org/a0335_a0335m-21a.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B211",
+    "full_name": "Standard Specification for Aluminum and Aluminum-Alloy Rolled or Cold Finished Bar, Rod, and Wire",
+    "version_year": "2019",
+    "scope_summary": "Covers rolled or cold-finished aluminum and aluminum-alloy bar, rod, and wire in numerous alloys (e.g., 2011, 2024, 6061, 7075) for general structural and machined-product applications.",
+    "source": "https://store.astm.org/b0211_b0211m-19.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B210",
+    "full_name": "Standard Specification for Aluminum and Aluminum-Alloy Drawn Seamless Tubes",
+    "version_year": "2019a",
+    "scope_summary": "Covers aluminum and aluminum-alloy drawn seamless tubes in straight lengths and coils, in alloys such as 1100, 3003, 5052, and 6061, for general-purpose and pressure applications.",
+    "source": "https://store.astm.org/b0210_b0210m-19a.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B152",
+    "full_name": "Standard Specification for Copper Sheet, Strip, Plate, and Rolled Bar",
+    "version_year": "2024",
+    "scope_summary": "Covers copper sheet, strip, plate, and rolled bar produced from coppers such as C10100, C10200 (oxygen-free), C11000 (ETP), and C12200 (DHP), in a range of tempers for electrical, architectural, and general applications.",
+    "source": "https://store.astm.org/b0152_b0152m-24.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B16",
+    "full_name": "Standard Specification for Free-Cutting Brass Rod, Bar and Shapes for Use in Screw Machines",
+    "version_year": "2024",
+    "scope_summary": "Covers free-cutting brass rod, bar, and shapes produced from Copper Alloy UNS No. C36000 for high-speed screw machining and moderate thread rolling.",
+    "source": "https://store.astm.org/b0016_b0016m-24.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B160",
+    "full_name": "Standard Specification for Nickel Rod and Bar",
+    "version_year": "2005(2019)",
+    "scope_summary": "Covers hot-worked, cold-worked, or annealed nickel rod and bar in grades UNS N02200 (Nickel 200), N02201 (Nickel 201, low carbon), and N02211, in round, square, hexagonal, or rectangular section.",
+    "source": "https://store.astm.org/b0160-05r09.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B564",
+    "full_name": "Standard Specification for Nickel Alloy Forgings",
+    "version_year": "2019",
+    "scope_summary": "Covers forgings of nickel and nickel-base alloys (e.g., N06600 Inconel 600, N06625 Inconel 625, N07718 Inconel 718, N10276 Hastelloy C-276) for corrosive and high-temperature service such as flanges, fittings, and valve parts.",
+    "source": "https://store.astm.org/b0564-19.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ASTM B348",
+    "full_name": "Standard Specification for Titanium and Titanium Alloy Bars and Billets",
+    "version_year": "2021",
+    "scope_summary": "Covers titanium and titanium alloy bars and billets in Grades 1 through 34 (including unalloyed grades and Ti-6Al-4V Grade 5) for aerospace, industrial, and medical applications.",
+    "source": "https://store.astm.org/b0348_b0348m-21.html",
+    "status": "restricted_metadata_only"
   }
 ]

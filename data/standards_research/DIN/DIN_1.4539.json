@@ -1,0 +1,31 @@
+{
+  "designation": "DIN 1.4539 (X1NiCrMoCu25-20-5)",
+  "full_name": "Super-austenitic stainless steel X1NiCrMoCu25-20-5, material number 1.4539 (AISI 904L equivalent)",
+  "version_year": "composition per EN 10088-2:2014",
+  "body": "DIN",
+  "scope": "High-alloy austenitic stainless steel with high molybdenum, added copper and very low carbon. Excellent resistance to sulphuric and phosphoric acids, pitting and stress-corrosion cracking. Used in chemical, petrochemical, energy and desalination equipment.",
+  "chemical_composition": {
+    "C": "max 0.020 %",
+    "Si": "max 0.70 %",
+    "Mn": "max 2.00 %",
+    "P": "max 0.030 %",
+    "S": "max 0.010 %",
+    "Cr": "19.0-21.0 %",
+    "Ni": "24.0-26.0 %",
+    "Mo": "4.0-5.0 %",
+    "Cu": "1.2-2.0 %",
+    "N": "max 0.15 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm": "min 520 N/mm^2",
+    "yield_strength_Rp0.2": "min 220 N/mm^2",
+    "elongation_A": "min 35 %",
+    "PREN": ">= 34",
+    "density": "8.0 kg/dm^3 at 20 C",
+    "condition": "solution annealed"
+  },
+  "equivalents": ["AISI 904L", "UNS N08904", "X1NiCrMoCu25-20-5"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=111, https://steelgs.com/grades/stainless-steels/31/8016/X1NiCrMoCu25-20-5-1-4539-AISI-904L-N08904-steel.html",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

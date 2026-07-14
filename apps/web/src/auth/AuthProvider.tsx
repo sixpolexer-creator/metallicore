@@ -76,20 +76,39 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const login = useCallback(async (username: string, password: string) => {
     const hash = await sha256Hex(password);
-    const ok =
+    const localOk =
       username.trim().toLowerCase() === ADMIN_USERNAME.toLowerCase() &&
       hash === ADMIN_PASSWORD_HASH;
+    if (!localOk) return false;
 
-    if (ok) {
-      writeSession({ expiresAt: Date.now() + ADMIN_SESSION_TTL_MS });
-      setIsAdmin(true);
+    // Also establish a real server-side session (signed HttpOnly cookie) so
+    // admin API routes (CRUD, uploads) have something to verify — the local
+    // hash check above only gates this browser's UI.
+    let serverOk = false;
+    try {
+      const res = await fetch("/api/admin/login", {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+      serverOk = res.ok;
+    } catch {
+      serverOk = false;
     }
-    return ok;
+    if (!serverOk) return false;
+
+    writeSession({ expiresAt: Date.now() + ADMIN_SESSION_TTL_MS });
+    setIsAdmin(true);
+    return true;
   }, []);
 
   const logout = useCallback(() => {
     writeSession(null);
     setIsAdmin(false);
+    fetch("/api/admin/logout", { method: "POST", credentials: "include" }).catch(() => {
+      // Best-effort — local session is already cleared above.
+    });
   }, []);
 
   const value = useMemo<AuthContextValue>(

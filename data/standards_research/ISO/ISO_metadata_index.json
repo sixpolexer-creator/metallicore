@@ -134,5 +134,157 @@
     "scope_summary": "Specifies requirements for non-alloy and alloy steels intended for cold heading or cold extruding, delivered as wire rod, wire or bars, primarily addressing the properties of parts subjected to subsequent heat treatment. Later split into Part 1 (non-alloy/alloy) and Part 2 (stainless).",
     "source": "https://www.iso.org/standard/84275.html",
     "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 1461",
+    "full_name": "Hot dip galvanized coatings on fabricated iron and steel articles — Specifications and test methods",
+    "version_year": "2022",
+    "scope_summary": "Specifies the general properties of, and test methods for, hot dip galvanized zinc coatings applied by dipping fabricated iron and steel articles (including certain castings) in a zinc melt containing not more than 2 % of other metals. Excludes continuously galvanized sheet, wire and mesh and tube galvanized in automatic plants.",
+    "source": "https://www.iso.org/standard/81435.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6892-2",
+    "full_name": "Metallic materials — Tensile testing — Part 2: Method of test at elevated temperature",
+    "version_year": "2018",
+    "scope_summary": "Specifies the method of tensile testing of metallic materials at temperatures above room temperature (above 35 degrees C) and the properties determined, such as proof strength, tensile strength, elongation and reduction of area. Replaced the former ISO 783. Maintained by ISO/TC 164/SC 1.",
+    "source": "https://www.iso.org/standard/72571.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 15510",
+    "full_name": "Stainless steels — Chemical composition",
+    "version_year": "2014",
+    "scope_summary": "Lists the chemical compositions of stainless steels agreed by ISO/TC 17/SC 4, compiled mainly from existing ISO, ASTM, EN, JIS and GB specifications, and applies to all wrought product forms including ingots and semi-finished material. Second edition.",
+    "source": "https://www.iso.org/standard/61187.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 377",
+    "full_name": "Steel and steel products — Location and preparation of samples and test pieces for mechanical testing",
+    "version_year": "2017",
+    "scope_summary": "Specifies requirements for the identification, location and preparation of samples and test pieces for mechanical tests on steel sections, bars, rod, flat products and tubular products as defined in ISO 6929. Third edition, confirmed 2022.",
+    "source": "https://www.iso.org/standard/72529.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 404",
+    "full_name": "Steel and steel products — General technical delivery requirements",
+    "version_year": "2013",
+    "scope_summary": "Specifies the general technical delivery requirements for all steel products covered by ISO 6929, with the exception of steel castings and powder-metallurgical products, including requirements for inspection documents and testing. Third edition; Amendment 1 published 2022.",
+    "source": "https://www.iso.org/standard/56861.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6929",
+    "full_name": "Steel products — Vocabulary",
+    "version_year": "2013",
+    "scope_summary": "Defines terms for steel products classified according to their stage of manufacture, shape and dimensions, and appearance, covering liquid steel, ingots, semi-finished products, flat products and long products. Second edition, replacing ISO 6929:1987.",
+    "source": "https://www.iso.org/standard/52949.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 8501-1",
+    "full_name": "Preparation of steel substrates before application of paints and related products — Visual assessment of surface cleanliness — Part 1: Rust grades and preparation grades of uncoated steel substrates and of steel substrates after overall removal of previous coatings",
+    "version_year": "2007",
+    "scope_summary": "Identifies four rust grades of mill scale and rust on uncoated steel and defines preparation grades of visual cleanliness achieved by blast-cleaning, hand and power tool cleaning and flame cleaning, described in words with representative photographic examples. Maintained by ISO/TC 35/SC 12.",
+    "source": "https://www.iso.org/standard/43426.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6361-2",
+    "full_name": "Wrought aluminium and aluminium alloys — Sheets, strips and plates — Part 2: Mechanical properties",
+    "version_year": "2011",
+    "scope_summary": "Specifies the mechanical properties (tensile strength, 0.2 % proof stress, elongation) of wrought aluminium and aluminium alloy sheets, strips and plates for general engineering applications. Part of the multi-part ISO 6361 series maintained by ISO/TC 79.",
+    "source": "https://www.iso.org/standard/51843.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 1035-4",
+    "full_name": "Hot-rolled steel bars — Part 4: Tolerances",
+    "version_year": "1982",
+    "scope_summary": "Specifies the dimensional tolerances applicable to hot-rolled steel bars supplied in straight lengths as round, square, hexagonal, octagonal and flat bars. Part 4 of the ISO 1035 series (Parts 1-3 give dimensions of round, square and flat bars); the series is being consolidated by ISO/FDIS 1035.",
+    "source": "https://www.iso.org/standard/5510.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 1190-1",
+    "full_name": "Copper and copper alloys — Code of designation — Part 1: Designation of materials",
+    "version_year": "1982",
+    "scope_summary": "Establishes the system for designating coppers and copper alloys by material composition, using the prefix ISO with international chemical symbols for the base and major alloying elements followed by letters or numbers indicating grade or nominal alloy content. Maintained by ISO/TC 26.",
+    "source": "https://www.iso.org/standard/5783.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 431",
+    "full_name": "Copper refinery shapes",
+    "version_year": "1981",
+    "scope_summary": "Specifies the requirements for refined copper in the form of refinery shapes (unwrought products), including cathodes, horizontally, vertically and continuously cast wire bars, cakes, billets and ingots. Maintained by ISO/TC 26.",
+    "source": "https://www.iso.org/standard/4442.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 5832-2",
+    "full_name": "Implants for surgery — Metallic materials — Part 2: Unalloyed titanium",
+    "version_year": "2025",
+    "scope_summary": "Specifies the characteristics and corresponding test methods for wrought unalloyed titanium used in the manufacture of surgical implants, listing several grades based on tensile strength together with chemical composition requirements. Maintained by ISO/TC 150/SC 1.",
+    "source": "https://www.iso.org/standard/88632.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6931-1",
+    "full_name": "Stainless steels for springs — Part 1: Wire",
+    "version_year": "2016",
+    "scope_summary": "Specifies the grades of stainless steel generally used in the cold-drawn condition as wire of circular cross-section up to 10.00 mm diameter for the production of springs and spring parts exposed to corrosion and sometimes slightly elevated temperatures. Maintained by ISO/TC 17/SC 4.",
+    "source": "https://www.iso.org/standard/67122.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 3651-2",
+    "full_name": "Determination of resistance to intergranular corrosion of stainless steels — Part 2: Ferritic, austenitic and ferritic-austenitic (duplex) stainless steels — Corrosion test in media containing sulfuric acid",
+    "version_year": "1998",
+    "scope_summary": "Specifies test methods for determining the resistance to intergranular corrosion of ferritic, austenitic and duplex stainless steels in sulfuric-acid media, including the 16 % H2SO4/copper sulfate (Monypenny Strauss) test, the 35 % H2SO4/copper sulfate test and the 40 % H2SO4/ferric sulfate test. Confirmed 2021.",
+    "source": "https://www.iso.org/standard/9098.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 2081",
+    "full_name": "Metallic and other inorganic coatings — Electroplated coatings of zinc with supplementary treatments on iron or steel",
+    "version_year": "2018",
+    "scope_summary": "Specifies requirements for electroplated zinc coatings with supplementary treatments (e.g. chromate conversion coatings) on iron or steel, including a designation system, information to be supplied by the purchaser, and heat-treatment requirements before and after plating. Maintained by ISO/TC 107.",
+    "source": "https://www.iso.org/standard/66374.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 4967",
+    "full_name": "Steel — Determination of content of non-metallic inclusions — Micrographic method using standard diagrams",
+    "version_year": "2013",
+    "scope_summary": "Specifies a micrographic method, using standard reference diagrams, for determining the non-metallic inclusion content of rolled or forged steel products with a reduction ratio of at least 3, and also provides for determination by image analysis. Maintained by ISO/TC 17/SC 7.",
+    "source": "https://www.iso.org/standard/63156.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 683-17",
+    "full_name": "Heat-treatable steels, alloy steels and free-cutting steels — Part 17: Ball and roller bearing steels",
+    "version_year": "2023",
+    "scope_summary": "Specifies technical delivery requirements for five groups of wrought ball and roller bearing steels: through-hardening, case-hardening, induction-hardening (unalloyed and alloyed), stainless and high-temperature bearing steels. Part of the ISO 683 series maintained by ISO/TC 17.",
+    "source": "https://www.iso.org/standard/83628.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 6362-2",
+    "full_name": "Wrought aluminium and aluminium alloys — Extruded rods/bars, tubes and profiles — Part 2: Mechanical properties",
+    "version_year": "2022",
+    "scope_summary": "Specifies the mechanical properties (tensile strength, 0.2 % proof stress and elongation) of wrought aluminium and aluminium alloy extruded rods/bars, tubes and profiles for general engineering applications, tabulated by alloy, temper and product form. Maintained by ISO/TC 79/SC 6.",
+    "source": "https://www.iso.org/standard/76706.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "ISO 4885",
+    "full_name": "Ferrous materials — Heat treatments — Vocabulary",
+    "version_year": "2018",
+    "scope_summary": "Defines the terms used in the heat treatment of ferrous materials (products and workpieces of steel and cast iron), with an alphabetical list of terms and equivalents in French, German, Chinese and Japanese, and a table of iron-carbon phases. Maintained by ISO/TC 17/SC 7.",
+    "source": "https://www.iso.org/standard/74642.html",
+    "status": "restricted_metadata_only"
   }
 ]

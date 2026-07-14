@@ -1,0 +1,27 @@
+{
+  "designation": "DIN 1.7218 (25CrMo4)",
+  "full_name": "Chromium-molybdenum quenched-and-tempered steel 25CrMo4, material number 1.7218 (AISI 4130 equivalent)",
+  "version_year": "composition per EN 10083-3:2006",
+  "body": "DIN",
+  "scope": "Low-carbon chromium-molybdenum alloy tempering steel with good weldability and toughness. Used for automotive and aircraft components requiring high toughness such as axles, axle journals, shafts and turbine parts.",
+  "chemical_composition": {
+    "C": "0.22-0.29 %",
+    "Si": "max 0.40 %",
+    "Mn": "0.60-0.90 %",
+    "P": "max 0.025 %",
+    "S": "max 0.035 %",
+    "Cr": "0.90-1.20 %",
+    "Mo": "0.15-0.30 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm_QT_<=16mm": "900-1100 N/mm^2",
+    "yield_strength_Rp0.2_QT_<=16mm": "min 700 N/mm^2",
+    "elongation_A": "min 12 %",
+    "reduction_of_area_Z": "min 50 %",
+    "condition": "quenched and tempered"
+  },
+  "equivalents": ["AISI 4130", "25CrMo4", "1.7218"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=332, https://en.saarstahl.com/app/uploads/2024/03/20160401111935-7218_25CrMo4.pdf",
+  "license_note": "composition from free manufacturer datasheet (Saarstahl) and independent references, not the copyrighted DIN/EN document text",
+  "status": "open_data"
+}

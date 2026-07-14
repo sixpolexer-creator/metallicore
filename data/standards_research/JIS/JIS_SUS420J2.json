@@ -1,0 +1,28 @@
+{
+  "designation": "JIS SUS420J2",
+  "full_name": "Martensitic stainless steel grade SUS420J2 (per JIS G4303/G4304/G4305)",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "13% Cr high-carbon martensitic stainless steel; higher carbon than SUS410 for greater hardness and wear resistance. Used for cutlery, surgical instruments, plastic moulds, valve parts and bearings. Equivalent to AISI 420 / UNS S42000.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.26-0.40",
+    "Si": "<= 1.00",
+    "Mn": "<= 1.00",
+    "P": "<= 0.040",
+    "S": "<= 0.030",
+    "Cr": "12.00-14.00",
+    "Ni": "<= 0.60"
+  },
+  "mechanical_properties": {
+    "condition": "quenched and tempered",
+    "tensile_strength_MPa": ">= 640",
+    "yield_strength_MPa": ">= 440",
+    "elongation_percent": ">= 12",
+    "hardness_quenched_HRC": ">= 50",
+    "hardness_annealed_HB": "<= 235"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=114, https://www.fushunspecialsteel.com/sus420j2-stainless-steel/",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

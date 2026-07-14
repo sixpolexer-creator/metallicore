@@ -1,0 +1,24 @@
+{
+  "designation": "DIN 1.7131 (16MnCr5)",
+  "full_name": "Case-hardening (carburizing) steel 16MnCr5, material number 1.7131 (SAE 5115 equivalent)",
+  "version_year": "composition per EN 10084:2008",
+  "body": "DIN",
+  "scope": "Chromium-manganese case-hardening steel with good hardenability and machinability. Carburized and quenched to give a hard wear-resistant surface with a tough core. Used for gears, worms, shafts, sealing bushings and similar drive components.",
+  "chemical_composition": {
+    "C": "0.14-0.19 %",
+    "Si": "max 0.40 %",
+    "Mn": "1.00-1.30 %",
+    "P": "max 0.025 %",
+    "S": "max 0.035 %",
+    "Cr": "0.80-1.10 %"
+  },
+  "mechanical_properties": {
+    "surface_hardness_after_case_hardening": "approx 58-62 HRC",
+    "tensile_strength_Rm_core": "approx 780-1080 N/mm^2 (section dependent)",
+    "condition": "carburized, quenched and tempered"
+  },
+  "equivalents": ["SAE 5115", "16MnCr5", "1.7131"],
+  "source": "https://www.theworldmaterial.com/1-7131-steel-16mncr5-material/, http://www.steelnumber.com/en/steel_composition_eu.php?name_id=229",
+  "license_note": "composition/property data widely republished by independent free sources and manufacturer datasheets, not the copyrighted DIN/EN document text",
+  "status": "open_data"
+}

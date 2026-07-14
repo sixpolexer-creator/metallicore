@@ -1,0 +1,28 @@
+{
+  "designation": "JIS SUJ2",
+  "full_name": "High carbon chromium bearing steel grade SUJ2 (per JIS G4805)",
+  "version_year": "2019",
+  "body": "JIS",
+  "scope": "High-carbon (~1% C) chromium bearing steel for through-hardened rolling bearing rings, balls and rollers. Excellent wear resistance, fatigue strength and hardenability. Equivalent to AISI 52100 / DIN 100Cr6 / EN31.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.95-1.10",
+    "Si": "0.15-0.35",
+    "Mn": "<= 0.50",
+    "P": "<= 0.025",
+    "S": "<= 0.025",
+    "Cr": "1.30-1.60",
+    "Mo": "<= 0.08",
+    "Ni": "<= 0.25",
+    "Cu": "<= 0.20"
+  },
+  "mechanical_properties": {
+    "condition_annealed": "spheroidize annealed",
+    "hardness_annealed_HB": "<= 201",
+    "condition_hardened": "quenched and tempered",
+    "hardness_hardened_HRC": "60-65"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=474, https://www.astmsteel.com/product/52100-bearing-steel-aisi/",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

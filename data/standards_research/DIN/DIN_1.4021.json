@@ -1,0 +1,26 @@
+{
+  "designation": "DIN 1.4021 (X20Cr13)",
+  "full_name": "Martensitic stainless steel X20Cr13, material number 1.4021 (AISI 420 equivalent)",
+  "version_year": "composition per EN 10088-2:2014",
+  "body": "DIN",
+  "scope": "Martensitic chromium stainless steel, hardenable by heat treatment; magnetic in the hardened-and-tempered condition. Good corrosion resistance in non-chloride media. Used for cutlery, surgical instruments, pump and valve parts, shafts and axles.",
+  "chemical_composition": {
+    "C": "0.16-0.25 %",
+    "Si": "max 1.00 %",
+    "Mn": "max 1.50 %",
+    "P": "max 0.040 %",
+    "S": "max 0.015 %",
+    "Cr": "12.0-14.0 %",
+    "N": "max 0.11 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm": "750-850 N/mm^2 (quenched and tempered)",
+    "hardness_annealed": "<= 230 HB",
+    "density": "7.7 kg/dm^3 at 20 C",
+    "condition": "quenched and tempered / annealed"
+  },
+  "equivalents": ["AISI 420", "X20Cr13", "UNS S42000", "420S37"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=81, https://www.theworldmaterial.com/din-1-4021-stainless-steel-x20cr13/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

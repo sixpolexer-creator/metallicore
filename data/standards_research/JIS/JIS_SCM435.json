@@ -1,0 +1,28 @@
+{
+  "designation": "JIS G4053 SCM435",
+  "full_name": "Low-alloyed steels for machine structural use - chromium molybdenum steel grade SCM435",
+  "version_year": "2016",
+  "body": "JIS",
+  "scope": "Chromium-molybdenum (chromoly) low-alloy steel (~0.35% C) with high strength and toughness after quenching and tempering. Used for high-tensile bolts, shafts, gears, connecting rods and aircraft/automotive structural parts. Equivalent to AISI 4135 / DIN 34CrMo4.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.33-0.38",
+    "Si": "0.15-0.35",
+    "Mn": "0.60-0.90",
+    "P": "<= 0.030",
+    "S": "<= 0.030",
+    "Cr": "0.90-1.20",
+    "Mo": "0.15-0.30"
+  },
+  "mechanical_properties": {
+    "condition": "quenched and tempered",
+    "tensile_strength_MPa": ">= 930",
+    "yield_strength_MPa": ">= 785",
+    "elongation_percent": ">= 15",
+    "reduction_of_area_percent": ">= 50",
+    "impact_energy_J": ">= 55"
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=20, https://www.matweb.com/search/datasheet.aspx?matguid=536e194a7c0f4884a39758aee31cae59",
+  "license_note": "composition/property data widely republished by independent free material databases, not the copyrighted JIS document text",
+  "status": "open_data"
+}

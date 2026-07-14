@@ -1,0 +1,31 @@
+{
+  "designation": "DIN 1.4547 (X1CrNiMoCuN20-18-7)",
+  "full_name": "Super-austenitic 6Mo stainless steel X1CrNiMoCuN20-18-7, material number 1.4547 (254 SMO)",
+  "version_year": "composition per EN 10088-2:2014",
+  "body": "DIN",
+  "scope": "High-alloy austenitic stainless steel with about 6 % molybdenum and nitrogen, developed for very high resistance to pitting and crevice corrosion in chloride environments. Used in the pulp and paper industry, seawater handling and offshore oil and gas.",
+  "chemical_composition": {
+    "C": "max 0.020 %",
+    "Si": "max 0.70 %",
+    "Mn": "max 1.00 %",
+    "P": "max 0.030 %",
+    "S": "max 0.010 %",
+    "Cr": "19.5-20.5 %",
+    "Ni": "17.5-18.5 %",
+    "Mo": "6.0-7.0 %",
+    "Cu": "0.50-1.00 %",
+    "N": "0.18-0.25 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm": "650-850 N/mm^2",
+    "yield_strength_Rp0.2": "min 300 N/mm^2",
+    "elongation_A": "min 35 %",
+    "PREN": "approx 43",
+    "density": "8.0 kg/dm^3 at 20 C",
+    "condition": "solution annealed"
+  },
+  "equivalents": ["254 SMO", "UNS S31254", "X1CrNiMoCuN20-18-7", "F44"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=275, https://www.metalcor.de/en/datenblatt/37/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

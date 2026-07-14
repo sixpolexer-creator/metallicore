@@ -46,5 +46,45 @@
     "scope_summary": "Former German standard for aluminium alloys. Part 2 covered casting alloys for sand, gravity die, pressure die and investment casting. Superseded by European standards - casting alloys by DIN EN 1706 (published June 1998), wrought alloys by EN 573 / EN 485.",
     "source": "https://standards.globalspec.com/std/1740771/din-1725",
     "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 1691",
+    "full_name": "Cast iron with lamellar graphite (grey cast iron); properties (Gusseisen mit Lamellengraphit)",
+    "version_year": "1985-05 (withdrawn)",
+    "scope_summary": "Former German standard specifying flake/lamellar-graphite grey cast iron grades (GG-10 to GG-40, e.g. GG-25) with tensile-strength-based classification, plus properties and testing. Superseded by DIN EN 1561 (1997); GG-25 corresponds to EN-GJL-250 / EN-JL1040.",
+    "source": "https://www.iron-foundry.com/castings-DIN1691-DINEN1561.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 1693",
+    "full_name": "Cast iron with nodular graphite (spheroidal graphite / ductile cast iron); properties (Gusseisen mit Kugelgraphit)",
+    "version_year": "1973 (withdrawn)",
+    "scope_summary": "Former German standard for ductile/nodular graphite cast iron, defining GGG grades (GGG-40, GGG-50, GGG-60, GGG-70, GGG-80) classified by tensile strength. Superseded by DIN EN 1563; GGG grades map to modern EN-GJS-400, EN-GJS-500, etc.",
+    "source": "https://www.iron-foundry.com/equivalent-standards-grades-nodular-graphite-iron-en-1563-grey-cast-iron-en-1561.html",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 17155",
+    "full_name": "Steel plate and strip for boilers and pressure vessels (Warmfeste Staehle fuer den Behaelter- und Rohrleitungsbau)",
+    "version_year": "1983 (largely superseded)",
+    "scope_summary": "Former German standard for boiler and pressure-vessel plate steels, grades HI, HII, 17Mn4 and 19Mn6, used for boilers, pressure vessels, heat exchangers and hot-liquid piping. Largely superseded by DIN EN 10028.",
+    "source": "https://masteel.co.uk/din-17155/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 17111",
+    "full_name": "Low carbon unalloyed steels for bolts, nuts and rivets; technical conditions of delivery",
+    "version_year": "1980-09 (withdrawn)",
+    "scope_summary": "Former German delivery-conditions standard for low-carbon unalloyed steels (up to 40 mm, not for quenching/tempering or case hardening) used in hot or cold forming of bolts, nuts, rivets and similar parts, including free-machining resulphurized grades. Grades designated St followed by 1/10 of minimum tensile strength.",
+    "source": "https://standards.globalspec.com/std/1337679/din-17111",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "DIN 17660",
+    "full_name": "Wrought copper alloys; copper-zinc alloys (brass and special brass); composition",
+    "version_year": "1983-12 (withdrawn)",
+    "scope_summary": "Former German standard specifying the composition of wrought copper-zinc alloys (brasses and special brasses). Withdrawn; wrought copper-alloy designations are now covered by DIN EN 1412 and DIN CEN/TS 13388.",
+    "source": "https://standards.globalspec.com/std/1354199/din-17660",
+    "status": "restricted_metadata_only"
   }
 ]

@@ -1,0 +1,28 @@
+{
+  "designation": "AMS 6260",
+  "full_name": "Steel, Bars, Forgings, and Tubing, 3.2Ni-1.2Cr-0.12Mo (0.07-0.13C) (AISI 9310), Carburizing Grade (UNS G93106)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "Covers aircraft-quality AISI 9310 chromium-nickel-molybdenum carburizing steel (UNS G93106) in bars, forgings, mechanical tubing, and forging stock. Low nominal carbon (~0.10%) provides a tough core while carburizing produces a hard, wear-resistant, high-fatigue case. Used for aircraft gears, shafts, and bearing components.",
+  "chemical_composition": {
+    "C": "0.07-0.13",
+    "Mn": "0.45-0.65",
+    "Si": "0.15-0.35",
+    "P": "0.025 max",
+    "S": "0.025 max",
+    "Cr": "1.00-1.40",
+    "Ni": "3.00-3.50",
+    "Mo": "0.08-0.15",
+    "Fe": "balance"
+  },
+  "mechanical_properties": {
+    "note": "Carburizing steel; core mechanical properties depend on heat treatment. Typical heat-treated core values below.",
+    "typical_core_tensile_strength_MPa": "1070-1290",
+    "typical_core_hardness_HV": "330-375",
+    "typical_elongation_pct": "15-16",
+    "case_hardness_HRC": "58-62 (after carburizing and hardening)"
+  },
+  "source": "https://www.aircraftmaterials.com/data/alstst/9310.html ; https://titanium.com/ams-6260-specification/",
+  "license_note": "Composition (UNS G93106) and typical core properties compiled from freely published mill/distributor datasheets citing AMS 6260 / AISI 9310; no paywalled SAE text reproduced.",
+  "status": "open_data"
+}
