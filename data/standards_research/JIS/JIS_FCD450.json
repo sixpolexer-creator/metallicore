@@ -1,0 +1,26 @@
+{
+  "designation": "JIS FCD450",
+  "full_name": "Spheroidal graphite (ductile) iron casting grade FCD450-10 (per JIS G5502)",
+  "version_year": "2001",
+  "body": "JIS",
+  "scope": "Ferritic spheroidal-graphite (ductile/nodular) cast iron classified by min. tensile strength 450 MPa. Combines high strength with good ductility from its nodular graphite microstructure. Used for machine bases, housings, gears, crankshafts and pipe fittings. Roughly equivalent to ASTM 65-45-12 / EN GJS-450-10.",
+  "chemical_composition": {
+    "note": "mass % (typical - not tightly specified by grade; controlled by producer)",
+    "C": "3.50-4.00",
+    "Si": "2.00-2.70",
+    "Mn": "<= 0.50",
+    "P": "<= 0.06",
+    "S": "<= 0.03",
+    "Mg": "0.03-0.06 (nodulizer)"
+  },
+  "mechanical_properties": {
+    "condition": "as-cast",
+    "tensile_strength_MPa": ">= 450",
+    "yield_strength_MPa": ">= 310",
+    "elongation_percent": ">= 10",
+    "hardness_HB": "140-210"
+  },
+  "source": "http://www.iron-foundry.com/JIS-G5502-FCD450-ductile-cast-iron.html, https://castingsr.com/complete-guide-for-fcd450-essential-material-specifications-and-applications/",
+  "license_note": "composition/property data widely republished by independent free foundry datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

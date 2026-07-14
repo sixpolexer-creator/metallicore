@@ -8,6 +8,11 @@
   "search.button": "חיפוש",
   "search.clear": "ניקוי חיפוש",
   "search.globalPlaceholder": "חיפוש בכל הארגונים…",
+  "search.companyBadge": "תקן פנימי",
+  "search.originLabel": "מקור התקן",
+  "search.originAll": "הצג הכל",
+  "search.originInternational": "בינלאומי בלבד",
+  "search.originCompany": "תקנים פנימיים בלבד",
 
   "filters.title": "מסננים",
   "filters.organization": "ארגון",
@@ -46,6 +51,7 @@
   "standard.revisions": "מהדורות זמינות",
   "standard.restricted": "מוגבל",
   "standard.restrictedNotice": "התקן המלא מוגבל. ממתין להעלאה פיזית.",
+  "standard.viewOriginalPdf": "צפייה בתקן המקורי (PDF)",
 
   "language.toggle": "שפה",
   "language.english": "English",
@@ -90,6 +96,15 @@
   "admin.notes": "הערות (אופציונלי)",
   "admin.addRevision": "הוסף מהדורה",
   "admin.revisionAdded": "המהדורה נוספה בהצלחה.",
+  "admin.managePdf": "קובץ PDF של התקן המקורי",
+  "admin.pdfUrlLabel": "כתובת PDF / הפניה לקובץ",
+  "admin.pdfUrlPlaceholder": "https://…/standard.pdf",
+  "admin.isShareablePdf": "פתוח לשיתוף — הצג PDF זה לכל המבקרים",
+  "admin.savePdf": "שמור PDF",
+  "admin.pdfSaved": "הגדרות ה-PDF נשמרו.",
+  "admin.dashboardTitle": "לוח בקרה לתקנים פנימיים",
+  "admin.dashboardSubtitle": "יצירה, עריכה והסרה של תקני הארגון הפנימיים ומסמכי ה-PDF שלהם.",
   "validation.required": "יש להזין תווית גרסה או מהדורה.",
-  "validation.duplicate": "גרסה זו כבר קיימת עבור תקן זה."
+  "validation.duplicate": "גרסה זו כבר קיימת עבור תקן זה.",
+  "validation.pdfUrlRequired": "יש להזין כתובת PDF לפני סימונו כפתוח לשיתוף."
 }

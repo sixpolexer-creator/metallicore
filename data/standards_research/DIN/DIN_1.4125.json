@@ -1,0 +1,26 @@
+{
+  "designation": "DIN 1.4125 (X105CrMo17)",
+  "full_name": "High-carbon martensitic stainless steel X105CrMo17, material number 1.4125 (AISI 440C equivalent)",
+  "version_year": "composition per EN 10088-3:2014",
+  "body": "DIN",
+  "scope": "High-carbon chromium-molybdenum martensitic stainless steel achieving the highest hardness and wear resistance of the standard stainless grades after hardening. Used for ball/roller bearings, cutlery, knife blades, nozzles, valve parts and wear components.",
+  "chemical_composition": {
+    "C": "0.95-1.20 %",
+    "Si": "max 1.00 %",
+    "Mn": "max 1.00 %",
+    "P": "max 0.040 %",
+    "S": "max 0.030 %",
+    "Cr": "16.0-18.0 %",
+    "Mo": "0.40-0.80 %"
+  },
+  "mechanical_properties": {
+    "hardness_hardened": "58-60 HRC (up to ~62 HRC)",
+    "hardness_annealed": "<= 285 HB",
+    "density": "7.7 kg/dm^3 at 20 C",
+    "condition": "hardened and tempered / annealed"
+  },
+  "equivalents": ["AISI 440C", "X105CrMo17", "UNS S44004"],
+  "source": "https://www.theworldmaterial.com/en-1-4125-x105crmo17-steel/, https://acnis-titanium.com/wp-content/uploads/2020/04/UK-AISI440C.pdf",
+  "license_note": "composition/property data widely republished by independent free sources and manufacturer datasheets, not the copyrighted DIN document text",
+  "status": "open_data"
+}

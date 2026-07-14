@@ -1,0 +1,27 @@
+{
+  "designation": "DIN 1.4057 (X17CrNi16-2)",
+  "full_name": "Martensitic stainless steel X17CrNi16-2, material number 1.4057 (AISI 431 equivalent)",
+  "version_year": "composition per EN 10088-3:2014",
+  "body": "DIN",
+  "scope": "Nickel-bearing martensitic chromium stainless steel, hardenable, with better corrosion resistance and toughness than plain 13 % Cr martensitics. Used for pump and valve shafts, bolts, fasteners and highly stressed components in mild marine and industrial environments.",
+  "chemical_composition": {
+    "C": "0.12-0.22 %",
+    "Si": "max 1.00 %",
+    "Mn": "max 1.50 %",
+    "P": "max 0.040 %",
+    "S": "max 0.015 %",
+    "Cr": "15.0-17.0 %",
+    "Ni": "1.50-2.50 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm": "800-950 N/mm^2 (quenched and tempered)",
+    "yield_strength_Rp0.2": "min 600 N/mm^2",
+    "elongation_A": "min 12 %",
+    "density": "7.7 kg/dm^3 at 20 C",
+    "condition": "quenched and tempered"
+  },
+  "equivalents": ["AISI 431", "X17CrNi16-2", "UNS S43100", "431S29"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=97, https://www.makeitfrom.com/material-properties/EN-1.4057-X17CrNi16-2-Stainless-Steel",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN document text",
+  "status": "open_data"
+}

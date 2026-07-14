@@ -142,5 +142,85 @@
     "scope_summary": "Technical delivery conditions for copper alloy rod optimized for free machining, including leaded brasses such as CW614N (CuZn39Pb3).",
     "source": "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1356",
     "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 1563",
+    "full_name": "Founding - Spheroidal graphite cast irons",
+    "version_year": "2018",
+    "scope_summary": "Specifies grades and mechanical requirements for spheroidal (nodular) graphite cast irons classified by properties on machined test pieces (e.g. EN-GJS-400-15, EN-GJS-500-7). Covers ferritic to pearlitic and solid-solution strengthened ferritic grades.",
+    "source": "https://standards.iteh.ai/catalog/standards/cen/e04bc999-3e91-4f24-855b-06dd6cf1d728/en-1563-2018",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 1561",
+    "full_name": "Founding - Grey cast irons",
+    "version_year": "2011",
+    "scope_summary": "Specifies grades of unalloyed and low-alloyed lamellar (flake) graphite grey cast iron, classified either by tensile strength (e.g. EN-GJL-250) or by Brinell hardness, measured on machined test pieces from cast samples.",
+    "source": "https://webstore.ansi.org/standards/bsi/bsen15612011",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10111",
+    "full_name": "Continuously hot rolled low carbon steel sheet and strip for cold forming - Technical delivery conditions",
+    "version_year": "2008",
+    "scope_summary": "Specifies grades (DD11, DD12, DD13, DD14) of continuously hot rolled low carbon steel sheet and strip for cold forming, thickness ~1.0-11 mm, with delivery conditions, composition and mechanical/formability requirements.",
+    "source": "https://webstore.ansi.org/standards/din/dinen101112008",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10130",
+    "full_name": "Cold rolled low carbon steel flat products for cold forming - Technical delivery conditions",
+    "version_year": "2006",
+    "scope_summary": "Specifies technical delivery conditions for cold rolled flat products of unalloyed low-carbon steel for cold forming (grades DC01-DC06), including chemical composition, mechanical properties and surface quality.",
+    "source": "https://www.modiranahan.com/uploads/pdf/BS-EN-10130-2006.pdf",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10149-2",
+    "full_name": "Hot rolled flat products made of high yield strength steels for cold forming - Part 2: Technical delivery conditions for thermomechanically rolled steels",
+    "version_year": "2013",
+    "scope_summary": "Thermomechanically rolled (M) high yield strength micro-alloyed steels for cold forming, grades S315MC to S960MC (yield ~315-960 MPa), thickness ~1.5-20 mm; widely used in automotive structural parts.",
+    "source": "https://www.ssab.com/en-us/brands-and-products/commercial-steel/structural-steel/en-10149-2",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10263-1",
+    "full_name": "Steel rod, bars and wire for cold heading and cold extrusion - Part 1: General technical delivery conditions",
+    "version_year": "2017 (Part 1: 2001)",
+    "scope_summary": "General delivery conditions for round rod, bars and wire for cold heading and cold extrusion (fasteners). Multi-part: Part 2 non-heat-treated, Part 3 case hardening, Part 4 quench-and-temper, Part 5 stainless steels.",
+    "source": "https://webstore.ansi.org/standards/bsi/bsen102632001",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 10269",
+    "full_name": "Steels and nickel alloys for fasteners with specified elevated and/or low temperature properties",
+    "version_year": "2013",
+    "scope_summary": "Specifies semi-finished products, bars and rods for fasteners (bolts, studs, nuts) with properties defined at elevated and/or low temperatures, in non-alloy, alloy, stainless steels and nickel alloys.",
+    "source": "https://www.en-standard.eu/bs-en-10269-2013-steels-and-nickel-alloys-for-fasteners-with-specified-elevated-and-or-low-temperature-properties/",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 12420",
+    "full_name": "Copper and copper alloys - Forgings",
+    "version_year": "2014 (rev. 2024)",
+    "scope_summary": "Specifies composition, property requirements and dimensional/form tolerances for copper and copper alloy die and hand forgings, plus sampling, test methods and delivery conditions.",
+    "source": "https://webstore.ansi.org/standards/din/dinen124202014",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 12449",
+    "full_name": "Copper and copper alloys - Seamless, round tubes for general purposes",
+    "version_year": "2016+A1:2019",
+    "scope_summary": "Specifies composition, property requirements and tolerances for seamless round drawn copper and copper alloy tubes for general purposes, ~3-450 mm outside diameter and 0.3-20 mm wall thickness.",
+    "source": "https://webstore.ansi.org/standards/din/DINEN124492012",
+    "status": "restricted_metadata_only"
+  },
+  {
+    "designation": "EN 1652",
+    "full_name": "Copper and copper alloys - Plate, sheet, strip and circles for general purposes",
+    "version_year": "1997/1998",
+    "scope_summary": "Specifies composition, property requirements and tolerances on dimensions/form for copper and copper alloy plate, sheet, strip and circles for general purposes (e.g. CuZn37/CW508L), with sampling and delivery conditions.",
+    "source": "https://www.en-standard.eu/bs-en-1652-1998-copper-and-copper-alloys-plate-sheet-strip-and-circles-for-general-purposes/",
+    "status": "restricted_metadata_only"
   }
 ]

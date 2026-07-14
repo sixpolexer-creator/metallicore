@@ -967,5 +967,1300 @@ export const jisStandards: JisStandard[] = [
     "description": "Specifies the Charpy V-notch and U-notch pendulum impact test method for determining the absorbed energy (toughness) of metallic materials; aligned with ISO 148-1.",
     "dataAccess": "restricted",
     "jisNumber": "Z2242"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "H4000 A2017",
+    "fullCode": "JIS H4000 A2017",
+    "title": "Wrought aluminium alloy A2017 (Al-Cu duralumin)",
+    "materialType": "Aluminum",
+    "application": [
+      "Aerospace",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Al-Cu-Mg heat-treatable wrought aluminium alloy (classic duralumin) with high strength and good machinability but limited corrosion resistance. Used for machine parts, structural fittings, bolts and rivets. Equivalent to AA 2017.",
+    "dataAccess": "full",
+    "scope": "Al-Cu-Mg heat-treatable wrought aluminium alloy (classic duralumin) with high strength and good machinability but limited corrosion resistance. Used for machine parts, structural fittings, bolts and rivets. Equivalent to AA 2017 / EN AW-2017A.",
+    "chemicalComposition": [
+      {
+        "element": "Si",
+        "range": "0.20-0.80"
+      },
+      {
+        "element": "Fe",
+        "range": "<= 0.70"
+      },
+      {
+        "element": "Cu",
+        "range": "3.50-4.50"
+      },
+      {
+        "element": "Mn",
+        "range": "0.40-1.00"
+      },
+      {
+        "element": "Mg",
+        "range": "0.40-0.80"
+      },
+      {
+        "element": "Cr",
+        "range": "<= 0.10"
+      },
+      {
+        "element": "Zn",
+        "range": "<= 0.25"
+      },
+      {
+        "element": "Ti",
+        "range": "<= 0.15"
+      },
+      {
+        "element": "Al",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "T4 (solution treated and naturally aged)"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 355"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 215"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 12"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "approx 105"
+      }
+    ],
+    "jisNumber": "H4000"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "H4000 A7075",
+    "fullCode": "JIS H4000 A7075",
+    "title": "Wrought aluminium alloy A7075 (Al-Zn-Mg-Cu)",
+    "materialType": "Aluminum",
+    "application": [
+      "Aerospace"
+    ],
+    "status": "active",
+    "description": "Al-Zn-Mg-Cu high-strength heat-treatable wrought aluminium alloy, one of the strongest aluminium alloys, with good fatigue strength. Used for highly stressed aircraft structural parts, moulds and sporting goods. Equivalent to AA 7075.",
+    "dataAccess": "full",
+    "scope": "Al-Zn-Mg-Cu high-strength heat-treatable wrought aluminium alloy, one of the strongest aluminium alloys, with good fatigue strength. Used for highly stressed aircraft structural parts, moulds and sporting goods. Equivalent to AA 7075 / EN AW-7075.",
+    "chemicalComposition": [
+      {
+        "element": "Si",
+        "range": "<= 0.40"
+      },
+      {
+        "element": "Fe",
+        "range": "<= 0.50"
+      },
+      {
+        "element": "Cu",
+        "range": "1.20-2.00"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 0.30"
+      },
+      {
+        "element": "Mg",
+        "range": "2.10-2.90"
+      },
+      {
+        "element": "Cr",
+        "range": "0.18-0.28"
+      },
+      {
+        "element": "Zn",
+        "range": "5.10-6.10"
+      },
+      {
+        "element": "Ti",
+        "range": "<= 0.20"
+      },
+      {
+        "element": "Al",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "T6 (solution treated and artificially aged)"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 525"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 460"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 7"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "approx 150"
+      }
+    ],
+    "jisNumber": "H4000"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "H3100 C2600",
+    "fullCode": "JIS H3100 C2600",
+    "title": "Copper alloy C2600 - cartridge brass (70/30)",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "70Cu-30Zn cartridge brass with excellent cold formability (the best plasticity among the brasses) and good strength. Used for deep-drawn parts, electronic components, terminals, springs, sockets and bellows. Equivalent to UNS C26000.",
+    "dataAccess": "full",
+    "scope": "70Cu-30Zn cartridge brass with excellent cold formability (the best plasticity among the brasses) and good strength. Used for deep-drawn parts, electronic components, terminals, springs, sockets and bellows. Equivalent to UNS C26000 / CuZn30.",
+    "chemicalComposition": [
+      {
+        "element": "Cu",
+        "range": "68.5-71.5"
+      },
+      {
+        "element": "Pb",
+        "range": "<= 0.03"
+      },
+      {
+        "element": "Fe",
+        "range": "<= 0.10"
+      },
+      {
+        "element": "Zn",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Tensile Strength MPa (Annealed, O)",
+        "value": ">= 275"
+      },
+      {
+        "label": "Elongation Percent (Annealed, O)",
+        "value": ">= 35"
+      },
+      {
+        "label": "Tensile Strength MPa (Hard, H04)",
+        "value": "410-540"
+      }
+    ],
+    "jisNumber": "H3100"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "H3250 C3604",
+    "fullCode": "JIS H3250 C3604",
+    "title": "Copper alloy C3604 - free-cutting (leaded) brass",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Leaded free-cutting brass with excellent machinability, one of the most widely used brasses for automatic-lathe machined parts, screws, valves, fittings and electrical connectors. Equivalent to UNS C36000 (close) / CuZn39Pb3.",
+    "dataAccess": "full",
+    "scope": "Leaded free-cutting brass with excellent machinability, one of the most widely used brasses for automatic-lathe machined parts, screws, valves, fittings and electrical connectors. Equivalent to UNS C36000 (close) / DIN CuZn39Pb3 / GB HPb59-3.",
+    "chemicalComposition": [
+      {
+        "element": "Cu",
+        "range": "57.0-61.0"
+      },
+      {
+        "element": "Pb",
+        "range": "1.8-3.7"
+      },
+      {
+        "element": "Fe",
+        "range": "<= 0.50"
+      },
+      {
+        "element": "Fe + Sn",
+        "range": "<= 1.2"
+      },
+      {
+        "element": "Zn",
+        "range": "balance"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "half hard / drawn (F)"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 335"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 20"
+      },
+      {
+        "label": "Hardness HV",
+        "value": ">= 80"
+      }
+    ],
+    "jisNumber": "H3250"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G5501 FC200",
+    "fullCode": "JIS G5501 FC200",
+    "title": "Grey (flake graphite) iron casting grade FC200",
+    "materialType": "Cast Iron",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Grey cast iron with flake graphite classified by minimum tensile strength 200 MPa. Good castability, machinability, damping capacity and wear resistance. Used for cylinder blocks and heads, clutch housings, flywheels, gearboxes and machine bases. Roughly equivalent to ASTM Class 30.",
+    "dataAccess": "full",
+    "scope": "Grey cast iron with flake graphite classified by min. tensile strength 200 MPa. Good castability, machinability, damping capacity and wear resistance. Used for cylinder blocks and heads, clutch housings, flywheels, gearboxes, machine bases and compressor frames. Roughly equivalent to ASTM Class 30 / EN GJL-200.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "3.10-3.40 (typical)"
+      },
+      {
+        "element": "Si",
+        "range": "1.90-2.30 (typical)"
+      },
+      {
+        "element": "Mn",
+        "range": "0.60-0.90 (typical)"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.30"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.15"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "as-cast (separately cast test bar)"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 200"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "<= 223"
+      },
+      {
+        "label": "Compressive Strength MPa",
+        "value": "approx 720"
+      }
+    ],
+    "jisNumber": "G5501"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G5502 FCD450",
+    "fullCode": "JIS G5502 FCD450",
+    "title": "Spheroidal graphite (ductile) iron casting grade FCD450-10",
+    "materialType": "Cast Iron",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Ferritic spheroidal-graphite (ductile/nodular) cast iron classified by minimum tensile strength 450 MPa. Combines high strength with good ductility from its nodular graphite microstructure. Used for machine bases, housings, gears, crankshafts and pipe fittings. Roughly equivalent to ASTM 65-45-12.",
+    "dataAccess": "full",
+    "scope": "Ferritic spheroidal-graphite (ductile/nodular) cast iron classified by min. tensile strength 450 MPa. Combines high strength with good ductility from its nodular graphite microstructure. Used for machine bases, housings, gears, crankshafts and pipe fittings. Roughly equivalent to ASTM 65-45-12 / EN GJS-450-10.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "3.50-4.00 (typical)"
+      },
+      {
+        "element": "Si",
+        "range": "2.00-2.70 (typical)"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 0.50"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.06"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.03"
+      },
+      {
+        "element": "Mg",
+        "range": "0.03-0.06 (nodulizer)"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "as-cast"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 450"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 310"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 10"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "140-210"
+      }
+    ],
+    "jisNumber": "G5502"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4051 S50C",
+    "fullCode": "JIS G4051 S50C",
+    "title": "Carbon steels for machine structural use - grade S50C",
+    "materialType": "Steel",
+    "application": [
+      "Construction"
+    ],
+    "status": "active",
+    "description": "Medium-carbon steel (~0.50% C) for machine structural use; bars and forgings for shafts, gears, keys, studs and machine parts requiring higher strength than S45C. Commonly quenched and tempered. Equivalent to AISI 1050 / DIN C50.",
+    "dataAccess": "full",
+    "scope": "Medium-carbon steel (~0.50% C) for machine structural use; bars and forgings for shafts, gears, keys, studs and machine parts requiring higher strength than S45C. Commonly quenched and tempered. Equivalent to AISI 1050 / DIN C50.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.47-0.53"
+      },
+      {
+        "element": "Si",
+        "range": "0.15-0.35"
+      },
+      {
+        "element": "Mn",
+        "range": "0.60-0.90"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.035"
+      },
+      {
+        "element": "Cu",
+        "range": "<= 0.30"
+      },
+      {
+        "element": "Ni",
+        "range": "<= 0.20"
+      },
+      {
+        "element": "Cr",
+        "range": "<= 0.20"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "quenched and tempered (typical)"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 630"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 375"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 14"
+      },
+      {
+        "label": "Reduction Of Area Percent",
+        "value": ">= 40"
+      },
+      {
+        "label": "Hardness Normalized HB",
+        "value": "179-235"
+      }
+    ],
+    "jisNumber": "G4051"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4053 SCM435",
+    "fullCode": "JIS G4053 SCM435",
+    "title": "Low-alloyed steels for machine structural use - chromium molybdenum steel grade SCM435",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "Construction"
+    ],
+    "status": "active",
+    "description": "Chromium-molybdenum (chromoly) low-alloy steel (~0.35% C) with high strength and toughness after quenching and tempering. Used for high-tensile bolts, shafts, gears, connecting rods and aircraft/automotive structural parts. Equivalent to AISI 4135 / DIN 34CrMo4.",
+    "dataAccess": "full",
+    "scope": "Chromium-molybdenum (chromoly) low-alloy steel (~0.35% C) with high strength and toughness after quenching and tempering. Used for high-tensile bolts, shafts, gears, connecting rods and aircraft/automotive structural parts. Equivalent to AISI 4135 / DIN 34CrMo4.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.33-0.38"
+      },
+      {
+        "element": "Si",
+        "range": "0.15-0.35"
+      },
+      {
+        "element": "Mn",
+        "range": "0.60-0.90"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "Cr",
+        "range": "0.90-1.20"
+      },
+      {
+        "element": "Mo",
+        "range": "0.15-0.30"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "quenched and tempered"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 930"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 785"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 15"
+      },
+      {
+        "label": "Reduction Of Area Percent",
+        "value": ">= 50"
+      },
+      {
+        "label": "Impact Energy J",
+        "value": ">= 55"
+      }
+    ],
+    "jisNumber": "G4053"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4404 SKD11",
+    "fullCode": "JIS G4404 SKD11",
+    "title": "Alloy tool steel grade SKD11 - cold work die steel",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "High-carbon high-chromium (12% Cr) cold-work alloy tool steel with excellent wear resistance and dimensional stability on hardening. Used for cold forming dies, blanking and forming punches, shear blades and thread rolling dies. Equivalent to AISI D2 / DIN 1.2379.",
+    "dataAccess": "full",
+    "scope": "High-carbon high-chromium (12% Cr) cold-work alloy tool steel with excellent wear resistance and dimensional stability on hardening. Used for cold forming dies, blanking and forming punches, shear blades and thread rolling dies. Equivalent to AISI D2 / DIN 1.2379.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "1.40-1.60"
+      },
+      {
+        "element": "Si",
+        "range": "<= 0.40"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 0.60"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "Cr",
+        "range": "11.00-13.00"
+      },
+      {
+        "element": "Mo",
+        "range": "0.80-1.20"
+      },
+      {
+        "element": "V",
+        "range": "0.20-0.50"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Hardness Annealed HB",
+        "value": "<= 255"
+      },
+      {
+        "label": "Hardness Hardened HRC",
+        "value": ">= 58 (quenched and tempered)"
+      }
+    ],
+    "jisNumber": "G4404"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4404 SKD61",
+    "fullCode": "JIS G4404 SKD61",
+    "title": "Alloy tool steel grade SKD61 - hot work die steel",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Chromium-molybdenum-vanadium hot-work alloy tool steel with high hot strength, thermal fatigue and heat-checking resistance. Used for die-casting dies, hot forging and extrusion tooling, and plastic moulds. Equivalent to AISI H13 / DIN 1.2344.",
+    "dataAccess": "full",
+    "scope": "Chromium-molybdenum-vanadium hot-work alloy tool steel with high hot strength, thermal fatigue and heat-checking resistance. Used for die-casting dies, hot forging and extrusion tooling, and plastic moulds. Equivalent to AISI H13 / DIN 1.2344.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.35-0.42"
+      },
+      {
+        "element": "Si",
+        "range": "0.80-1.20"
+      },
+      {
+        "element": "Mn",
+        "range": "0.25-0.50"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.020"
+      },
+      {
+        "element": "Cr",
+        "range": "4.80-5.50"
+      },
+      {
+        "element": "Mo",
+        "range": "1.00-1.50"
+      },
+      {
+        "element": "V",
+        "range": "0.80-1.50"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Hardness Annealed HB",
+        "value": "<= 229"
+      },
+      {
+        "label": "Hardness Hardened HRC",
+        "value": "45-52 (quenched and tempered)"
+      }
+    ],
+    "jisNumber": "G4404"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4403 SKH51",
+    "fullCode": "JIS G4403 SKH51",
+    "title": "High speed tool steel grade SKH51 - molybdenum type",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Molybdenum-tungsten (Mo-W) general-purpose high speed tool steel with a balanced combination of toughness and wear resistance. Used for drills, taps, milling cutters, broaches, cold-forming tools and punches. Equivalent to AISI M2 / DIN 1.3343.",
+    "dataAccess": "full",
+    "scope": "Molybdenum-tungsten (Mo-W) general-purpose high speed tool steel with a balanced combination of toughness and wear resistance. Used for drills, taps, milling cutters, broaches, cold-forming tools and punches. Equivalent to AISI M2 / DIN 1.3343.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.80-0.88"
+      },
+      {
+        "element": "Si",
+        "range": "<= 0.45"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 0.40"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "Cr",
+        "range": "3.80-4.50"
+      },
+      {
+        "element": "Mo",
+        "range": "4.70-5.20"
+      },
+      {
+        "element": "W",
+        "range": "5.90-6.70"
+      },
+      {
+        "element": "V",
+        "range": "1.70-2.10"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Hardness Annealed HB",
+        "value": "<= 262"
+      },
+      {
+        "label": "Hardness Hardened HRC",
+        "value": ">= 63 (hardened and tempered)"
+      }
+    ],
+    "jisNumber": "G4403"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4103 SNCM420",
+    "fullCode": "JIS G4103 SNCM420",
+    "title": "Nickel chromium molybdenum steels - case hardening grade SNCM420",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "Construction"
+    ],
+    "status": "active",
+    "description": "Low-carbon nickel-chromium-molybdenum case-hardening (carburizing) alloy steel combining a hard wear-resistant case with a tough core. Used for heavy-duty gears, drive shafts, bearings and cams. Equivalent to AISI 4320 / DIN 20NiCrMo7.",
+    "dataAccess": "full",
+    "scope": "Low-carbon nickel-chromium-molybdenum case-hardening (carburizing) alloy steel combining a hard wear-resistant case with a tough core. Used for heavy-duty gears, drive shafts, bearings and cams. Equivalent to AISI 4320 / DIN 20NiCrMo7.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.17-0.23"
+      },
+      {
+        "element": "Si",
+        "range": "0.15-0.35"
+      },
+      {
+        "element": "Mn",
+        "range": "0.40-0.70"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "Ni",
+        "range": "1.55-2.00"
+      },
+      {
+        "element": "Cr",
+        "range": "0.40-0.65"
+      },
+      {
+        "element": "Mo",
+        "range": "0.15-0.30"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "carburized, quenched and tempered"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 980"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 835"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 15"
+      },
+      {
+        "label": "Reduction Of Area Percent",
+        "value": ">= 40"
+      },
+      {
+        "label": "Impact Energy J",
+        "value": ">= 69"
+      }
+    ],
+    "jisNumber": "G4103"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4805 SUJ2",
+    "fullCode": "JIS G4805 SUJ2",
+    "title": "High carbon chromium bearing steel grade SUJ2",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "High-carbon (~1% C) chromium bearing steel for through-hardened rolling bearing rings, balls and rollers. Excellent wear resistance, fatigue strength and hardenability. Equivalent to AISI 52100 / DIN 100Cr6 / EN31.",
+    "dataAccess": "full",
+    "scope": "High-carbon (~1% C) chromium bearing steel for through-hardened rolling bearing rings, balls and rollers. Excellent wear resistance, fatigue strength and hardenability. Equivalent to AISI 52100 / DIN 100Cr6 / EN31.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.95-1.10"
+      },
+      {
+        "element": "Si",
+        "range": "0.15-0.35"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 0.50"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.025"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.025"
+      },
+      {
+        "element": "Cr",
+        "range": "1.30-1.60"
+      },
+      {
+        "element": "Mo",
+        "range": "<= 0.08"
+      },
+      {
+        "element": "Ni",
+        "range": "<= 0.25"
+      },
+      {
+        "element": "Cu",
+        "range": "<= 0.20"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Hardness Annealed HB",
+        "value": "<= 201 (spheroidize annealed)"
+      },
+      {
+        "label": "Hardness Hardened HRC",
+        "value": "60-65 (quenched and tempered)"
+      }
+    ],
+    "jisNumber": "G4805"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4303 SUS303",
+    "fullCode": "JIS G4303 SUS303",
+    "title": "Austenitic free-cutting stainless steel grade SUS303",
+    "materialType": "Stainless Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "18Cr-8Ni austenitic stainless steel with added sulfur and phosphorus for free machining. Non-magnetic; excellent machinability but reduced weldability and corrosion resistance versus SUS304. Used for shafts, nuts, bolts and machined fittings. Equivalent to AISI 303 / UNS S30300.",
+    "dataAccess": "full",
+    "scope": "18Cr-8Ni austenitic stainless steel with added sulfur and phosphorus for free machining. Non-magnetic; excellent machinability but reduced weldability and corrosion resistance versus SUS304. Used for shafts, nuts, bolts and machined fittings. Equivalent to AISI 303 / UNS S30300.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "<= 0.15"
+      },
+      {
+        "element": "Si",
+        "range": "<= 1.00"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 2.00"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.20"
+      },
+      {
+        "element": "S",
+        "range": ">= 0.15"
+      },
+      {
+        "element": "Cr",
+        "range": "17.00-19.00"
+      },
+      {
+        "element": "Ni",
+        "range": "8.00-10.00"
+      },
+      {
+        "element": "Mo",
+        "range": "<= 0.60"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "solution treated (bars)"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 520"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 205"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 40"
+      },
+      {
+        "label": "Reduction Of Area Percent",
+        "value": ">= 50"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "<= 187"
+      }
+    ],
+    "jisNumber": "G4303"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4304 SUS410",
+    "fullCode": "JIS G4304 SUS410",
+    "title": "Martensitic stainless steel grade SUS410",
+    "materialType": "Stainless Steel",
+    "application": [
+      "Energy",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "12% Cr martensitic stainless steel, hardenable by quenching and tempering. Magnetic; moderate corrosion resistance with good strength. Used for turbine blades, valves, bolts, cutlery and general machine parts. Equivalent to AISI 410 / UNS S41000.",
+    "dataAccess": "full",
+    "scope": "12% Cr martensitic stainless steel, hardenable by quenching and tempering. Magnetic; moderate corrosion resistance with good strength. Used for turbine blades, valves, bolts, cutlery and general machine parts. Equivalent to AISI 410 / UNS S41000.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "<= 0.15"
+      },
+      {
+        "element": "Si",
+        "range": "<= 1.00"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 1.00"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.040"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "Cr",
+        "range": "11.50-13.50"
+      },
+      {
+        "element": "Ni",
+        "range": "<= 0.60"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "quenched and tempered"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 540"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 345"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 25"
+      },
+      {
+        "label": "Reduction Of Area Percent",
+        "value": ">= 60"
+      },
+      {
+        "label": "Hardness Annealed HB",
+        "value": "<= 183"
+      }
+    ],
+    "jisNumber": "G4304"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4304 SUS420J2",
+    "fullCode": "JIS G4304 SUS420J2",
+    "title": "Martensitic stainless steel grade SUS420J2",
+    "materialType": "Stainless Steel",
+    "application": [
+      "Medical",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "13% Cr high-carbon martensitic stainless steel; higher carbon than SUS410 for greater hardness and wear resistance. Used for cutlery, surgical instruments, plastic moulds, valve parts and bearings. Equivalent to AISI 420 / UNS S42000.",
+    "dataAccess": "full",
+    "scope": "13% Cr high-carbon martensitic stainless steel; higher carbon than SUS410 for greater hardness and wear resistance. Used for cutlery, surgical instruments, plastic moulds, valve parts and bearings. Equivalent to AISI 420 / UNS S42000.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "0.26-0.40"
+      },
+      {
+        "element": "Si",
+        "range": "<= 1.00"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 1.00"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.040"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "Cr",
+        "range": "12.00-14.00"
+      },
+      {
+        "element": "Ni",
+        "range": "<= 0.60"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "quenched and tempered"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 640"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 440"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 12"
+      },
+      {
+        "label": "Hardness Quenched HRC",
+        "value": ">= 50"
+      },
+      {
+        "label": "Hardness Annealed HB",
+        "value": "<= 235"
+      }
+    ],
+    "jisNumber": "G4304"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4304 SUS430",
+    "fullCode": "JIS G4304 SUS430",
+    "title": "Ferritic stainless steel grade SUS430",
+    "materialType": "Stainless Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "16-18% Cr ferritic, nickel-free stainless steel. Magnetic, not hardenable by heat treatment; good corrosion and oxidation resistance. Used for kitchenware, trim, appliance panels and automotive exhaust parts. Equivalent to AISI 430 / UNS S43000.",
+    "dataAccess": "full",
+    "scope": "16-18% Cr ferritic, nickel-free stainless steel. Magnetic, not hardenable by heat treatment; good corrosion and oxidation resistance. Used for kitchenware, trim, appliance panels and automotive exhaust parts. Equivalent to AISI 430 / UNS S43000.",
+    "chemicalComposition": [
+      {
+        "element": "C",
+        "range": "<= 0.12"
+      },
+      {
+        "element": "Si",
+        "range": "<= 1.00"
+      },
+      {
+        "element": "Mn",
+        "range": "<= 1.00"
+      },
+      {
+        "element": "P",
+        "range": "<= 0.040"
+      },
+      {
+        "element": "S",
+        "range": "<= 0.030"
+      },
+      {
+        "element": "Cr",
+        "range": "16.00-18.00"
+      },
+      {
+        "element": "Ni",
+        "range": "<= 0.60"
+      }
+    ],
+    "mechanicalProperties": [
+      {
+        "label": "Condition",
+        "value": "annealed"
+      },
+      {
+        "label": "Tensile Strength MPa",
+        "value": ">= 420"
+      },
+      {
+        "label": "Yield Strength MPa",
+        "value": ">= 205"
+      },
+      {
+        "label": "Elongation Percent",
+        "value": ">= 22"
+      },
+      {
+        "label": "Hardness HB",
+        "value": "<= 183"
+      },
+      {
+        "label": "Density G Cm3",
+        "value": "7.70"
+      },
+      {
+        "label": "Youngs Modulus GPa",
+        "value": "200"
+      }
+    ],
+    "jisNumber": "G4304"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4103",
+    "fullCode": "JIS G4103",
+    "title": "Nickel chromium molybdenum steels",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "Construction"
+    ],
+    "status": "active",
+    "description": "Low-alloy nickel-chromium-molybdenum structural steel bars for machine use, covering through-hardening and case-hardening grades (SNCM220, SNCM420, SNCM439, SNCM630, etc.) for gears, shafts and highly stressed parts.",
+    "dataAccess": "restricted",
+    "jisNumber": "G4103"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4401",
+    "fullCode": "JIS G4401",
+    "title": "Carbon tool steels",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "High-carbon plain carbon tool steels (grades SK140 to SK60, formerly SK1-SK7) for cutting tools, files, chisels, punches, springs and hand tools.",
+    "dataAccess": "restricted",
+    "jisNumber": "G4401"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4403",
+    "fullCode": "JIS G4403",
+    "title": "High speed tool steels",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Tungsten-type and molybdenum-type high speed tool steels (SKH2, SKH51, SKH55, SKH57, etc.) retaining hardness at elevated temperature, used for drills, taps, milling cutters and forming tools.",
+    "dataAccess": "restricted",
+    "jisNumber": "G4403"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4404",
+    "fullCode": "JIS G4404",
+    "title": "Alloy tool steels",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Alloy tool steels grouped into cold-work die steels (SKD1, SKD11), hot-work die steels (SKD6, SKD61, SKT4) and shock/cutting grades (SKS series), used for dies, moulds, punches and shear blades.",
+    "dataAccess": "restricted",
+    "jisNumber": "G4404"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4805",
+    "fullCode": "JIS G4805",
+    "title": "High carbon chromium bearing steels",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "High-carbon chromium bearing steels (SUJ2, SUJ3, SUJ4, SUJ5) for rolling bearing rings, balls and rollers requiring high hardness, wear resistance and rolling-contact fatigue strength.",
+    "dataAccess": "restricted",
+    "jisNumber": "G4805"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G4801",
+    "fullCode": "JIS G4801",
+    "title": "Spring steels",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Hot-rolled spring steel bars in silicon-manganese, manganese-chromium and chromium-vanadium grades (SUP6, SUP9, SUP10, SUP11A, etc.) for leaf and coil springs and torsion bars.",
+    "dataAccess": "restricted",
+    "jisNumber": "G4801"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G3131",
+    "fullCode": "JIS G3131",
+    "title": "Hot-rolled mild steel plates, sheet and strip",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Hot-rolled low-carbon mild steel flat products for general forming and drawing (grades SPHC, SPHD, SPHE, SPHF) used in automotive, appliance and general fabrication.",
+    "dataAccess": "restricted",
+    "jisNumber": "G3131"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G3141",
+    "fullCode": "JIS G3141",
+    "title": "Cold-reduced carbon steel sheet and strip",
+    "materialType": "Steel",
+    "application": [
+      "Automotive",
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Cold-rolled low-carbon steel sheet and strip for forming (grades SPCC, SPCD, SPCE, SPCF, SPCG) with good surface finish, widely used for automotive body panels and appliances.",
+    "dataAccess": "restricted",
+    "jisNumber": "G3141"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "H3250",
+    "fullCode": "JIS H3250",
+    "title": "Copper and copper alloy rods and bars",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Extruded and drawn copper and copper alloy rods and bars including tough pitch copper, brasses and free-cutting leaded brass (C2600, C3601, C3604, C3771, etc.) for machined parts and fasteners.",
+    "dataAccess": "restricted",
+    "jisNumber": "H3250"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "H3300",
+    "fullCode": "JIS H3300",
+    "title": "Copper and copper alloy seamless pipes and tubes",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Seamless copper and copper alloy tubes (phosphorus-deoxidised copper C1220, brasses, cupro-nickels) for heat exchangers, plumbing, air-conditioning and general piping.",
+    "dataAccess": "restricted",
+    "jisNumber": "H3300"
+  },
+  {
+    "standardBody": "JIS",
+    "designation": "G5502",
+    "fullCode": "JIS G5502",
+    "title": "Spheroidal graphite iron castings",
+    "materialType": "Cast Iron",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Spheroidal-graphite (ductile/nodular) cast iron classified by tensile strength and elongation (FCD350 to FCD800), covering ferritic to pearlitic grades for high-strength ductile castings.",
+    "dataAccess": "restricted",
+    "jisNumber": "G5502"
   }
 ];

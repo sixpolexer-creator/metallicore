@@ -5,8 +5,10 @@ import type { AnyStandard, StandardRevision } from "@/types/standard";
 import { useI18n } from "@/i18n";
 import { useAuth } from "@/auth/AuthProvider";
 import { getRevisionsFor } from "@/data/revisions";
+import { getPdfAttachment, type PdfAttachment } from "@/data/pdfAttachments";
 import { StatusBadge } from "./StatusBadge";
 import { UploadRevisionForm } from "./UploadRevisionForm";
+import { UploadPdfForm } from "./UploadPdfForm";
 
 const BODY_SPECIFIC_KEY: Record<AnyStandard["standardBody"], string> = {
   ASTM: "standard.committee",
@@ -52,13 +54,22 @@ export function StandardDetailOverlay({
   const [revisions, setRevisions] = useState<StandardRevision[]>(() =>
     getRevisionsFor(standard),
   );
+  const [pdfAttachment, setPdfAttachmentState] = useState<PdfAttachment | null>(() =>
+    getPdfAttachment(standard),
+  );
 
   // Re-sync when the overlay is retargeted at a different standard (the
   // component instance persists across selections in StandardsExplorer).
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setRevisions(getRevisionsFor(standard));
+    setPdfAttachmentState(getPdfAttachment(standard));
   }, [standard]);
+
+  const canViewOriginalPdf =
+    pdfAttachment !== null &&
+    pdfAttachment.isShareablePdf &&
+    pdfAttachment.pdfUrl.trim().length > 0;
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
@@ -79,18 +90,18 @@ export function StandardDetailOverlay({
         onClick={(e) => e.stopPropagation()}
         className="mc-hairline mc-elev relative flex max-h-[90vh] w-full max-w-2xl flex-col overflow-hidden rounded-t-3xl border bg-[var(--background)] sm:rounded-3xl"
       >
-        <div className="mc-hairline flex items-start justify-between gap-3 border-b p-6">
-          <div className="min-w-0">
+        <div className="mc-hairline flex flex-wrap items-start justify-between gap-x-3 gap-y-2 border-b p-6">
+          <div className="min-w-0 flex-1 basis-48">
             <span
               data-ltr
               className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--color-accent)]"
             >
               {standard.standardBody}
             </span>
-            <h2 className="ltr-data mt-1 truncate text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+            <h2 className="ltr-data mt-1 break-words text-xl font-semibold text-neutral-900 dark:text-neutral-50">
               {standard.fullCode}
             </h2>
-            <p className="ltr-data mt-1 text-sm text-neutral-500 dark:text-neutral-400">
+            <p className="ltr-data mt-1 break-words text-sm text-neutral-500 dark:text-neutral-400">
               {standard.title}
             </p>
           </div>
@@ -114,6 +125,19 @@ export function StandardDetailOverlay({
         </div>
 
         <div className="flex-1 space-y-6 overflow-y-auto p-6">
+          {canViewOriginalPdf && pdfAttachment && (
+            <a
+              href={pdfAttachment.pdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 rounded-xl border-2 border-[var(--color-accent)] bg-[color-mix(in_srgb,var(--color-accent)_10%,transparent)] px-4 py-2.5 text-sm font-semibold text-[var(--color-accent)] transition hover:bg-[color-mix(in_srgb,var(--color-accent)_18%,transparent)]"
+            >
+              <span aria-hidden>📄</span>
+              {t("standard.viewOriginalPdf")}
+              <span aria-hidden>↗</span>
+            </a>
+          )}
+
           {standard.dataAccess === "restricted" ? (
             <RestrictedNotice standard={standard} />
           ) : (
@@ -194,6 +218,14 @@ export function StandardDetailOverlay({
 
           {standard.dataAccess === "full" && isAdmin && (
             <UploadRevisionForm standard={standard} onUploaded={setRevisions} />
+          )}
+
+          {isAdmin && (
+            <UploadPdfForm
+              standard={standard}
+              attachment={pdfAttachment}
+              onSaved={setPdfAttachmentState}
+            />
           )}
         </div>
       </div>

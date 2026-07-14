@@ -1,0 +1,34 @@
+{
+  "designation": "EN AC-42100 (AlSi7Mg0.3)",
+  "full_name": "Aluminium casting alloy EN AC-42100 [Al Si7Mg0.3]",
+  "version_year": "Per EN 1706:2020",
+  "body": "EN",
+  "scope": "Hypoeutectic Al-Si-Mg heat-treatable casting alloy with excellent castability, high strength and ductility after T6 and good corrosion resistance. Used for critical sand and permanent-mould castings in automotive, aerospace and machinery.",
+  "chemical_composition": {
+    "Si": "6.5-7.5",
+    "Fe": "max 0.19",
+    "Cu": "max 0.05",
+    "Mn": "max 0.10",
+    "Mg": "0.25-0.45",
+    "Zn": "max 0.07",
+    "Ti": "0.08-0.25",
+    "Al": "balance",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition_permanent_mould_T6": {
+      "tensile_strength_Rm_MPa": ">=290",
+      "proof_strength_Rp0.2_MPa": ">=210",
+      "elongation_A_percent": ">=4",
+      "hardness_HB": "~90-110"
+    },
+    "condition_sand_T6": {
+      "tensile_strength_Rm_MPa": ">=230",
+      "proof_strength_Rp0.2_MPa": ">=190",
+      "elongation_A_percent": ">=2"
+    }
+  },
+  "source": "http://www.steelnumber.com/en/steel_alloy_composition_eu.php?name_id=1225 ; https://www.makeitfrom.com/material-properties/EN-AC-42100-AISi7Mg0.3-Cast-Aluminum ; https://www.raffmetal.com/wp-content/uploads/sites/4/EN-42100-AlSi7Mg03-1.pdf",
+  "license_note": "EN AC-42100 designation and its nominal composition and typical T6 property ranges are widely published in free foundry datasheets and reference sites; mechanical values are typical/nominal, not reproduced EN table text.",
+  "status": "open_data"
+}

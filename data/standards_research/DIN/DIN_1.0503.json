@@ -1,0 +1,29 @@
+{
+  "designation": "DIN 1.0503 (C45)",
+  "full_name": "Non-alloy quality/quenched-and-tempered steel C45, material number 1.0503 (AISI 1045 equivalent)",
+  "version_year": "composition per EN 10083-2:2006",
+  "body": "DIN",
+  "scope": "Medium-carbon unalloyed engineering steel supplied in normalized or quenched-and-tempered condition. Moderately high strength and wear resistance; used for shafts, gears, axles, bolts and general machined parts.",
+  "chemical_composition": {
+    "C": "0.42-0.50 %",
+    "Si": "max 0.40 %",
+    "Mn": "0.50-0.80 %",
+    "P": "max 0.045 %",
+    "S": "max 0.045 %",
+    "Cr": "max 0.40 %",
+    "Ni": "max 0.40 %",
+    "Mo": "max 0.10 %"
+  },
+  "mechanical_properties": {
+    "tensile_strength_Rm_normalized": "580-820 N/mm^2",
+    "tensile_strength_Rm_QT_16-40mm": "650-800 N/mm^2",
+    "yield_strength_Rp0.2_QT": "min 430 N/mm^2",
+    "elongation_A_normalized": "min 16 %",
+    "hardness_normalized": "172-242 HB",
+    "condition": "normalized or quenched-and-tempered"
+  },
+  "equivalents": ["AISI 1045", "C45", "080M46"],
+  "source": "https://en.saarstahl.com/app/uploads/2024/03/20160401102929-0503_C45.pdf, http://www.steelnumber.com/en/steel_composition_eu.php?name_id=152",
+  "license_note": "composition from free manufacturer datasheet (Saarstahl) and independent references, not the copyrighted DIN/EN document text",
+  "status": "open_data"
+}

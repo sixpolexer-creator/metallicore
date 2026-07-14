@@ -1,0 +1,29 @@
+{
+  "designation": "AMS 5659",
+  "full_name": "Steel, Corrosion-Resistant, Bars, Wire, Forgings, Rings, and Extrusions, 15Cr-4.5Ni-3.5Cu-0.30Cb (15-5 PH), Consumable Electrode Remelted, Solution Heat Treated, Precipitation-Hardenable (UNS S15500)",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "Covers 15-5 PH martensitic precipitation-hardening stainless steel (UNS S15500) in bars, wire, forgings, flash-welded rings, and extrusions, consumable-electrode remelted (VAR or ESR), supplied solution heat treated and precipitation-hardenable. Used for aerospace parts requiring high strength and corrosion resistance to about 600F (316C) with better through-thickness (short-transverse) toughness and forgeability than 17-4 PH.",
+  "chemical_composition": {
+    "C": "0.07 max",
+    "Mn": "1.00 max",
+    "Si": "1.00 max",
+    "P": "0.030 max",
+    "S": "0.015 max",
+    "Cr": "14.0-15.50",
+    "Ni": "3.50-5.50",
+    "Cu": "2.50-4.50",
+    "Cb (Nb)": "0.15-0.45",
+    "Mo": "0.50 max",
+    "Fe": "balance"
+  },
+  "mechanical_properties": {
+    "note": "Typical bar properties per condition (aging temper). Values in ksi.",
+    "H900": { "tensile_strength_ksi": 190, "yield_strength_0.2pct_ksi": 170, "elongation_pct": 10, "hardness_HRC": "38-44" },
+    "H1025": { "tensile_strength_ksi": 155, "yield_strength_0.2pct_ksi": 145, "elongation_pct": 12, "hardness_HRC": "33-40" },
+    "H1150": { "tensile_strength_ksi": 135, "yield_strength_0.2pct_ksi": 105, "elongation_pct": 16, "hardness_HRC": "27-35" }
+  },
+  "source": "https://www.aircraftmaterials.com/data/alstst/ams5659.html ; https://www.sae.org/standards/content/ams5659/",
+  "license_note": "Composition and typical mechanical property data compiled from freely published aerospace-alloy mill/distributor datasheets (aircraftmaterials.com and equivalents) that cite the AMS 5659 requirements; no paywalled SAE standard text reproduced.",
+  "status": "open_data"
+}

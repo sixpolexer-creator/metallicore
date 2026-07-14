@@ -1,0 +1,30 @@
+{
+  "designation": "JIS SUS303",
+  "full_name": "Austenitic free-cutting stainless steel grade SUS303 (per JIS G4303)",
+  "version_year": "2021",
+  "body": "JIS",
+  "scope": "18Cr-8Ni austenitic stainless steel with added sulfur and phosphorus for free machining. Non-magnetic; excellent machinability but reduced weldability and corrosion resistance versus SUS304. Used for shafts, nuts, bolts and machined fittings. Equivalent to AISI 303 / UNS S30300.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "<= 0.15",
+    "Si": "<= 1.00",
+    "Mn": "<= 2.00",
+    "P": "<= 0.20",
+    "S": ">= 0.15",
+    "Cr": "17.00-19.00",
+    "Ni": "8.00-10.00",
+    "Mo": "<= 0.60"
+  },
+  "mechanical_properties": {
+    "condition": "solution treated (bars)",
+    "tensile_strength_MPa": ">= 520",
+    "yield_strength_MPa": ">= 205",
+    "elongation_percent": ">= 40",
+    "reduction_of_area_percent": ">= 50",
+    "hardness_HB": "<= 187",
+    "density_kg_m3": 7930
+  },
+  "source": "https://steeljis.com/jis_steel_datasheet.php?name_id=59, https://www.fullerkr.com/blogs/news/sus303-stainless-steel-chemical-composition-standards",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted JIS document text",
+  "status": "open_data"
+}

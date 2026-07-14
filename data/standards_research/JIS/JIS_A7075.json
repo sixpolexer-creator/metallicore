@@ -1,0 +1,29 @@
+{
+  "designation": "JIS A7075",
+  "full_name": "Wrought aluminium alloy A7075 (Al-Zn-Mg-Cu, per JIS H4000/H4040)",
+  "version_year": "2022",
+  "body": "JIS",
+  "scope": "Al-Zn-Mg-Cu high-strength heat-treatable wrought aluminium alloy, one of the strongest aluminium alloys, with good fatigue strength. Used for highly stressed aircraft structural parts, moulds and sporting goods. Equivalent to AA 7075 / EN AW-7075.",
+  "chemical_composition": {
+    "note": "mass %",
+    "Si": "<= 0.40",
+    "Fe": "<= 0.50",
+    "Cu": "1.20-2.00",
+    "Mn": "<= 0.30",
+    "Mg": "2.10-2.90",
+    "Cr": "0.18-0.28",
+    "Zn": "5.10-6.10",
+    "Ti": "<= 0.20",
+    "Al": "balance"
+  },
+  "mechanical_properties": {
+    "condition": "T6 (solution treated and artificially aged)",
+    "tensile_strength_MPa": ">= 525",
+    "yield_strength_MPa": ">= 460",
+    "elongation_percent": ">= 7",
+    "hardness_HB": "approx 150"
+  },
+  "source": "https://en.wikipedia.org/wiki/7075_aluminium_alloy, https://metalzenith.com/blogs/aluminium-properties/aluminum-a7075-composition-properties-temper-guide-applications",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

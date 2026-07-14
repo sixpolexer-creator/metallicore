@@ -1,0 +1,29 @@
+{
+  "designation": "JIS G4051 S50C",
+  "full_name": "Carbon steels for machine structural use - grade S50C",
+  "version_year": "2016",
+  "body": "JIS",
+  "scope": "Medium-carbon steel (~0.50% C) for machine structural use; bars and forgings for shafts, gears, keys, studs and machine parts requiring higher strength than S45C. Commonly quenched and tempered. Equivalent to AISI 1050 / DIN C50.",
+  "chemical_composition": {
+    "note": "mass %",
+    "C": "0.47-0.53",
+    "Si": "0.15-0.35",
+    "Mn": "0.60-0.90",
+    "P": "<= 0.030",
+    "S": "<= 0.035",
+    "Cu": "<= 0.30",
+    "Ni": "<= 0.20",
+    "Cr": "<= 0.20"
+  },
+  "mechanical_properties": {
+    "condition": "quenched and tempered (typical)",
+    "tensile_strength_MPa": ">= 630",
+    "yield_strength_MPa": ">= 375",
+    "elongation_percent": ">= 14",
+    "reduction_of_area_percent": ">= 40",
+    "hardness_normalized_HB": "179-235"
+  },
+  "source": "https://www.astmsteel.com/product/s50c-carbon-steel-jis-g4051/, https://steeljis.com/jis_steel_datasheet.php?name_id=244",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}

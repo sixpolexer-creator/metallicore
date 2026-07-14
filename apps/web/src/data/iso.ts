@@ -236,5 +236,252 @@ export const isoStandards: IsoStandard[] = [
     "status": "active",
     "description": "Specifies general technical delivery conditions for steel flat products (plate, sheet and strip) used mainly in the construction of pressure equipment; the general requirements of ISO 404 also apply.",
     "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "1461",
+    "fullCode": "ISO 1461",
+    "title": "Hot dip galvanized coatings on fabricated iron and steel articles — Specifications and test methods",
+    "materialType": "Steel",
+    "application": [
+      "Construction"
+    ],
+    "status": "active",
+    "description": "Specifies the general properties of, and test methods for, hot dip galvanized zinc coatings applied by dipping fabricated iron and steel articles in a zinc melt. Excludes continuously galvanized sheet, wire and mesh.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "6892-2",
+    "fullCode": "ISO 6892-2",
+    "title": "Metallic materials — Tensile testing — Part 2: Method of test at elevated temperature",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies the method of tensile testing of metallic materials at temperatures above 35 degrees C and the properties determined, such as proof strength, tensile strength, elongation and reduction of area.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "15510",
+    "fullCode": "ISO 15510",
+    "title": "Stainless steels — Chemical composition",
+    "materialType": "Stainless Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Lists the chemical compositions of stainless steels compiled mainly from existing ISO, ASTM, EN, JIS and GB specifications, applying to all wrought product forms including ingots and semi-finished material.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "377",
+    "fullCode": "ISO 377",
+    "title": "Steel and steel products — Location and preparation of samples and test pieces for mechanical testing",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies requirements for the identification, location and preparation of samples and test pieces for mechanical tests on steel sections, bars, rod, flat products and tubular products.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "404",
+    "fullCode": "ISO 404",
+    "title": "Steel and steel products — General technical delivery requirements",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies the general technical delivery requirements for all steel products covered by ISO 6929, except steel castings and powder-metallurgical products, including requirements for inspection documents and testing.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "6929",
+    "fullCode": "ISO 6929",
+    "title": "Steel products — Vocabulary",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Defines terms for steel products classified according to their stage of manufacture, shape and dimensions, and appearance, covering liquid steel, ingots, semi-finished products, flat products and long products.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "8501-1",
+    "fullCode": "ISO 8501-1",
+    "title": "Preparation of steel substrates before application of paints and related products — Visual assessment of surface cleanliness — Part 1: Rust grades and preparation grades",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Identifies four rust grades of mill scale and rust on uncoated steel and defines preparation grades of visual cleanliness achieved by blast-cleaning, hand and power tool cleaning and flame cleaning.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "6361-2",
+    "fullCode": "ISO 6361-2",
+    "title": "Wrought aluminium and aluminium alloys — Sheets, strips and plates — Part 2: Mechanical properties",
+    "materialType": "Aluminum",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies the mechanical properties (tensile strength, 0.2 % proof stress, elongation) of wrought aluminium and aluminium alloy sheets, strips and plates for general engineering applications.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "1035-4",
+    "fullCode": "ISO 1035-4",
+    "title": "Hot-rolled steel bars — Part 4: Tolerances",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies the dimensional tolerances applicable to hot-rolled steel bars supplied in straight lengths as round, square, hexagonal, octagonal and flat bars.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "1190-1",
+    "fullCode": "ISO 1190-1",
+    "title": "Copper and copper alloys — Code of designation — Part 1: Designation of materials",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Establishes the system for designating coppers and copper alloys by material composition, using the ISO prefix with chemical symbols for the base and major alloying elements followed by grade or nominal alloy content indicators.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "431",
+    "fullCode": "ISO 431",
+    "title": "Copper refinery shapes",
+    "materialType": "Copper Alloy",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies the requirements for refined copper in the form of refinery shapes (unwrought products), including cathodes, cast wire bars, cakes, billets and ingots.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "5832-2",
+    "fullCode": "ISO 5832-2",
+    "title": "Implants for surgery — Metallic materials — Part 2: Unalloyed titanium",
+    "materialType": "Titanium",
+    "application": [
+      "Medical"
+    ],
+    "status": "active",
+    "description": "Specifies the characteristics and corresponding test methods for wrought unalloyed titanium used in surgical implants, listing several grades based on tensile strength together with chemical composition requirements.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "6931-1",
+    "fullCode": "ISO 6931-1",
+    "title": "Stainless steels for springs — Part 1: Wire",
+    "materialType": "Stainless Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies the grades of stainless steel generally used in the cold-drawn condition as wire up to 10.00 mm diameter for the production of springs and spring parts exposed to corrosion and slightly elevated temperatures.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "3651-2",
+    "fullCode": "ISO 3651-2",
+    "title": "Determination of resistance to intergranular corrosion of stainless steels — Part 2: Ferritic, austenitic and ferritic-austenitic (duplex) stainless steels — Corrosion test in media containing sulfuric acid",
+    "materialType": "Stainless Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies test methods for determining the resistance to intergranular corrosion of ferritic, austenitic and duplex stainless steels in sulfuric-acid media, including the Monypenny Strauss and ferric-sulfate tests.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "2081",
+    "fullCode": "ISO 2081",
+    "title": "Metallic and other inorganic coatings — Electroplated coatings of zinc with supplementary treatments on iron or steel",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies requirements for electroplated zinc coatings with supplementary treatments on iron or steel, including a designation system and heat-treatment requirements before and after plating.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "4967",
+    "fullCode": "ISO 4967",
+    "title": "Steel — Determination of content of non-metallic inclusions — Micrographic method using standard diagrams",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies a micrographic method, using standard reference diagrams, for determining the non-metallic inclusion content of rolled or forged steel products with a reduction ratio of at least 3, with provision for image analysis.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "683-17",
+    "fullCode": "ISO 683-17",
+    "title": "Heat-treatable steels, alloy steels and free-cutting steels — Part 17: Ball and roller bearing steels",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies technical delivery requirements for five groups of wrought ball and roller bearing steels: through-hardening, case-hardening, induction-hardening, stainless and high-temperature bearing steels.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "6362-2",
+    "fullCode": "ISO 6362-2",
+    "title": "Wrought aluminium and aluminium alloys — Extruded rods/bars, tubes and profiles — Part 2: Mechanical properties",
+    "materialType": "Aluminum",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Specifies the mechanical properties (tensile strength, 0.2 % proof stress and elongation) of wrought aluminium and aluminium alloy extruded rods/bars, tubes and profiles for general engineering applications.",
+    "dataAccess": "restricted"
+  },
+  {
+    "standardBody": "ISO",
+    "designation": "4885",
+    "fullCode": "ISO 4885",
+    "title": "Ferrous materials — Heat treatments — Vocabulary",
+    "materialType": "Steel",
+    "application": [
+      "General Engineering"
+    ],
+    "status": "active",
+    "description": "Defines the terms used in the heat treatment of ferrous materials (products and workpieces of steel and cast iron), with an alphabetical list of terms and a table of iron-carbon phases.",
+    "dataAccess": "restricted"
   }
 ];

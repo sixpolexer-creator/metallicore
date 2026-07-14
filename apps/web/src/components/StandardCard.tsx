@@ -35,8 +35,8 @@ export function StandardCard({
 
   return (
     <BentoCard span={span}>
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
+      <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
+        <div className="min-w-0 flex-1 basis-40">
           {showOrg && (
             <span
               className={[
@@ -49,7 +49,7 @@ export function StandardCard({
             </span>
           )}
           <h3
-            className="ltr-data truncate text-base font-semibold text-neutral-900 dark:text-neutral-100"
+            className="ltr-data break-words text-base font-semibold text-neutral-900 dark:text-neutral-100"
             title={standard.fullCode}
           >
             {standard.fullCode}

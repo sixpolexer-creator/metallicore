@@ -8,6 +8,11 @@
   "search.button": "Search",
   "search.clear": "Clear search",
   "search.globalPlaceholder": "Search across all organizations…",
+  "search.companyBadge": "Company Standard",
+  "search.originLabel": "Standard origin",
+  "search.originAll": "Show All",
+  "search.originInternational": "International Only",
+  "search.originCompany": "Company Standards Only",
 
   "filters.title": "Filters",
   "filters.organization": "Organization",
@@ -46,6 +51,7 @@
   "standard.revisions": "Available Revisions",
   "standard.restricted": "Restricted",
   "standard.restrictedNotice": "Full specification restricted. Awaiting physical upload.",
+  "standard.viewOriginalPdf": "View Original Standard (PDF)",
 
   "language.toggle": "Language",
   "language.english": "English",
@@ -90,6 +96,15 @@
   "admin.notes": "Notes (optional)",
   "admin.addRevision": "Add Revision",
   "admin.revisionAdded": "Revision added.",
+  "admin.managePdf": "Original Standard PDF",
+  "admin.pdfUrlLabel": "PDF URL / file reference",
+  "admin.pdfUrlPlaceholder": "https://…/standard.pdf",
+  "admin.isShareablePdf": "Free to share — show this PDF to all visitors",
+  "admin.savePdf": "Save PDF",
+  "admin.pdfSaved": "PDF settings saved.",
+  "admin.dashboardTitle": "Local Standards Dashboard",
+  "admin.dashboardSubtitle": "Create, edit, and remove your organization's local/company standards and their PDF documents.",
   "validation.required": "Enter a version or revision label.",
-  "validation.duplicate": "This version already exists for this standard."
+  "validation.duplicate": "This version already exists for this standard.",
+  "validation.pdfUrlRequired": "Enter a PDF URL before marking it free to share."
 }

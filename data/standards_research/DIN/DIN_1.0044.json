@@ -1,0 +1,27 @@
+{
+  "designation": "DIN 1.0044 (S275JR)",
+  "full_name": "Non-alloy structural steel S275JR, material number 1.0044 (formerly St44-2)",
+  "version_year": "composition per EN 10025-2:2019",
+  "body": "DIN",
+  "scope": "Hot-rolled non-alloy structural steel with minimum yield strength 275 N/mm^2 and guaranteed Charpy V-notch impact of 27 J at +20 C (JR). Weldable general construction grade for buildings, bridges and load-bearing steelwork; the modern designation for the former DIN 17100 grade St44-2.",
+  "chemical_composition": {
+    "C": "max 0.21 % (<= 16 mm)",
+    "Mn": "max 1.50 %",
+    "P": "max 0.035 %",
+    "S": "max 0.035 %",
+    "N": "max 0.012 %",
+    "Cu": "max 0.55 %",
+    "CEV": "max 0.42 %"
+  },
+  "mechanical_properties": {
+    "yield_strength_ReH": "min 275 N/mm^2 (<= 16 mm)",
+    "tensile_strength_Rm": "410-560 N/mm^2 (3-100 mm)",
+    "elongation_A": "min 23 %",
+    "impact_energy": "min 27 J at +20 C",
+    "condition": "as-rolled"
+  },
+  "equivalents": ["S275JR", "St44-2", "Fe430B", "1.0044"],
+  "source": "http://www.steelnumber.com/en/steel_composition_eu.php?name_id=3, https://www.theworldmaterial.com/en-10025-s275-mild-steel/",
+  "license_note": "composition/property data widely republished by independent free sources, not the copyrighted DIN/EN document text",
+  "status": "open_data"
+}

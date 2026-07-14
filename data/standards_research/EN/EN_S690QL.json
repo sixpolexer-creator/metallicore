@@ -1,0 +1,30 @@
+{
+  "designation": "EN S690QL (1.8928)",
+  "full_name": "High yield strength quenched and tempered structural steel S690QL",
+  "version_year": "Grade per EN 10025-6:2004+A1:2009",
+  "body": "EN",
+  "scope": "Ultra-high-strength weldable structural steel, quenched and tempered, with 690 MPa minimum yield strength and guaranteed -40 C impact toughness (suffix L). Used in cranes, bridges, mobile/lifting and earthmoving equipment and demanding load-bearing welded structures.",
+  "chemical_composition": {
+    "C": "max 0.20",
+    "Si": "max 0.80",
+    "Mn": "max 1.70",
+    "P": "max 0.020",
+    "S": "max 0.010",
+    "Cr": "max 1.50",
+    "Mo": "max 0.70",
+    "Ni": "max 2.0",
+    "B": "max 0.005",
+    "note": "plus microalloying (Ti, Nb, V, Cu, N limits); values for max ~50 mm product",
+    "unit": "wt% maxima"
+  },
+  "mechanical_properties": {
+    "condition": "quenched and tempered (+QT)",
+    "proof_strength_Rp0.2_MPa": ">=690 (t<=50 mm)",
+    "tensile_strength_Rm_MPa": "770-940",
+    "elongation_A_percent": ">=14",
+    "impact_energy_KV_J": ">=30 at -40 C (longitudinal)"
+  },
+  "source": "https://www.steelexpress.co.uk/engineeringsteel/S690QL.html ; https://matmatch.com/materials/minfm35832-en-10025-6-grade-s690ql-quenched-and-tempered-qt- ; https://www.raunaqsteels.com/assets/grades-and-specifications/EN%201002562004%202009/S690QL_Datasheet.pdf ; https://macsteel.co.za/wp-content/uploads/2022/12/S690QL-data-sheet-2021.pdf",
+  "license_note": "S690QL grade name and its nominal composition maxima and typical property values are widely reproduced in free manufacturer datasheets and reference sites; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

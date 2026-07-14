@@ -1,0 +1,30 @@
+{
+  "designation": "EN 1.4571 (X6CrNiMoTi17-12-2)",
+  "full_name": "Titanium-stabilized austenitic stainless steel X6CrNiMoTi17-12-2, material number 1.4571 (AISI 316Ti)",
+  "version_year": "Grade per EN 10088-2 / EN 10088-3 (2014)",
+  "body": "EN",
+  "scope": "Titanium-stabilized molybdenum-alloyed austenitic stainless steel; titanium ties up carbon to prevent chromium-carbide precipitation, giving resistance to intergranular corrosion after welding and improved strength/stability at elevated temperatures (above ~800 C).",
+  "chemical_composition": {
+    "C": "max 0.08",
+    "Si": "max 1.0",
+    "Mn": "max 2.0",
+    "P": "max 0.045",
+    "S": "max 0.015",
+    "Cr": "16.5-18.5",
+    "Mo": "2.0-2.5",
+    "Ni": "10.5-13.5",
+    "Ti": "max 0.70 (>=5xC)",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition": "solution annealed (per EN 10088-3, bar/section <=160 mm)",
+    "proof_strength_Rp0.2_MPa": ">=200",
+    "proof_strength_Rp1.0_MPa": ">=235",
+    "tensile_strength_Rm_MPa": "500-700",
+    "elongation_A_percent": ">=40",
+    "hardness_HB": "<=215"
+  },
+  "source": "https://www.steelnumber.com/en/steel_composition_eu.php?name_id=107 ; https://boltport.com/specifications/en-10088-3/x6crnimoti17-12-2/ ; https://www.makeitfrom.com/material-properties/EN-1.4571-X6CrNiMoTi17-12-2-Stainless-Steel",
+  "license_note": "Grade name (316Ti / 1.4571) and its nominal composition and typical property ranges are widely reproduced in free manufacturer datasheets and reference sites; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

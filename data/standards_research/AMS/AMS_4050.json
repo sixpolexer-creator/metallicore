@@ -1,0 +1,29 @@
+{
+  "designation": "AMS 4050",
+  "full_name": "Aluminum Alloy, Plate, 6.2Zn-2.3Cu-2.3Mg-0.12Zr (7050-T7451), Solution Heat Treated, Stress Relieved, and Overaged",
+  "version_year": "see SAE catalog for current revision",
+  "body": "AMS",
+  "scope": "Covers 7050 aluminum alloy plate in the -T7451 temper (solution heat treated, stress relieved by stretching, and overaged) for aerospace structural applications, particularly thick sections such as bulkheads, wing spars, and fuselage frames. The T7451 temper trades a small strength reduction for improved resistance to stress-corrosion cracking and exfoliation.",
+  "chemical_composition": {
+    "Si": "0.12 max",
+    "Fe": "0.15 max",
+    "Cu": "2.0-2.6",
+    "Mn": "0.10 max",
+    "Mg": "1.9-2.6",
+    "Cr": "0.04 max",
+    "Zn": "5.7-6.7",
+    "Zr": "0.08-0.15",
+    "Ti": "0.06 max",
+    "Al": "balance (approx. 87.3-90.3)"
+  },
+  "mechanical_properties": {
+    "note": "T7451 plate, longitudinal, by thickness range. Strengths in ksi, elongation in 2 in.",
+    "under_2in": { "tensile_strength_ksi": 74, "yield_strength_ksi": 64, "elongation_pct": 10 },
+    "2.0_to_3.0in": { "tensile_strength_ksi": 73, "yield_strength_ksi": 63, "elongation_pct": 9 },
+    "3.0_to_4.0in": { "tensile_strength_ksi": 72, "yield_strength_ksi": 62, "elongation_pct": 9 },
+    "4.0_to_5.0in": { "tensile_strength_ksi": 71, "yield_strength_ksi": 61, "elongation_pct": 9 }
+  },
+  "source": "https://www.aircraftmaterials.com/data/aluminium/7050.html ; https://www.aerometalsalliance.com/resources/data-sheets/view/Aluminium-Alloy-AMS-4050-T7451-Plate_223",
+  "license_note": "Composition and typical T7451 mechanical properties compiled from freely published aerospace aluminum mill/distributor datasheets citing AMS 4050 (7050-T7451); no paywalled SAE text reproduced.",
+  "status": "open_data"
+}

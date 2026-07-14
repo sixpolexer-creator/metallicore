@@ -1,0 +1,44 @@
+{
+  "designation": "ASTM A283/A283M",
+  "full_name": "Standard Specification for Low and Intermediate Tensile Strength Carbon Steel Plates",
+  "version_year": "2018",
+  "body": "ASTM",
+  "scope": "Covers four grades (A, B, C, D) of carbon steel plates of structural quality for general application, distinguished by tensile strength level. Grades C and D are the most commonly stocked. Steel is made by open-hearth, basic-oxygen, or electric-furnace process.",
+  "chemical_composition": {
+    "note": "Heat analysis, maximum percent unless a range is given.",
+    "Grade C": {
+      "C": "0.24 max",
+      "Mn": "0.90 max",
+      "P": "0.030 max",
+      "S": "0.030 max",
+      "Si": "0.40 max (thickness <= 1.5 in); 0.15-0.40 (> 1.5 in)",
+      "Cu": "0.20 min (when copper steel specified)"
+    },
+    "Grade D": {
+      "C": "0.27 max",
+      "Mn": "0.90 max",
+      "P": "0.030 max",
+      "S": "0.030 max",
+      "Si": "0.40 max (thickness <= 1.5 in); 0.15-0.40 (> 1.5 in)",
+      "Cu": "0.20 min (when copper steel specified)"
+    }
+  },
+  "mechanical_properties": {
+    "Grade C": {
+      "tensile_strength": "55-75 ksi [380-515 MPa]",
+      "yield_point_min": "30 ksi [205 MPa]",
+      "elongation_in_8in_min": "22%",
+      "elongation_in_2in_min": "25%"
+    },
+    "Grade D": {
+      "tensile_strength": "60-80 ksi [415-550 MPa]",
+      "yield_point_min": "33 ksi [230 MPa]",
+      "elongation_in_8in_min": "20%",
+      "elongation_in_2in_min": "23%"
+    },
+    "note": "For plates wider than 24 in., the elongation requirement is reduced by two percentage points."
+  },
+  "source": "https://www.octalmetals.com/astm-a283-grade-c-d-plate/ ; https://www.ssab.com/en-us/brands-and-products/commercial-steel/structural-steel/astm-a283/grade-c ; https://store.astm.org/a0283_a0283m-18.html (catalog reference only)",
+  "license_note": "Composition and mechanical property values are widely republished on free manufacturer/distributor datasheets (Octal Metals, SSAB). No paywalled ASTM standard text was accessed or reproduced.",
+  "status": "open_data"
+}

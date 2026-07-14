@@ -1,0 +1,28 @@
+{
+  "designation": "EN 1.4310 (X10CrNi18-8)",
+  "full_name": "Austenitic spring stainless steel X10CrNi18-8, material number 1.4310 (AISI 301)",
+  "version_year": "Grade per EN 10088-2 / EN 10151 (2014)",
+  "body": "EN",
+  "scope": "Lean austenitic stainless steel with restricted nickel that produces a metastable austenite work-hardening rapidly under cold deformation, allowing very high strength (spring tempers). Used for springs, spring washers, wire, flexible connectors and fasteners.",
+  "chemical_composition": {
+    "C": "0.05-0.15",
+    "Si": "max 2.0",
+    "Mn": "max 2.0",
+    "P": "max 0.045",
+    "S": "max 0.015",
+    "Cr": "16.0-19.0",
+    "Ni": "6.0-9.5",
+    "Mo": "max 0.8",
+    "N": "max 0.11",
+    "unit": "wt%, single values are maxima"
+  },
+  "mechanical_properties": {
+    "condition": "solution annealed (base); strength increases greatly with cold-rolled spring tempers",
+    "proof_strength_Rp0.2_MPa": ">=250 (annealed)",
+    "tensile_strength_Rm_MPa": "600-950 (annealed); up to ~2000 in high cold-work spring temper",
+    "elongation_A_percent": ">=40 (annealed)"
+  },
+  "source": "http://www.steelnumber.com ; https://www.theworldmaterial.com/material-1-4310-x10crni18-8-spring-steel/ ; https://www.makeitfrom.com/material-properties/EN-1.4310-X10CrNi18-8-Stainless-Steel ; https://www.thyssenkrupp-materials.co.uk/stainless-steel-301-14310.html",
+  "license_note": "Grade name (301 / 1.4310) and its nominal composition and typical property ranges are widely reproduced in free manufacturer datasheets and reference sites; no paywalled EN standard text reproduced.",
+  "status": "open_data"
+}

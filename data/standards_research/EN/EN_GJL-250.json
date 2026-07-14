@@ -1,0 +1,27 @@
+{
+  "designation": "EN-GJL-250 (EN-JL1040)",
+  "full_name": "Grey (lamellar/flake graphite) cast iron EN-GJL-250, number EN-JL1040",
+  "version_year": "Grade per EN 1561:2011",
+  "body": "EN",
+  "scope": "Lamellar (flake) graphite grey cast iron classified by tensile strength on machined test pieces. Good machinability, vibration damping and moderate strength; used for machine frames, engine blocks, pump and turbine casings, and general engineering castings. Equivalent to former GG25.",
+  "chemical_composition": {
+    "note": "EN 1561 classifies by tensile strength (or hardness), not fixed composition. Typical foundry ranges below.",
+    "C": "2.8-3.3",
+    "Si": "1.2-1.7",
+    "Mn": "0.8-1.2",
+    "P": "max ~0.15",
+    "S": "max ~0.12",
+    "unit": "wt% typical"
+  },
+  "mechanical_properties": {
+    "condition": "as-cast (30 mm separately cast test bar)",
+    "tensile_strength_Rm_MPa": "250-350",
+    "compressive_strength_MPa": "~840",
+    "hardness_HB": "~180-250",
+    "elongation_A_percent": "<1 (negligible, brittle)",
+    "density_g_cm3": 7.2
+  },
+  "source": "https://www.iron-foundry.com/en-gjl-250-cast-iron-gg25.html ; https://matmatch.com/materials/minfm36374-en-1561-grade-gjl-250-cast-condition ; https://langhe-industry.com/grey-iron-en-gjl-250/",
+  "license_note": "EN-GJL-250 grade designation and its tensile strength requirement are widely reproduced in free foundry datasheets and reference sites; composition is typical foundry practice, not reproduced EN text.",
+  "status": "open_data"
+}

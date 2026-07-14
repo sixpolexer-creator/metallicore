@@ -1,0 +1,24 @@
+{
+  "designation": "JIS C2600",
+  "full_name": "Copper alloy C2600 - cartridge brass (70/30, per JIS H3100/H3250)",
+  "version_year": "2018",
+  "body": "JIS",
+  "scope": "70Cu-30Zn cartridge brass with excellent cold formability (the best plasticity among the brasses) and good strength. Used for deep-drawn parts, electronic components, terminals, springs, sockets and bellows. Equivalent to UNS C26000 / CuZn30.",
+  "chemical_composition": {
+    "note": "mass %",
+    "Cu": "68.5-71.5",
+    "Pb": "<= 0.03",
+    "Fe": "<= 0.10",
+    "Zn": "balance"
+  },
+  "mechanical_properties": {
+    "condition_annealed": "annealed (O)",
+    "tensile_strength_annealed_MPa": ">= 275",
+    "elongation_annealed_percent": ">= 35",
+    "condition_hard": "hard (H04)",
+    "tensile_strength_hard_MPa": "410-540"
+  },
+  "source": "https://jtcopper.com/c2600-brass.html",
+  "license_note": "composition/property data widely republished by independent free manufacturer datasheets, not the copyrighted JIS document text",
+  "status": "open_data"
+}
