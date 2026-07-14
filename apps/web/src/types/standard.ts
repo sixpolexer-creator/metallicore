@@ -102,6 +102,18 @@ interface StandardBase {
   scope?: string;
   chemicalComposition?: ChemicalCompositionEntry[];
   mechanicalProperties?: MechanicalPropertyEntry[];
+  /** Reference to the original standard document (seed value set at
+   *  ingestion time). Independent of `dataAccess` — a 'restricted' record can
+   *  still carry a purchased PDF an admin attached. Admins may override this
+   *  at runtime via the local PDF attachment store (see
+   *  src/data/pdfAttachments.ts); that override, not this field, is what the
+   *  UI actually reads. */
+  pdfUrl?: string;
+  /** Whether `pdfUrl` may be shown to ordinary (non-admin) visitors. Both
+   *  this AND `pdfUrl` must resolve truthy for the "View Original Standard"
+   *  button to render — see `hasShareablePdf()`. Defaults to false: a PDF
+   *  reference alone is never enough to expose the document publicly. */
+  isShareablePdf?: boolean;
 }
 
 /* ---------------------------------------------------------------------------

@@ -46,6 +46,9 @@
   "standard.revisions": "מהדורות זמינות",
   "standard.restricted": "מוגבל",
   "standard.restrictedNotice": "התקן המלא מוגבל. ממתין להעלאה פיזית.",
+  "standard.viewOriginalPdf": "צפייה בתקן המקורי (PDF)",
+  "standard.details": "פרטים",
+  "standard.description": "תיאור",
 
   "language.toggle": "שפה",
   "language.english": "English",
@@ -90,6 +93,13 @@
   "admin.notes": "הערות (אופציונלי)",
   "admin.addRevision": "הוסף מהדורה",
   "admin.revisionAdded": "המהדורה נוספה בהצלחה.",
+  "admin.managePdf": "קובץ PDF של התקן המקורי",
+  "admin.pdfUrlLabel": "כתובת PDF / הפניה לקובץ",
+  "admin.pdfUrlPlaceholder": "https://…/standard.pdf",
+  "admin.isShareablePdf": "פתוח לשיתוף — הצג PDF זה לכל המבקרים",
+  "admin.savePdf": "שמור PDF",
+  "admin.pdfSaved": "הגדרות ה-PDF נשמרו.",
   "validation.required": "יש להזין תווית גרסה או מהדורה.",
-  "validation.duplicate": "גרסה זו כבר קיימת עבור תקן זה."
+  "validation.duplicate": "גרסה זו כבר קיימת עבור תקן זה.",
+  "validation.pdfUrlRequired": "יש להזין כתובת PDF לפני סימונו כפתוח לשיתוף."
 }

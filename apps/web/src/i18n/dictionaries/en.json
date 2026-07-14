@@ -46,6 +46,9 @@
   "standard.revisions": "Available Revisions",
   "standard.restricted": "Restricted",
   "standard.restrictedNotice": "Full specification restricted. Awaiting physical upload.",
+  "standard.viewOriginalPdf": "View Original Standard (PDF)",
+  "standard.details": "Details",
+  "standard.description": "Description",
 
   "language.toggle": "Language",
   "language.english": "English",
@@ -90,6 +93,13 @@
   "admin.notes": "Notes (optional)",
   "admin.addRevision": "Add Revision",
   "admin.revisionAdded": "Revision added.",
+  "admin.managePdf": "Original Standard PDF",
+  "admin.pdfUrlLabel": "PDF URL / file reference",
+  "admin.pdfUrlPlaceholder": "https://…/standard.pdf",
+  "admin.isShareablePdf": "Free to share — show this PDF to all visitors",
+  "admin.savePdf": "Save PDF",
+  "admin.pdfSaved": "PDF settings saved.",
   "validation.required": "Enter a version or revision label.",
-  "validation.duplicate": "This version already exists for this standard."
+  "validation.duplicate": "This version already exists for this standard.",
+  "validation.pdfUrlRequired": "Enter a PDF URL before marking it free to share."
 }

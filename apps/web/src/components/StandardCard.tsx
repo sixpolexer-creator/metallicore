@@ -12,6 +12,10 @@ const ORG_ACCENT: Record<AnyStandard["standardBody"], string> = {
   JIS: "text-[#8a4f6f]",
 };
 
+/** Max application chips rendered before collapsing into a "+N" overflow chip
+ *  — keeps the bottom meta row a single predictable height across all cards. */
+const MAX_VISIBLE_APPLICATIONS = 2;
+
 /**
  * Renders a single standard record. Because `standard` is the read-only
  * AnyStandard union, we NARROW on `standardBody` before reading any
@@ -19,6 +23,11 @@ const ORG_ACCENT: Record<AnyStandard["standardBody"], string> = {
  * hasEnEquivalent / materialNumber / jisNumber). Data-payload strings (codes,
  * titles, values) are rendered verbatim and marked `.ltr-data` so they stay
  * LTR under RTL chrome — they are NEVER passed through t().
+ *
+ * Fixed card height + line-clamped text + a capped chip count keep every
+ * card in the grid the exact same size regardless of how long its
+ * title/application list is; overflow is clipped rather than pushing card
+ * bounds out of alignment.
  */
 export function StandardCard({
   standard,
@@ -32,76 +41,92 @@ export function StandardCard({
   onView?: (standard: AnyStandard) => void;
 }) {
   const { t } = useI18n();
+  const extraApplications = standard.application.length - MAX_VISIBLE_APPLICATIONS;
 
   return (
-    <BentoCard span={span}>
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          {showOrg && (
-            <span
-              className={[
-                "text-[11px] font-semibold uppercase tracking-[0.18em]",
-                ORG_ACCENT[standard.standardBody],
-              ].join(" ")}
-              data-ltr
+    <BentoCard
+      span={span}
+      interactive={Boolean(onView)}
+      onClick={onView ? () => onView(standard) : undefined}
+      className="h-[21rem]"
+    >
+      <div className="flex h-full flex-col">
+        <div className="flex items-start justify-between gap-x-3 gap-y-1.5">
+          <div className="min-w-0 flex-1">
+            {showOrg && (
+              <span
+                className={[
+                  "text-[11px] font-semibold uppercase tracking-[0.18em]",
+                  ORG_ACCENT[standard.standardBody],
+                ].join(" ")}
+                data-ltr
+              >
+                {standard.standardBody}
+              </span>
+            )}
+            <h3
+              className="ltr-data truncate text-base font-semibold text-neutral-900 dark:text-neutral-100"
+              title={standard.fullCode}
             >
-              {standard.standardBody}
+              {standard.fullCode}
+            </h3>
+          </div>
+          <div className="flex shrink-0 items-center gap-1.5">
+            {standard.dataAccess === "restricted" && (
+              <RestrictedBadge label={t("standard.restricted")} />
+            )}
+            <StatusBadge status={standard.status} />
+          </div>
+        </div>
+
+        <p className="ltr-data mt-2 line-clamp-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">
+          {standard.title}
+        </p>
+
+        <div className="mt-3 flex flex-wrap items-center gap-1.5">
+          <MetaChip label={t("standard.material")} value={standard.materialType} />
+          {standard.application.slice(0, MAX_VISIBLE_APPLICATIONS).map((app) => (
+            <span
+              key={app}
+              className="ltr-data rounded-md border px-2 py-0.5 text-[11px] text-neutral-500 mc-hairline dark:text-neutral-400"
+            >
+              {app}
+            </span>
+          ))}
+          {extraApplications > 0 && (
+            <span className="ltr-data rounded-md border px-2 py-0.5 text-[11px] text-neutral-400 mc-hairline dark:text-neutral-500">
+              +{extraApplications}
             </span>
           )}
-          <h3
-            className="ltr-data truncate text-base font-semibold text-neutral-900 dark:text-neutral-100"
-            title={standard.fullCode}
-          >
-            {standard.fullCode}
-          </h3>
         </div>
-        <div className="flex shrink-0 items-center gap-1.5">
-          {standard.dataAccess === "restricted" && (
-            <RestrictedBadge label={t("standard.restricted")} />
+
+        <div className="mt-auto">
+          <p className="mt-3 truncate border-t pt-3 text-[11px] text-neutral-400 mc-hairline dark:text-neutral-500">
+            <BodySpecificLabel standard={standard} />
+            {standard.status === "superseded" && standard.supersededBy && (
+              <span className="ms-2">
+                · {t("standard.supersededBy")}{" "}
+                <span className="ltr-data font-medium text-neutral-600 dark:text-neutral-300">
+                  {standard.supersededBy}
+                </span>
+              </span>
+            )}
+          </p>
+
+          {onView && (
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onView(standard);
+              }}
+              className="mt-2.5 text-xs font-medium text-[var(--color-accent)] transition group-hover:underline"
+            >
+              {t("standard.viewFullStandard")} →
+            </button>
           )}
-          <StatusBadge status={standard.status} />
         </div>
       </div>
-
-      <p className="ltr-data mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">
-        {standard.title}
-      </p>
-
-      <div className="mt-4 flex flex-wrap gap-1.5">
-        <MetaChip label={t("standard.material")} value={standard.materialType} />
-        {standard.application.map((app) => (
-          <span
-            key={app}
-            className="ltr-data rounded-md border px-2 py-0.5 text-[11px] text-neutral-500 mc-hairline dark:text-neutral-400"
-          >
-            {app}
-          </span>
-        ))}
-      </div>
-
-      <BodySpecific standard={standard} />
-
-      {standard.status === "superseded" && standard.supersededBy && (
-        <p className="mt-3 text-[11px] text-neutral-500 dark:text-neutral-400">
-          {t("standard.supersededBy")}{" "}
-          <span className="ltr-data font-medium text-neutral-700 dark:text-neutral-200">
-            {standard.supersededBy}
-          </span>
-        </p>
-      )}
-
-      {onView && (
-        <button
-          type="button"
-          onClick={(e) => {
-            e.stopPropagation();
-            onView(standard);
-          }}
-          className="mt-4 self-start text-xs font-medium text-[var(--color-accent)] transition hover:underline"
-        >
-          {t("standard.viewFullStandard")} →
-        </button>
-      )}
     </BentoCard>
   );
 }
@@ -126,8 +151,8 @@ function MetaChip({ label, value }: { label: string; value: string }) {
   );
 }
 
-/** Body-specific detail line — the discriminated-union narrow lives here. */
-function BodySpecific({ standard }: { standard: AnyStandard }) {
+/** Body-specific detail label:value — the discriminated-union narrow lives here. */
+function BodySpecificLabel({ standard }: { standard: AnyStandard }) {
   const { t } = useI18n();
 
   let label: string;
@@ -160,12 +185,12 @@ function BodySpecific({ standard }: { standard: AnyStandard }) {
   }
 
   return (
-    <p className="mt-3 border-t pt-3 text-[11px] text-neutral-400 mc-hairline dark:text-neutral-500">
+    <>
       {label}:{" "}
       <span className="ltr-data font-medium text-neutral-600 dark:text-neutral-300">
         {value}
       </span>
-    </p>
+    </>
   );
 }
 
